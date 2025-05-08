@@ -5,13 +5,14 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --background: #242424;
   --correct: #4caf50;
   --wrong: #f44336;
   --focus: #535bf2;
@@ -203,4 +204,9 @@ button:focus-visible {
   text-align: center;
   height: 44px;
   margin-top: 213.5rem;
+}
+
+.next-button:disabled {
+  background-color: var(--background); /* Gray color when disabled */
+  cursor: not-allowed;
 }

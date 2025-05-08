@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import femaleNounsData from './res/german_female_nouns.json';
 import maleNounsData from './res/german_male_nouns.json';
 import neutralNounsData from './res/german_neutral_nouns.json';
+import verbsData from './res/german_verbs.json';
 
 const femaleNouns = Object.values(femaleNounsData)
 const maleNouns = Object.values(maleNounsData)
@@ -20,11 +21,13 @@ function shuffle(array) {
 
 const shuffledNouns = shuffle(allNouns);
 
-const verbs = [
-  { root: "gehen", tense: "past", answer: "ging" },
-  { root: "sein", tense: "past", answer: "war" },
-  { root: "haben", tense: "past", answer: "hatte" },
-];
+// const verbs = [
+//   { root: "gehen", tense: "past", answer: "ging" },
+//   { root: "sein", tense: "past", answer: "war" },
+//   { root: "haben", tense: "past", answer: "hatte" },
+// ];
+
+const verbs = Object.values(verbsData)
 
 const GenderQuiz = () => {
   const [mode, setMode] = useState<'gender' | 'verb'>('gender')
@@ -55,6 +58,7 @@ const GenderQuiz = () => {
   }
 
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
+  const verbTenseKey = Object.keys(currentVerb.tenses)[0]; // As long as there is only one tense this is enough
   
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article === answer;
@@ -77,8 +81,8 @@ const GenderQuiz = () => {
 
   const handleVerbSubmit = () => {
     const userAnswer = verbInput.trim().toLowerCase();
-    const foundVerb = verbs.find(v => v.root === currentVerb.root);
-    const correctAnswer = foundVerb ? foundVerb.answer : "Err (Not Found)";
+    const foundVerb = verbs.find(v => v.word === currentVerb.word);
+    const correctAnswer = foundVerb ? foundVerb.tenses.past : "Err (Not Found)";
     const correct = userAnswer === correctAnswer;
 
     if (!verbAnswered) {
@@ -89,7 +93,17 @@ const GenderQuiz = () => {
       }
       setVerbAnswered(true)
     }
-    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer is "' + currentVerb.answer + '"!');
+    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer is "' + currentVerb.tenses.past + '"!');
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' && e.ctrlKey && mode === 'gender' && nounAnswered) {
+      nextQuestion()
+    } else if (e.key === 'Enter' && e.ctrlKey && mode === 'verb' && verbAnswered) {
+      nextVerbQuestion()
+    } else if (e.key === 'Enter' && !e.ctrlKey && mode === 'verb') {
+      handleVerbSubmit();
+    }
   };
 
   const nextVerbQuestion = () => {
@@ -108,7 +122,7 @@ const GenderQuiz = () => {
 
   const totalAnswers = correctAnswers + incorrectAnswers;
   const correctPercentage = totalAnswers > 0 ? (correctAnswers / totalAnswers) * 100 : 0;
-  const incorrectPercentage = 100 - correctPercentage;
+  const incorrectPercentage = totalAnswers === 0 ? 0 : 100 - correctPercentage;
 
   return (
     <div className="quiz-container">
@@ -145,14 +159,15 @@ const GenderQuiz = () => {
           <div className={`feedback ${feedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
             {feedback}
           </div>
-          <button className="next-button" onClick={nextQuestion}>Next</button>
+          <button className="next-button" disabled={!nounAnswered} title={!nounAnswered ? "Please answer first" : ""} onClick={nextQuestion}>Next</button>
         </>
       ) : (
         <>
-          <h2>Enter the <strong>{currentVerb.tense}</strong> form of <strong>{currentVerb.root}</strong>:</h2>
+          <h2>Enter the <strong>{verbTenseKey}</strong> form of <strong>{currentVerb.word}</strong>:</h2>
           <input
             type="text"
             ref={verbInputRef}
+            onKeyDown={handleKeyDown}
             value={verbInput}
             onChange={(e) => setVerbInput(e.target.value)}
             placeholder="Type your answer..."
@@ -162,7 +177,7 @@ const GenderQuiz = () => {
           <div className={`feedback ${verbFeedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
             {verbFeedback}
           </div>
-          <button className="next-button" onClick={nextVerbQuestion}>Next</button>
+          <button className="next-button" disabled={!verbAnswered} title={!verbAnswered ? "Please answer first" : ""} onClick={nextVerbQuestion}>Next</button>
         </>
       )}
     </div>
