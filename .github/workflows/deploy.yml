@@ -26,6 +26,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
-        working-directory: ./shirogen
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub provides this automatically
