@@ -117,7 +117,7 @@ button:focus-visible {
   margin-top: 1rem;
   font-weight: bold;
   font-size: 1.25rem;
-  transition: color 0.3s ease;
+  color: #e0e0e0;
   min-height: 1.5em; /* reserve vertical space */
 }
 
