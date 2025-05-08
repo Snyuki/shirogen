@@ -18,11 +18,14 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./shirogen
 
       - name: Build the app
         run: npm run build
+        working-directory: ./shirogen
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
+        working-directory: ./shirogen
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub provides this automatically
