@@ -25,6 +25,7 @@ const GenderQuiz = () => {
   const [feedback, setFeedback] = useState('');
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
+  const [answered, setAnswered] = useState(false);
 
   function getRandomNoun() {
     const randomIndex = Math.floor(Math.random() * shuffledNouns.length);
@@ -33,15 +34,19 @@ const GenderQuiz = () => {
   
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article === answer;
-    if (correct) {
-      setCorrectAnswers(prev => prev + 1)
-    } else {
-      setIncorrectAnswers(prev => prev + 1)
+    if (!answered) {
+      if (correct) {
+        setCorrectAnswers(prev => prev + 1)
+      } else {
+        setIncorrectAnswers(prev => prev + 1)
+      }
     }
+    setAnswered(true)
     setFeedback(correct ? 'Correct!' : `Wrong!`);
   };
 
   const nextQuestion = () => {
+    setAnswered(false)
     setFeedback('');
     setCurrentNoun(getRandomNoun());
   };
@@ -52,6 +57,11 @@ const GenderQuiz = () => {
 
   return (
     <div className="quiz-container">
+      <div className="progress-bar-text">
+        <span className="progress-text correct">{Math.round(correctPercentage)}% ({correctAnswers})</span>
+        <span>{Math.round(totalAnswers)}</span>
+        <span className="progress-text incorrect">({incorrectAnswers}) {Math.round(incorrectPercentage)}%</span>
+      </div>
       <div className="progress-bar-container">
         <div className="progress-bar">
           <div
@@ -66,10 +76,6 @@ const GenderQuiz = () => {
               width: `${incorrectPercentage}%`,
             }}
           />
-        </div>
-        <div className="progress-bar-text">
-          <span>{Math.round(correctPercentage)}%</span>
-          <span>{Math.round(incorrectPercentage)}%</span>
         </div>
       </div>
 

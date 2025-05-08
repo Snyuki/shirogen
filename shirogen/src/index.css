@@ -136,18 +136,14 @@ button:focus-visible {
   border-radius: 10px;
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   position: relative;
-  display: flex;
-  align-items: center; /* Center the contents vertically */
-  padding-right: 10px; /* Space between progress bar and text */
 }
 
 .progress-bar {
   height: 100%;
   display: flex;
-  border-radius: 10px;
-  overflow: hidden;
-  /* transition: width 0.3s ease; */
+  transition: width 0.3s ease;
 }
 
 .progress-bar.correct {
@@ -158,12 +154,21 @@ button:focus-visible {
   background: #f44336;
 }
 
+.progress-text.correct {
+  color: #4caf50;
+}
+
+.progress-text.incorrect {
+  color: #f44336;
+}
+
 .progress-bar-text {
   font-size: 1rem;
   font-weight: bold;
   color: #fff;
+  /* background-color: #4caf50; */
   display: flex;
   justify-content: space-between;
-  width: 80px; /* Control the width of the text container */
-  padding-left: 10px; /* Space between progress bar and text */
+  align-items: center; /* Center text vertically within the container */
+  padding: 0 10px; /* Padding to give space between the text and edges */
 }
