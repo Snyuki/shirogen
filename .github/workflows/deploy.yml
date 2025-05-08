@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          path: .
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./shirogen
+
+      - name: Build the app
+        run: npm run build
+        working-directory: ./shirogen
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "jm4319664@gmail.com"
+          git config --global user.name "Snyuki"
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
+        working-directory: ./shirogen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub provides this automatically
