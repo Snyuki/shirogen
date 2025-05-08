@@ -21,12 +21,6 @@ function shuffle(array) {
 
 const shuffledNouns = shuffle(allNouns);
 
-// const verbs = [
-//   { root: "gehen", tense: "past", answer: "ging" },
-//   { root: "sein", tense: "past", answer: "war" },
-//   { root: "haben", tense: "past", answer: "hatte" },
-// ];
-
 const verbs = Object.values(verbsData)
 
 const GenderQuiz = () => {
