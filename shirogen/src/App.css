@@ -1,0 +1,76 @@
+:root {
+  --primary: #61dafb;
+  --accent: #646cff;
+  --bg-light: #f9f9f9;
+  --text-dark: #333;
+  --correct: #4caf50;
+  --wrong: #f44336;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  margin: 0;
+  color: var(--text-dark);
+}
+
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:nth-child(1) {
+  background-color: #2196f3;
+  color: white;
+}
+button:nth-child(2) {
+  background-color: #e91e63;
+  color: white;
+}
+button:nth-child(3) {
+  background-color: #ff9800;
+  color: white;
+}
+button:last-child {
+  background-color: var(--accent);
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.feedback.correct {
+  color: var(--correct);
+}
+
+.feedback.wrong {
+  color: var(--wrong);
+}
