@@ -52,8 +52,6 @@ const GenderQuiz = () => {
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
   const verbTenseKey = Object.keys(currentVerb.tenses)[0]; // As long as there is only one tense this is enough
   
-  // TODO Link to google translate on Word click on nouns and verbs
-
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article.indexOf(answer) >= 0;
     if (!nounAnswered) {
@@ -157,7 +155,14 @@ const GenderQuiz = () => {
       </div>
       {mode === 'gender' ? (
         <>
-          <h2>What's the article for: <strong>{currentNoun.word}</strong>?</h2>
+          <h2>What's the article for: <strong>
+            <a 
+              href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentNoun.word)}&op=translate`}
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                {currentNoun.word}
+            </a></strong>?</h2>
           <button onClick={() => handleAnswer('der')}>der</button>
           <button onClick={() => handleAnswer('die')}>die</button>
           <button onClick={() => handleAnswer('das')}>das</button>
@@ -168,7 +173,15 @@ const GenderQuiz = () => {
         </>
       ) : (
         <>
-          <h2>Enter the <strong>{verbTenseKey}</strong> form of <strong>{currentVerb.word}</strong>:</h2>
+          <h2>Enter the <strong>{verbTenseKey}</strong> form of <strong>
+          <a 
+              href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentVerb.word)}&op=translate`}
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                {currentVerb.word}
+              </a>
+              </strong>:</h2>
           <input
             type="text"
             ref={verbInputRef}
