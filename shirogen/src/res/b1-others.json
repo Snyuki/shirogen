@@ -1,0 +1,1586 @@
+{
+    "0": {
+        "word": "-weis",
+        "url": "https://www.dwds.de/wb/-weis",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1": {
+        "word": "-weise",
+        "url": "https://www.dwds.de/wb/-weise",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "32": {
+        "word": "abwärts",
+        "url": "https://www.dwds.de/wb/abw%C3%A4rts",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "39": {
+        "word": "aller-",
+        "url": "https://www.dwds.de/wb/aller-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "41": {
+        "word": "allerdings",
+        "url": "https://www.dwds.de/wb/allerdings",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "55": {
+        "word": "andererseits",
+        "url": "https://www.dwds.de/wb/andererseits",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "56": {
+        "word": "anderseits",
+        "url": "https://www.dwds.de/wb/anderseits",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "57": {
+        "word": "andrerseits",
+        "url": "https://www.dwds.de/wb/andrerseits",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "59": {
+        "word": "anfangs",
+        "url": "https://www.dwds.de/wb/anfangs",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "78": {
+        "word": "anstrengend",
+        "url": "https://www.dwds.de/wb/anstrengend",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "98": {
+        "word": "Au",
+        "url": "https://www.dwds.de/wb/Au#3",
+        "word_type": "Symbol",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "117": {
+        "word": "aufwärts",
+        "url": "https://www.dwds.de/wb/aufw%C3%A4rts",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "123": {
+        "word": "auseinander",
+        "url": "https://www.dwds.de/wb/auseinander",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "127": {
+        "word": "ausgezeichnet",
+        "url": "https://www.dwds.de/wb/ausgezeichnet",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "134": {
+        "word": "ausschließlich",
+        "url": "https://www.dwds.de/wb/ausschlie%C3%9Flich#2",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "142": {
+        "word": "außen",
+        "url": "https://www.dwds.de/wb/au%C3%9Fen",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "169": {
+        "word": "befreit",
+        "url": "https://www.dwds.de/wb/befreit",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "170": {
+        "word": "befriedigend",
+        "url": "https://www.dwds.de/wb/befriedigend",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "172": {
+        "word": "begeistert",
+        "url": "https://www.dwds.de/wb/begeistert",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "175": {
+        "word": "begrenzt",
+        "url": "https://www.dwds.de/wb/begrenzt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "183": {
+        "word": "beinah",
+        "url": "https://www.dwds.de/wb/beinah",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "184": {
+        "word": "beinahe",
+        "url": "https://www.dwds.de/wb/beinahe",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "200": {
+        "word": "bereits",
+        "url": "https://www.dwds.de/wb/bereits",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "217": {
+        "word": "bestimmt",
+        "url": "https://www.dwds.de/wb/bestimmt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "229": {
+        "word": "betrunken",
+        "url": "https://www.dwds.de/wb/betrunken",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "231": {
+        "word": "bevor",
+        "url": "https://www.dwds.de/wb/bevor",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "242": {
+        "word": "bio-",
+        "url": "https://www.dwds.de/wb/bio-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "245": {
+        "word": "bisher",
+        "url": "https://www.dwds.de/wb/bisher",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "250": {
+        "word": "bloß",
+        "url": "https://www.dwds.de/wb/blo%C3%9F#2",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "289": {
+        "word": "daher",
+        "url": "https://www.dwds.de/wb/daher",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "290": {
+        "word": "dahin",
+        "url": "https://www.dwds.de/wb/dahin",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "291": {
+        "word": "damit",
+        "url": "https://www.dwds.de/wb/damit#1",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "292": {
+        "word": "damit",
+        "url": "https://www.dwds.de/wb/damit#2",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "293": {
+        "word": "danach",
+        "url": "https://www.dwds.de/wb/danach",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "297": {
+        "word": "dasselbe",
+        "url": "https://www.dwds.de/wb/dasselbe",
+        "word_type": "Demonstrativpronomen",
+        "genus": "neutr.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "300": {
+        "word": "dauernd",
+        "url": "https://www.dwds.de/wb/dauernd",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "304": {
+        "word": "derselbe",
+        "url": "https://www.dwds.de/wb/derselbe",
+        "word_type": "Demonstrativpronomen",
+        "genus": "mask.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "306": {
+        "word": "desto",
+        "url": "https://www.dwds.de/wb/desto",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "307": {
+        "word": "deswegen",
+        "url": "https://www.dwds.de/wb/deswegen",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "315": {
+        "word": "dies",
+        "url": "https://www.dwds.de/wb/dies",
+        "word_type": "Demonstrativpronomen",
+        "genus": "neutr.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "316": {
+        "word": "diese",
+        "url": "https://www.dwds.de/wb/diese",
+        "word_type": "Demonstrativpronomen",
+        "genus": "fem.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "317": {
+        "word": "dieselbe",
+        "url": "https://www.dwds.de/wb/dieselbe",
+        "word_type": "Demonstrativpronomen",
+        "genus": "fem.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "318": {
+        "word": "dieser",
+        "url": "https://www.dwds.de/wb/dieser",
+        "word_type": "Demonstrativpronomen",
+        "genus": "mask.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "319": {
+        "word": "dieses",
+        "url": "https://www.dwds.de/wb/dieses",
+        "word_type": "Demonstrativpronomen",
+        "genus": "neutr.",
+        "article": "",
+        "only_plural": "0"
+    },
+    "320": {
+        "word": "diesmal",
+        "url": "https://www.dwds.de/wb/diesmal",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "333": {
+        "word": "doppel-",
+        "url": "https://www.dwds.de/wb/doppel-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "338": {
+        "word": "drin",
+        "url": "https://www.dwds.de/wb/drin",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "342": {
+        "word": "durcheinander",
+        "url": "https://www.dwds.de/wb/durcheinander",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "347": {
+        "word": "eben",
+        "url": "https://www.dwds.de/wb/eben#2",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "348": {
+        "word": "ebenfalls",
+        "url": "https://www.dwds.de/wb/ebenfalls",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "349": {
+        "word": "ebenso",
+        "url": "https://www.dwds.de/wb/ebenso",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "355": {
+        "word": "eher",
+        "url": "https://www.dwds.de/wb/eher",
+        "word_type": "Komparativ",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "360": {
+        "word": "ein paar",
+        "url": "https://www.dwds.de/wb/ein%20paar",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "368": {
+        "word": "einerseits",
+        "url": "https://www.dwds.de/wb/einerseits",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "386": {
+        "word": "einschließlich",
+        "url": "https://www.dwds.de/wb/einschlie%C3%9Flich#1",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "395": {
+        "word": "einzel-",
+        "url": "https://www.dwds.de/wb/einzel-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "401": {
+        "word": "elektro-",
+        "url": "https://www.dwds.de/wb/elektro-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "415": {
+        "word": "entlang",
+        "url": "https://www.dwds.de/wb/entlang",
+        "word_type": "",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "421": {
+        "word": "entschlossen",
+        "url": "https://www.dwds.de/wb/entschlossen",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "427": {
+        "word": "entweder",
+        "url": "https://www.dwds.de/wb/entweder",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "467": {
+        "word": "erschöpft",
+        "url": "https://www.dwds.de/wb/ersch%C3%B6pft",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "470": {
+        "word": "erwachsen",
+        "url": "https://www.dwds.de/wb/erwachsen#2",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "479": {
+        "word": "etwa",
+        "url": "https://www.dwds.de/wb/etwa",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "484": {
+        "word": "extra",
+        "url": "https://www.dwds.de/wb/extra",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "495": {
+        "word": "falls",
+        "url": "https://www.dwds.de/wb/falls",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "532": {
+        "word": "fließend",
+        "url": "https://www.dwds.de/wb/flie%C3%9Fend",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "540": {
+        "word": "folgend",
+        "url": "https://www.dwds.de/wb/folgend",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "584": {
+        "word": "gar",
+        "url": "https://www.dwds.de/wb/gar#2",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "602": {
+        "word": "geeignet",
+        "url": "https://www.dwds.de/wb/geeignet",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "620": {
+        "word": "genauso",
+        "url": "https://www.dwds.de/wb/genauso",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "629": {
+        "word": "geschieden",
+        "url": "https://www.dwds.de/wb/geschieden",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "636": {
+        "word": "gespannt",
+        "url": "https://www.dwds.de/wb/gespannt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "637": {
+        "word": "getrennt",
+        "url": "https://www.dwds.de/wb/getrennt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "643": {
+        "word": "gewohnt",
+        "url": "https://www.dwds.de/wb/gewohnt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "656": {
+        "word": "gleichfalls",
+        "url": "https://www.dwds.de/wb/gleichfalls",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "664": {
+        "word": "gratis",
+        "url": "https://www.dwds.de/wb/gratis",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "680": {
+        "word": "halbtags",
+        "url": "https://www.dwds.de/wb/halbtags",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "683": {
+        "word": "halt",
+        "url": "https://www.dwds.de/wb/halt#1",
+        "word_type": "Partikel",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "690": {
+        "word": "haupt-",
+        "url": "https://www.dwds.de/wb/haupt-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "698": {
+        "word": "heim",
+        "url": "https://www.dwds.de/wb/heim",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "708": {
+        "word": "herein-",
+        "url": "https://www.dwds.de/wb/herein-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "713": {
+        "word": "hieher",
+        "url": "https://www.dwds.de/wb/hieher",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "714": {
+        "word": "hierher",
+        "url": "https://www.dwds.de/wb/hierher",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "715": {
+        "word": "hinter-",
+        "url": "https://www.dwds.de/wb/hinter-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "716": {
+        "word": "hinterher",
+        "url": "https://www.dwds.de/wb/hinterher",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "736": {
+        "word": "höchstens",
+        "url": "https://www.dwds.de/wb/h%C3%B6chstens",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "749": {
+        "word": "indem",
+        "url": "https://www.dwds.de/wb/indem#1",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "755": {
+        "word": "inklusive",
+        "url": "https://www.dwds.de/wb/inklusive#1",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "756": {
+        "word": "innen",
+        "url": "https://www.dwds.de/wb/innen",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "758": {
+        "word": "innerhalb",
+        "url": "https://www.dwds.de/wb/innerhalb#1",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "760": {
+        "word": "insgesamt",
+        "url": "https://www.dwds.de/wb/insgesamt",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "769": {
+        "word": "interessiert",
+        "url": "https://www.dwds.de/wb/interessiert",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "771": {
+        "word": "inzwischen",
+        "url": "https://www.dwds.de/wb/inzwischen",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "772": {
+        "word": "irgendein",
+        "url": "https://www.dwds.de/wb/irgendein",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "773": {
+        "word": "irgendwann",
+        "url": "https://www.dwds.de/wb/irgendwann",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "776": {
+        "word": "je",
+        "url": "https://www.dwds.de/wb/je#2",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "777": {
+        "word": "jederzeit",
+        "url": "https://www.dwds.de/wb/jederzeit",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "778": {
+        "word": "jedes Mal",
+        "url": "https://www.dwds.de/wb/jedes%20Mal",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "779": {
+        "word": "jedoch",
+        "url": "https://www.dwds.de/wb/jedoch",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "780": {
+        "word": "jemals",
+        "url": "https://www.dwds.de/wb/jemals",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "781": {
+        "word": "jeweils",
+        "url": "https://www.dwds.de/wb/jeweils",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "806": {
+        "word": "kaum",
+        "url": "https://www.dwds.de/wb/kaum",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "839": {
+        "word": "kompliziert",
+        "url": "https://www.dwds.de/wb/kompliziert",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "942": {
+        "word": "los",
+        "url": "https://www.dwds.de/wb/los",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "947": {
+        "word": "längst",
+        "url": "https://www.dwds.de/wb/l%C3%A4ngst",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "974": {
+        "word": "mehrere",
+        "url": "https://www.dwds.de/wb/mehrere",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "977": {
+        "word": "meinetwegen",
+        "url": "https://www.dwds.de/wb/meinetwegen",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "999": {
+        "word": "miss-",
+        "url": "https://www.dwds.de/wb/miss-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1001": {
+        "word": "miteinander",
+        "url": "https://www.dwds.de/wb/miteinander",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1004": {
+        "word": "mitten",
+        "url": "https://www.dwds.de/wb/mitten",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1006": {
+        "word": "mittlerweile",
+        "url": "https://www.dwds.de/wb/mittlerweile",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1022": {
+        "word": "möbliert",
+        "url": "https://www.dwds.de/wb/m%C3%B6bliert",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1023": {
+        "word": "möglicherweise",
+        "url": "https://www.dwds.de/wb/m%C3%B6glicherweise",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1025": {
+        "word": "möglichst",
+        "url": "https://www.dwds.de/wb/m%C3%B6glichst",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1034": {
+        "word": "nachdem",
+        "url": "https://www.dwds.de/wb/nachdem",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1037": {
+        "word": "nachher",
+        "url": "https://www.dwds.de/wb/nachher",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1052": {
+        "word": "nebenbei",
+        "url": "https://www.dwds.de/wb/nebenbei",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1060": {
+        "word": "neulich",
+        "url": "https://www.dwds.de/wb/neulich",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1065": {
+        "word": "nirgendwo",
+        "url": "https://www.dwds.de/wb/nirgendwo",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1066": {
+        "word": "noch mal",
+        "url": "https://www.dwds.de/wb/noch%20mal#1",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1067": {
+        "word": "noch mal",
+        "url": "https://www.dwds.de/wb/noch%20mal#2",
+        "word_type": "Partikel",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1068": {
+        "word": "nochmal",
+        "url": "https://www.dwds.de/wb/nochmal#1",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1069": {
+        "word": "nochmal",
+        "url": "https://www.dwds.de/wb/nochmal#2",
+        "word_type": "Partikel",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1070": {
+        "word": "nochmals",
+        "url": "https://www.dwds.de/wb/nochmals",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1071": {
+        "word": "Nordsee",
+        "url": "https://www.dwds.de/wb/Nordsee",
+        "word_type": "Eigenname",
+        "genus": "fem.",
+        "article": "die",
+        "only_plural": "0"
+    },
+    "1072": {
+        "word": "normalerweise",
+        "url": "https://www.dwds.de/wb/normalerweise",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1078": {
+        "word": "nun",
+        "url": "https://www.dwds.de/wb/nun#1",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1082": {
+        "word": "nämlich",
+        "url": "https://www.dwds.de/wb/n%C3%A4mlich#2",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1085": {
+        "word": "ob",
+        "url": "https://www.dwds.de/wb/ob#1",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1087": {
+        "word": "ober-",
+        "url": "https://www.dwds.de/wb/ober-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1089": {
+        "word": "obwohl",
+        "url": "https://www.dwds.de/wb/obwohl",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1107": {
+        "word": "Ostsee",
+        "url": "https://www.dwds.de/wb/Ostsee",
+        "word_type": "Eigenname",
+        "genus": "fem.",
+        "article": "die",
+        "only_plural": "0"
+    },
+    "1126": {
+        "word": "per",
+        "url": "https://www.dwds.de/wb/per",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1171": {
+        "word": "prost",
+        "url": "https://www.dwds.de/wb/prost",
+        "word_type": "Interjektion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1182": {
+        "word": "quer",
+        "url": "https://www.dwds.de/wb/quer",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1195": {
+        "word": "rauf",
+        "url": "https://www.dwds.de/wb/rauf",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1196": {
+        "word": "rauf-",
+        "url": "https://www.dwds.de/wb/rauf-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1197": {
+        "word": "raus-",
+        "url": "https://www.dwds.de/wb/raus-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1248": {
+        "word": "rück-",
+        "url": "https://www.dwds.de/wb/r%C3%BCck-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1251": {
+        "word": "rückwärts",
+        "url": "https://www.dwds.de/wb/r%C3%BCckw%C3%A4rts",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1287": {
+        "word": "schließlich",
+        "url": "https://www.dwds.de/wb/schlie%C3%9Flich",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1311": {
+        "word": "schwieger-",
+        "url": "https://www.dwds.de/wb/schwieger-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1318": {
+        "word": "seitdem",
+        "url": "https://www.dwds.de/wb/seitdem",
+        "word_type": "",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1321": {
+        "word": "selb",
+        "url": "https://www.dwds.de/wb/selb",
+        "word_type": "Demonstrativpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1322": {
+        "word": "selber",
+        "url": "https://www.dwds.de/wb/selber",
+        "word_type": "Demonstrativpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1352": {
+        "word": "so dass",
+        "url": "https://www.dwds.de/wb/so%20dass",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1354": {
+        "word": "so viel",
+        "url": "https://www.dwds.de/wb/so%20viel#1",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1355": {
+        "word": "so viel",
+        "url": "https://www.dwds.de/wb/so%20viel#2",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1356": {
+        "word": "sobald",
+        "url": "https://www.dwds.de/wb/sobald",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1358": {
+        "word": "sodass",
+        "url": "https://www.dwds.de/wb/sodass",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1360": {
+        "word": "solange",
+        "url": "https://www.dwds.de/wb/solange",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1361": {
+        "word": "solch",
+        "url": "https://www.dwds.de/wb/solch",
+        "word_type": "Demonstrativpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1362": {
+        "word": "sonder-",
+        "url": "https://www.dwds.de/wb/sonder-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1364": {
+        "word": "sondern",
+        "url": "https://www.dwds.de/wb/sondern#2",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1368": {
+        "word": "soviel",
+        "url": "https://www.dwds.de/wb/soviel#1",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1369": {
+        "word": "soviel",
+        "url": "https://www.dwds.de/wb/soviel#2",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1370": {
+        "word": "sowieso",
+        "url": "https://www.dwds.de/wb/sowieso",
+        "word_type": "Partikel",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1371": {
+        "word": "sowohl",
+        "url": "https://www.dwds.de/wb/sowohl",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1380": {
+        "word": "spezial-",
+        "url": "https://www.dwds.de/wb/spezial-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1396": {
+        "word": "spätestens",
+        "url": "https://www.dwds.de/wb/sp%C3%A4testens",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1407": {
+        "word": "statt",
+        "url": "https://www.dwds.de/wb/statt#2",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1466": {
+        "word": "sämtlich",
+        "url": "https://www.dwds.de/wb/s%C3%A4mtlich",
+        "word_type": "Indefinitpronomen",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1492": {
+        "word": "teilweise",
+        "url": "https://www.dwds.de/wb/teilweise#1",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1529": {
+        "word": "trotz",
+        "url": "https://www.dwds.de/wb/trotz",
+        "word_type": "Präposition",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1530": {
+        "word": "trotzdem",
+        "url": "https://www.dwds.de/wb/trotzdem",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1548": {
+        "word": "umgekehrt",
+        "url": "https://www.dwds.de/wb/umgekehrt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1550": {
+        "word": "umso",
+        "url": "https://www.dwds.de/wb/umso",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1551": {
+        "word": "umsonst",
+        "url": "https://www.dwds.de/wb/umsonst",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1557": {
+        "word": "un-",
+        "url": "https://www.dwds.de/wb/un-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1565": {
+        "word": "unter-",
+        "url": "https://www.dwds.de/wb/unter-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1573": {
+        "word": "untersagt",
+        "url": "https://www.dwds.de/wb/untersagt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1607": {
+        "word": "vergnügt",
+        "url": "https://www.dwds.de/wb/vergn%C3%BCgt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1622": {
+        "word": "verliebt",
+        "url": "https://www.dwds.de/wb/verliebt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1637": {
+        "word": "verrückt",
+        "url": "https://www.dwds.de/wb/verr%C3%BCckt",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1676": {
+        "word": "voneinander",
+        "url": "https://www.dwds.de/wb/voneinander",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1677": {
+        "word": "vor allem",
+        "url": "https://www.dwds.de/wb/vor%20allem",
+        "word_type": "Mehrwortausdruck",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1678": {
+        "word": "voraus",
+        "url": "https://www.dwds.de/wb/voraus",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1681": {
+        "word": "vorbei-",
+        "url": "https://www.dwds.de/wb/vorbei-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1686": {
+        "word": "vorhin",
+        "url": "https://www.dwds.de/wb/vorhin",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1713": {
+        "word": "weder",
+        "url": "https://www.dwds.de/wb/weder",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1714": {
+        "word": "weg-",
+        "url": "https://www.dwds.de/wb/weg-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1716": {
+        "word": "weiter-",
+        "url": "https://www.dwds.de/wb/weiter-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1729": {
+        "word": "weshalb",
+        "url": "https://www.dwds.de/wb/weshalb",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1734": {
+        "word": "wieder-",
+        "url": "https://www.dwds.de/wb/wieder-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1738": {
+        "word": "wieso",
+        "url": "https://www.dwds.de/wb/wieso",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1754": {
+        "word": "worum",
+        "url": "https://www.dwds.de/wb/worum",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1755": {
+        "word": "worüber",
+        "url": "https://www.dwds.de/wb/wor%C3%BCber",
+        "word_type": "Pronominaladverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1760": {
+        "word": "während",
+        "url": "https://www.dwds.de/wb/w%C3%A4hrend",
+        "word_type": "",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1763": {
+        "word": "wütend",
+        "url": "https://www.dwds.de/wb/w%C3%BCtend",
+        "word_type": "partizipiales Adjektiv",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1798": {
+        "word": "zumindest",
+        "url": "https://www.dwds.de/wb/zumindest",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1800": {
+        "word": "zunächst",
+        "url": "https://www.dwds.de/wb/zun%C3%A4chst",
+        "word_type": "",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1803": {
+        "word": "zusammen-",
+        "url": "https://www.dwds.de/wb/zusammen-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1819": {
+        "word": "zwar",
+        "url": "https://www.dwds.de/wb/zwar",
+        "word_type": "Konjunktion",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1838": {
+        "word": "öfter",
+        "url": "https://www.dwds.de/wb/%C3%B6fter",
+        "word_type": "Komparativ",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1839": {
+        "word": "öko-",
+        "url": "https://www.dwds.de/wb/%C3%B6ko-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1841": {
+        "word": "über-",
+        "url": "https://www.dwds.de/wb/%C3%BCber-",
+        "word_type": "Affix",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1843": {
+        "word": "überhaupt",
+        "url": "https://www.dwds.de/wb/%C3%BCberhaupt",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    },
+    "1863": {
+        "word": "übrigens",
+        "url": "https://www.dwds.de/wb/%C3%BCbrigens",
+        "word_type": "Adverb",
+        "genus": "",
+        "article": "",
+        "only_plural": "0"
+    }
+}
