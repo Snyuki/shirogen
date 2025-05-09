@@ -52,6 +52,8 @@ const GenderQuiz = () => {
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
   const verbTenseKey = Object.keys(currentVerb.tenses)[0]; // As long as there is only one tense this is enough
   
+  // TODO Link to google translate on Word click on nouns and verbs
+
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article.indexOf(answer) >= 0;
     if (!nounAnswered) {
