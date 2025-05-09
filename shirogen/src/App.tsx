@@ -1,15 +1,17 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-import femaleNounsData from './res/german_female_nouns.json';
-import maleNounsData from './res/german_male_nouns.json';
-import neutralNounsData from './res/german_neutral_nouns.json';
+// import femaleNounsData from './res/german_female_nouns.json';
+// import maleNounsData from './res/german_male_nouns.json';
+// import neutralNounsData from './res/german_neutral_nouns.json';
+import b1nounsData from './res/b1-nouns.json'
 import verbsData from './res/german_verbs.json';
 
-const femaleNouns = Object.values(femaleNounsData)
-const maleNouns = Object.values(maleNounsData)
-const neutralNouns = Object.values(neutralNounsData)
+// const femaleNouns = Object.values(femaleNounsData)
+// const maleNouns = Object.values(maleNounsData)
+// const neutralNouns = Object.values(neutralNounsData)
+const b1nouns = Object.values(b1nounsData)
 
-const allNouns = [...femaleNouns, ...maleNouns, ...neutralNouns];
+// const allNouns = [...femaleNouns, ...maleNouns, ...neutralNouns];
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -19,7 +21,7 @@ function shuffle(array) {
   return array;
 }
 
-const shuffledNouns = shuffle(allNouns);
+const shuffledNouns = shuffle(b1nouns);
 
 const verbs = Object.values(verbsData)
 
@@ -45,10 +47,6 @@ const GenderQuiz = () => {
   function getRandomVerb() {
     const randomIndex = Math.floor(Math.random() * verbs.length);
     return verbs[randomIndex];
-  }
-
-  function swapMode() {
-    setMode(mode === 'gender' ? 'verb' : 'gender')
   }
 
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
@@ -120,9 +118,20 @@ const GenderQuiz = () => {
 
   return (
     <div className="quiz-container">
-      <button className="switch-button" onClick={swapMode}>
-        Switch to {mode === 'gender' ? 'Verb Form Quiz' : 'Gender Quiz'}
-      </button>
+      <div className="mode-switch-container">
+        <button
+          className={`mode-button ${mode === 'gender' ? 'active' : ''}`}
+          onClick={() => setMode('gender')}
+        >
+          Genders
+        </button>
+        <button
+          className={`mode-button ${mode === 'verb' ? 'active' : ''}`}
+          onClick={() => setMode('verb')}
+        >
+          Verbs
+        </button>
+      </div>
       <div className="progress-bar-text">
         <span className="progress-text correct">{Math.round(correctPercentage)}% ({correctAnswers})</span>
         <span>{Math.round(totalAnswers)}</span>

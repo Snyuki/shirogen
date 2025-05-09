@@ -199,11 +199,35 @@ button:focus-visible {
   height: 44px;
 }
 
-.switch-button {
-  min-width: 250px;
-  text-align: center;
+.mode-switch-container {
+  display: flex;
+  justify-content: center;   /* Center the buttons horizontally */
+  align-items: center;
+  gap: 1.5rem;                /* Space between the buttons */
+  margin-bottom: 2rem;
+}
+
+.mode-button {
+  min-width: 120px;
   height: 44px;
-  margin-top: 213.5rem;
+  text-align: center;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.mode-button:hover {
+  border-color: #646cff;
+}
+
+.mode-button.active {
+  background-color: #333;
+  border-color: #646cff;
 }
 
 .next-button:disabled {
