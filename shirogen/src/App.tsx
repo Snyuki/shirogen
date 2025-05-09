@@ -53,7 +53,7 @@ const GenderQuiz = () => {
   const verbTenseKey = Object.keys(currentVerb.tenses)[0]; // As long as there is only one tense this is enough
   
   const handleAnswer = (answer: string) => {
-    const correct = currentNoun.article === answer;
+    const correct = currentNoun.article.indexOf(answer) >= 0;
     if (!nounAnswered) {
       if (correct) {
         setCorrectAnswers(prev => prev + 1)
