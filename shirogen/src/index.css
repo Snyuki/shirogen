@@ -16,6 +16,7 @@
   --correct: #4caf50;
   --wrong: #f44336;
   --focus: #535bf2;
+  --text-color-blue: #646cff;
 }
 
 #root {
@@ -97,7 +98,7 @@ button:focus-visible {
 
 .quiz-container strong {
   font-size: 2rem;
-  color: #646cff;
+  color: var(--text-color-blue);
 }
 
 .quiz-container button {
@@ -175,30 +176,6 @@ button:focus-visible {
   padding: 0 10px; /* Padding to give space between the text and edges */
 }
 
-.text-input {
-  font-size: 1.2rem;
-  padding: 0.6rem 1rem;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 1rem;
-}
-
-.text-input:focus {
-  outline: none;
-  border-color: var(--focus);
-  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
-}
-
-.submit-button {
-  min-width: 100px;
-  text-align: center;
-  height: 44px;
-}
-
 .mode-switch-container {
   display: flex;
   justify-content: center;   /* Center the buttons horizontally */
@@ -218,7 +195,7 @@ button:focus-visible {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  transition: background-color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
 }
 
 .mode-button:hover {
@@ -233,4 +210,62 @@ button:focus-visible {
 .next-button:disabled {
   background-color: var(--background); /* Gray color when disabled */
   cursor: not-allowed;
+}
+
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mode-switch-container {
+  animation: slideFadeIn 0.4s ease-out; /* On site load fade in */
+}
+
+.pronoun-tag {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  color: var(--text-color-blue);
+}
+
+.verb-input-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Vertical alignment */
+  justify-content: center;
+}
+
+.text-input {
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 100%; /*50%*/
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: var(--focus);
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+.submit-button {
+  min-width: 100px;
+  text-align: center;
+  height: 44px;
+}
+
+@media (min-width: 600px) {
+  .verb-input-row {
+    flex-wrap: nowrap; /* force same line on desktop */
+  }
 }

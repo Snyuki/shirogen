@@ -6,6 +6,8 @@ import time
 import datetime
 import threading
 
+# This converts csv data to json. Might need to run a few times if the verbtenses.de api blocks
+
 CSV_PATH = "shirogen/fetch-words/src/B1.csv"
 OUTPUT_BASE_PATH = "shirogen/src/res/"
 

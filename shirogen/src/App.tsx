@@ -4,12 +4,22 @@ import React, { useEffect, useRef, useState } from 'react';
 // import maleNounsData from './res/german_male_nouns.json';
 // import neutralNounsData from './res/german_neutral_nouns.json';
 import b1nounsData from './res/b1-nouns.json'
-import verbsData from './res/german_verbs.json';
+// import verbsData from './res/german_verbs.json';
+import b1VerbsData from './res/b1-verbs.json'
+import b1VerbsTensesConfig from './res/b1-verb-tenses-used.json'
+
+type VerbFormSelection = {
+  baseForm: string;
+  verb: string;
+  tense: string;
+  pronoun: string;
+};
 
 // const femaleNouns = Object.values(femaleNounsData)
 // const maleNouns = Object.values(maleNounsData)
 // const neutralNouns = Object.values(neutralNounsData)
 const b1nouns = Object.values(b1nounsData)
+const b1verbs = Object.values(b1VerbsData)
 
 // const allNouns = [...femaleNouns, ...maleNouns, ...neutralNouns];
 
@@ -22,8 +32,9 @@ function shuffle(array) {
 }
 
 const shuffledNouns = shuffle(b1nouns);
-
-const verbs = Object.values(verbsData)
+const verbs = Object.values(b1verbs)
+const selectedTenses = b1VerbsTensesConfig.tenses;
+const tenses = Object.keys(selectedTenses);
 
 const GenderQuiz = () => {
   const [mode, setMode] = useState<'gender' | 'verb'>('gender')
@@ -44,13 +55,22 @@ const GenderQuiz = () => {
     return shuffledNouns[randomIndex];
   }
 
-  function getRandomVerb() {
-    const randomIndex = Math.floor(Math.random() * verbs.length);
-    return verbs[randomIndex];
+  function getRandomVerb(): VerbFormSelection {
+    const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+    const randomTense = tenses[Math.floor(Math.random() * tenses.length)];
+    const pronouns = selectedTenses[randomTense];
+    const randomPronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
+
+    
+    return {
+      baseForm: randomVerb.word,
+      verb: randomVerb.tenses[randomTense][randomPronoun],
+      tense: randomTense,
+      pronoun: randomPronoun
+    };
   }
 
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
-  const verbTenseKey = Object.keys(currentVerb.tenses)[0]; // As long as there is only one tense this is enough
   
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article.indexOf(answer) >= 0;
@@ -73,8 +93,8 @@ const GenderQuiz = () => {
 
   const handleVerbSubmit = () => {
     const userAnswer = verbInput.trim().toLowerCase();
-    const foundVerb = verbs.find(v => v.word === currentVerb.word);
-    const correctAnswer = foundVerb ? foundVerb.tenses.past : "Err (Not Found)";
+    const foundVerb = verbs.find(v => v.word === currentVerb.baseForm);
+    const correctAnswer = foundVerb ? foundVerb.tenses[currentVerb.tense][currentVerb.pronoun] : "Err (Not Found)";
     const correct = userAnswer === correctAnswer;
 
     if (!verbAnswered) {
@@ -85,7 +105,7 @@ const GenderQuiz = () => {
       }
       setVerbAnswered(true)
     }
-    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer is "' + currentVerb.tenses.past + '"!');
+    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer is "' + currentVerb.verb + '"!');
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -173,25 +193,28 @@ const GenderQuiz = () => {
         </>
       ) : (
         <>
-          <h2>Enter the <strong>{verbTenseKey}</strong> form of <strong>
+          <h2>Enter the <strong>{currentVerb.tense}</strong> form of <strong>
           <a 
-              href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentVerb.word)}&op=translate`}
+              href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentVerb.baseForm)}&op=translate`}
               target="_blank"
               rel="noopener noreferrer"
               >
-                {currentVerb.word}
+                {currentVerb.baseForm}
               </a>
               </strong>:</h2>
-          <input
-            type="text"
-            ref={verbInputRef}
-            onKeyDown={handleKeyDown}
-            value={verbInput}
-            onChange={(e) => setVerbInput(e.target.value)}
-            placeholder="Type your answer..."
-            className="text-input"
-          />
-          <button className="submit-button" onClick={handleVerbSubmit}>Submit</button>
+          <div className="verb-input-row">
+            <span className="pronoun-tag">{currentVerb.pronoun}</span>
+            <input
+              type="text"
+              ref={verbInputRef}
+              onKeyDown={handleKeyDown}
+              value={verbInput}
+              onChange={(e) => setVerbInput(e.target.value)}
+              placeholder="Type your answer..."
+              className="text-input short"
+            />
+            <button className="submit-button" onClick={handleVerbSubmit}>Submit</button>
+          </div>
           <div className={`feedback ${verbFeedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
             {verbFeedback}
           </div>
