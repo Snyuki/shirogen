@@ -107,7 +107,8 @@ const GenderQuiz = () => {
       correctAnswers = [correctAnswerRaw];
     }
 
-  const correct = correctAnswers.includes(userAnswer);
+    const correct = correctAnswers.includes(userAnswer);
+    
     if (!verbAnswered) {
       if (correct) {
         setCorrectAnswers(prev => prev + 1)
