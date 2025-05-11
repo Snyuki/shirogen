@@ -94,9 +94,20 @@ const GenderQuiz = () => {
   const handleVerbSubmit = () => {
     const userAnswer = verbInput.trim().toLowerCase();
     const foundVerb = verbs.find(v => v.word === currentVerb.baseForm);
-    const correctAnswer = foundVerb ? foundVerb.tenses[currentVerb.tense][currentVerb.pronoun] : "Err (Not Found)";
-    const correct = userAnswer === correctAnswer;
+    const correctAnswerRaw = foundVerb ? foundVerb.tenses[currentVerb.tense][currentVerb.pronoun] : "Err (Not Found)";
 
+    let correctAnswers: string[] = [];
+
+    if (correctAnswerRaw.includes(" ")) {
+      const [forms, prefix] = correctAnswerRaw.split(" ");
+      correctAnswers = forms.split("/").map(form => `${form} ${prefix}`);
+    } else if (correctAnswerRaw.includes("/")) {
+      correctAnswers = correctAnswerRaw.split("/");
+    }else {
+      correctAnswers = [correctAnswerRaw];
+    }
+
+  const correct = correctAnswers.includes(userAnswer);
     if (!verbAnswered) {
       if (correct) {
         setCorrectAnswers(prev => prev + 1)
@@ -105,7 +116,7 @@ const GenderQuiz = () => {
       }
       setVerbAnswered(true)
     }
-    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer is "' + currentVerb.verb + '"!');
+    setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer' + (correctAnswers.length === 1 ? ' is' : 's are') + ': ' + correctAnswers.join("/") + '!');
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
