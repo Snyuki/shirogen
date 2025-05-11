@@ -6,7 +6,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import b1nounsData from './res/b1-nouns.json'
 // import verbsData from './res/german_verbs.json';
 import b1VerbsData from './res/b1-verbs.json'
-import b1VerbsTensesConfig from './res/b1-verb-tenses-used.json'
+import b1VerbsTensesConfig from './res/b1-verb-tenses-config.json'
 
 type VerbFormSelection = {
   baseForm: string;
