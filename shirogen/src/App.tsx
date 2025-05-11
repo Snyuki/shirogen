@@ -56,7 +56,7 @@ const GenderQuiz = () => {
   }
 
   function getRandomVerb(): VerbFormSelection {
-    const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+    const randomVerb = verbs[Math.floor(Math.random() * verbs.length)]; // Sometimes produces same verb as last time
     const randomTense = tenses[Math.floor(Math.random() * tenses.length)];
     const pronouns = selectedTenses[randomTense];
     const randomPronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
