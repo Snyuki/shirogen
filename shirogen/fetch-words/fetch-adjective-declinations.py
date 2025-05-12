@@ -1,100 +1,97 @@
 import json
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
+import requests
 from bs4 import BeautifulSoup
 
-def setup_driver():
-    options = Options()
-    options.headless = True
-    options.add_argument("--disable-gpu")
+# Fetch the declension table from the Wiktionary page
+def get_declension_table(adjective):
+    url = f"https://de.wiktionary.org/wiki/{adjective}"
+    response = requests.get(url)
     
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    if response.status_code != 200:
+        print(f"Failed to fetch {adjective}: {response.status_code}")
+        return {}
 
+    soup = BeautifulSoup(response.content, 'html.parser')
+    with open("adj-test-page.html", 'w') as wr:
+        wr.write(str(soup.prettify()))
+    
+    # Find the declension table by looking for the section "Deklination"
+    declination_section = soup.find('span', {'id': 'Deklination'})
 
+    if not declination_section:
+        print(f"No declension section found for {adjective}")
+        return {}
 
-def get_declension_table(adjective, driver):
-    url = f"https://www.canoonet.eu/services/Controller?MenuId=InflectionTables&Type=Adjective&Lang=de&Input={adjective}"
-    driver.get(url)
-    time.sleep(2)  # Wait for JS-rendered content
+    # The declension table is next to this section
+    table = declination_section.find_next('table')
 
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    tables = soup.find_all("table", class_="flectionTable")
-    decl_data = {}
+    if not table:
+        print(f"No declension table found for {adjective}")
+        return {}
 
-    for table in tables:
-        heading = table.find_previous("h2")
-        if not heading or "declension" not in heading.text.lower():
-            continue
-
-        rows = table.find_all("tr")
-        current_case = None
-
-        for row in rows:
-            headers = row.find_all("th")
-            cells = row.find_all("td")
-
-            if headers and not cells:
-                current_case = headers[0].text.strip()
-                decl_data[current_case] = {}
-            elif cells and current_case:
-                forms = [cell.text.strip() for cell in cells]
-                if len(forms) >= 8:
-                    decl_data[current_case] = {
-                        "maskuline": {
-                            "bestimmt": forms[0],
-                            "unbestimmt": forms[1]
-                        },
-                        "feminine": {
-                            "bestimmt": forms[2],
-                            "unbestimmt": forms[3]
-                        },
-                        "neutrum": {
-                            "bestimmt": forms[4],
-                            "unbestimmt": forms[5]
-                        },
-                        "plural": {
-                            "bestimmt": forms[6],
-                            "unbestimmt": forms[7]
-                        }
+    declensions = {}
+    
+    # Iterate through rows in the table
+    rows = table.find_all('tr')
+    
+    # To track current case (Nominative, Accusative, etc.)
+    current_case = None
+    
+    for row in rows:
+        cols = row.find_all('td')
+        
+        # If this row contains the case label (e.g., Nominative, Accusative)
+        if len(cols) == 1:
+            current_case = cols[0].get_text(strip=True)
+            declensions[current_case] = {}
+        elif len(cols) >= 8:  # We're expecting 8 columns for declension forms
+            forms = [col.get_text(strip=True) for col in cols]
+            
+            if current_case:
+                declensions[current_case] = {
+                    "maskuline": {
+                        "bestimmt": forms[0],
+                        "unbestimmt": forms[1]
+                    },
+                    "feminine": {
+                        "bestimmt": forms[2],
+                        "unbestimmt": forms[3]
+                    },
+                    "neutrum": {
+                        "bestimmt": forms[4],
+                        "unbestimmt": forms[5]
+                    },
+                    "plural": {
+                        "bestimmt": forms[6],
+                        "unbestimmt": forms[7]
                     }
-    return {"base_form": decl_data} if decl_data else None
+                }
+    return declensions
 
+# Main function to enrich adjectives with declensions
 def enrich_adjectives(filepath_in, filepath_out):
     with open(filepath_in, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    driver = setup_driver()
-
     for key, entry in data.items():
         adjective = entry["word"]
-        print(f"Processing '{adjective}'")
-        declensions = get_declension_table(adjective, driver)
-        entry["declinations"] = declensions if declensions else {}
+        print(f"Processing '{adjective}'...")
 
-    driver.quit()
+        # Fetch declensions from Wiktionary
+        declensions = get_declension_table(adjective)
 
+        # Add declensions to the entry
+        entry["declinations"] = declensions
+
+        # Sleep a little to avoid overloading the server
+        time.sleep(1)
+
+    # Save the enriched data back to the output file
     with open(filepath_out, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Declensions added. Output saved to {filepath_out}")
 
-def test_single_adjective(adjective):
-    driver = setup_driver()
-    url = f"https://www.canoonet.eu/services/Controller?MenuId=InflectionTables&Type=Adjective&Lang=de&Input={adjective}"
-    driver.get(url)
-    time.sleep(3)
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    driver.quit()
-
-    for table in soup.find_all("table"):
-        print(table.prettify())
-
-
-
 if __name__ == "__main__":
-    # enrich_adjectives("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
-    test_single_adjective("berufstätig")
+    enrich_adjectives("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
