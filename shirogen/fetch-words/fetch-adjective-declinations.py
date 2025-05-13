@@ -3,95 +3,94 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# Fetch the declension table from the Wiktionary page
-def get_declension_table(adjective):
-    url = f"https://de.wiktionary.org/wiki/{adjective}"
-    response = requests.get(url)
-    
-    if response.status_code != 200:
-        print(f"Failed to fetch {adjective}: {response.status_code}")
-        return {}
 
-    soup = BeautifulSoup(response.content, 'html.parser')
-    with open("adj-test-page.html", 'w') as wr:
-        wr.write(str(soup.prettify()))
-    
-    # Find the declension table by looking for the section "Deklination"
-    declination_section = soup.find('span', {'id': 'Deklination'})
+def parse_declension_table(soup):
+    declensions = {"base_form": {}, "comparative": {}, "superlative": {}}
+    tables = soup.find_all("table", class_="inflection-table")
 
-    if not declination_section:
-        print(f"No declension section found for {adjective}")
-        return {}
+    form_labels = ["base_form", "comparative", "superlative"]
+    case_labels = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
+    gender_labels = ["maskuline", "feminine", "neutrum", "plural"]
+    article_labels = ["bestimmt", "unbestimmt"]
 
-    # The declension table is next to this section
-    table = declination_section.find_next('table')
-
-    if not table:
-        print(f"No declension table found for {adjective}")
-        return {}
-
-    declensions = {}
-    
-    # Iterate through rows in the table
-    rows = table.find_all('tr')
-    
-    # To track current case (Nominative, Accusative, etc.)
-    current_case = None
-    
-    for row in rows:
-        cols = row.find_all('td')
-        
-        # If this row contains the case label (e.g., Nominative, Accusative)
-        if len(cols) == 1:
-            current_case = cols[0].get_text(strip=True)
-            declensions[current_case] = {}
-        elif len(cols) >= 8:  # We're expecting 8 columns for declension forms
-            forms = [col.get_text(strip=True) for col in cols]
-            
-            if current_case:
-                declensions[current_case] = {
-                    "maskuline": {
-                        "bestimmt": forms[0],
-                        "unbestimmt": forms[1]
-                    },
-                    "feminine": {
-                        "bestimmt": forms[2],
-                        "unbestimmt": forms[3]
-                    },
-                    "neutrum": {
-                        "bestimmt": forms[4],
-                        "unbestimmt": forms[5]
-                    },
-                    "plural": {
-                        "bestimmt": forms[6],
-                        "unbestimmt": forms[7]
-                    }
+    for idx, table in enumerate(tables[:3]):  # One table per degree
+        rows = table.find_all("tr")[1:]  # Skip header
+        degree = form_labels[idx]
+        declensions[degree] = {}
+        print(degree)
+        for case_idx, case_row in enumerate(rows[:4]):  # First 4 rows = cases
+            case = case_labels[case_idx]
+            print(case)
+            declensions[degree][case] = {}
+            cols = case_row.find_all("td")
+            print(case_row)
+            for g_idx, gender in enumerate(gender_labels):
+                print(cols)
+                declensions[degree][case][gender] = {
+                    "bestimmt": cols[g_idx * 2].text.strip(),
+                    "unbestimmt": cols[g_idx * 2 + 1].text.strip()
                 }
     return declensions
 
-# Main function to enrich adjectives with declensions
-def enrich_adjectives(filepath_in, filepath_out):
-    with open(filepath_in, "r", encoding="utf-8") as f:
-        data = json.load(f)
+def fallback_verbformen_scraper():
+    base_url = "https://www.verbformen.de/deklination/adjektive/singular/allerscho3nsten"
 
-    for key, entry in data.items():
-        adjective = entry["word"]
-        print(f"Processing '{adjective}'...")
+    response = requests.get(base_url)
 
-        # Fetch declensions from Wiktionary
-        declensions = get_declension_table(adjective)
+    if response.status_code == 200:
+        # Parse the page content with BeautifulSoup
+        soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Add declensions to the entry
-        entry["declinations"] = declensions
+        declination_tables = soup.find_all('div', class_='vTbl')
+
+        for table in declination_tables:
+            # Extract gender header (e.g., Maskulin, Feminin, etc.)
+            gender_header = table.find_previous('h2').text.strip()
+
+            # Extract the declension cases and their forms
+            rows = table.find_all('tr')
+            for row in rows:
+                case = row.find('th').text.strip()  # Case name
+                declination_form = row.find_all('td')[1].text.strip()  # Adjective declension form
+
+                # Print the extracted information
+                print(f"Gender: {gender_header}, Case: {case}, Form: {declination_form}")
+
+    else:
+        print(f"Failed to retrieve page. Status code: {response.status_code}")
+
+def update_adjective_data(filepath_in, filepath_out):
+    with open(filepath_in, 'r') as file:
+        existing_data = json.load(file)
+
+    updated_data = existing_data.copy()
+    for key, entry in existing_data.items():
+        word = entry["word"]
+       
+        url = f"https://en.wiktionary.org/wiki/{word}#German"
+        response = requests.get(url)
+        
+        if response.status_code != 200:
+            print(f"Failed to fetch {word}: {response.status_code}")
+            continue
+
+        soup = BeautifulSoup(response.content, 'html.parser')
+        declensions = parse_declension_table(soup)
+        print(declensions)
+        updated_data[key]["declensions"] = declensions
 
         # Sleep a little to avoid overloading the server
         time.sleep(1)
 
     # Save the enriched data back to the output file
     with open(filepath_out, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(updated_data, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Declensions added. Output saved to {filepath_out}")
+    return updated_data
+
+
+    
 
 if __name__ == "__main__":
-    enrich_adjectives("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
+    update_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
