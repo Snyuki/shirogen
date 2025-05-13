@@ -1,0 +1,272 @@
+{
+  "base_form": {
+    "Nominativ": {
+      "Maskulin": {
+        "no_article": "wichtiger",
+        "bestimmt": "der wichtige",
+        "unbestimmt": "ein wichtiger"
+      },
+      "Feminin": {
+        "no_article": "wichtige",
+        "bestimmt": "die wichtige",
+        "unbestimmt": "eine wichtige"
+      },
+      "Neutral": {
+        "no_article": "wichtiges",
+        "bestimmt": "das wichtige",
+        "unbestimmt": "ein wichtiges"
+      },
+      "Plural": {
+        "no_article": "wichtige",
+        "bestimmt": "die wichtigen",
+        "unbestimmt": "keine wichtigen"
+      }
+    },
+    "Genitiv": {
+      "Maskulin": {
+        "no_article": "wichtigen",
+        "bestimmt": "des wichtigen",
+        "unbestimmt": "eines wichtigen"
+      },
+      "Feminin": {
+        "no_article": "wichtiger",
+        "bestimmt": "der wichtigen",
+        "unbestimmt": "einer wichtigen"
+      },
+      "Neutral": {
+        "no_article": "wichtigen",
+        "bestimmt": "des wichtigen",
+        "unbestimmt": "eines wichtigen"
+      },
+      "Plural": {
+        "no_article": "wichtiger",
+        "bestimmt": "der wichtigen",
+        "unbestimmt": "keiner wichtigen"
+      }
+    },
+    "Dativ": {
+      "Maskulin": {
+        "no_article": "wichtigem",
+        "bestimmt": "dem wichtigen",
+        "unbestimmt": "einem wichtigen"
+      },
+      "Feminin": {
+        "no_article": "wichtiger",
+        "bestimmt": "der wichtigen",
+        "unbestimmt": "einer wichtigen"
+      },
+      "Neutral": {
+        "no_article": "wichtigem",
+        "bestimmt": "dem wichtigen",
+        "unbestimmt": "einem wichtigen"
+      },
+      "Plural": {
+        "no_article": "wichtigen",
+        "bestimmt": "den wichtigen",
+        "unbestimmt": "keinen wichtigen"
+      }
+    },
+    "Akkusativ": {
+      "Maskulin": {
+        "no_article": "wichtigen",
+        "bestimmt": "den wichtigen",
+        "unbestimmt": "einen wichtigen"
+      },
+      "Feminin": {
+        "no_article": "wichtige",
+        "bestimmt": "die wichtige",
+        "unbestimmt": "eine wichtige"
+      },
+      "Neutral": {
+        "no_article": "wichtiges",
+        "bestimmt": "das wichtige",
+        "unbestimmt": "ein wichtiges"
+      },
+      "Plural": {
+        "no_article": "wichtige",
+        "bestimmt": "die wichtigen",
+        "unbestimmt": "keine wichtigen"
+      }
+    }
+  },
+  "comparative": {
+    "Nominativ": {
+      "Maskulin": {
+        "no_article": "wichtigerer",
+        "bestimmt": "der wichtigere",
+        "unbestimmt": "ein wichtigerer"
+      },
+      "Feminin": {
+        "no_article": "wichtigere",
+        "bestimmt": "die wichtigere",
+        "unbestimmt": "eine wichtigere"
+      },
+      "Neutral": {
+        "no_article": "wichtigeres",
+        "bestimmt": "das wichtigere",
+        "unbestimmt": "ein wichtigeres"
+      },
+      "Plural": {
+        "no_article": "wichtigere",
+        "bestimmt": "die wichtigeren",
+        "unbestimmt": "keine wichtigeren"
+      }
+    },
+    "Genitiv": {
+      "Maskulin": {
+        "no_article": "wichtigeren",
+        "bestimmt": "des wichtigeren",
+        "unbestimmt": "eines wichtigeren"
+      },
+      "Feminin": {
+        "no_article": "wichtigerer",
+        "bestimmt": "der wichtigeren",
+        "unbestimmt": "einer wichtigeren"
+      },
+      "Neutral": {
+        "no_article": "wichtigeren",
+        "bestimmt": "des wichtigeren",
+        "unbestimmt": "eines wichtigeren"
+      },
+      "Plural": {
+        "no_article": "wichtigerer",
+        "bestimmt": "der wichtigeren",
+        "unbestimmt": "keiner wichtigeren"
+      }
+    },
+    "Dativ": {
+      "Maskulin": {
+        "no_article": "wichtigerem",
+        "bestimmt": "dem wichtigeren",
+        "unbestimmt": "einem wichtigeren"
+      },
+      "Feminin": {
+        "no_article": "wichtigerer",
+        "bestimmt": "der wichtigeren",
+        "unbestimmt": "einer wichtigeren"
+      },
+      "Neutral": {
+        "no_article": "wichtigerem",
+        "bestimmt": "dem wichtigeren",
+        "unbestimmt": "einem wichtigeren"
+      },
+      "Plural": {
+        "no_article": "wichtigeren",
+        "bestimmt": "den wichtigeren",
+        "unbestimmt": "keinen wichtigeren"
+      }
+    },
+    "Akkusativ": {
+      "Maskulin": {
+        "no_article": "wichtigeren",
+        "bestimmt": "den wichtigeren",
+        "unbestimmt": "einen wichtigeren"
+      },
+      "Feminin": {
+        "no_article": "wichtigere",
+        "bestimmt": "die wichtigere",
+        "unbestimmt": "eine wichtigere"
+      },
+      "Neutral": {
+        "no_article": "wichtigeres",
+        "bestimmt": "das wichtigere",
+        "unbestimmt": "ein wichtigeres"
+      },
+      "Plural": {
+        "no_article": "wichtigere",
+        "bestimmt": "die wichtigeren",
+        "unbestimmt": "keine wichtigeren"
+      }
+    }
+  },
+  "superlative": {
+    "Nominativ": {
+      "Maskulin": {
+        "no_article": "wichtigster",
+        "bestimmt": "der wichtigste",
+        "unbestimmt": "ein wichtigster"
+      },
+      "Feminin": {
+        "no_article": "wichtigste",
+        "bestimmt": "die wichtigste",
+        "unbestimmt": "eine wichtigste"
+      },
+      "Neutral": {
+        "no_article": "wichtigstes",
+        "bestimmt": "das wichtigste",
+        "unbestimmt": "ein wichtigstes"
+      },
+      "Plural": {
+        "no_article": "wichtigste",
+        "bestimmt": "die wichtigsten",
+        "unbestimmt": "keine wichtigsten"
+      }
+    },
+    "Genitiv": {
+      "Maskulin": {
+        "no_article": "wichtigsten",
+        "bestimmt": "des wichtigsten",
+        "unbestimmt": "eines wichtigsten"
+      },
+      "Feminin": {
+        "no_article": "wichtigster",
+        "bestimmt": "der wichtigsten",
+        "unbestimmt": "einer wichtigsten"
+      },
+      "Neutral": {
+        "no_article": "wichtigsten",
+        "bestimmt": "des wichtigsten",
+        "unbestimmt": "eines wichtigsten"
+      },
+      "Plural": {
+        "no_article": "wichtigster",
+        "bestimmt": "der wichtigsten",
+        "unbestimmt": "keiner wichtigsten"
+      }
+    },
+    "Dativ": {
+      "Maskulin": {
+        "no_article": "wichtigstem",
+        "bestimmt": "dem wichtigsten",
+        "unbestimmt": "einem wichtigsten"
+      },
+      "Feminin": {
+        "no_article": "wichtigster",
+        "bestimmt": "der wichtigsten",
+        "unbestimmt": "einer wichtigsten"
+      },
+      "Neutral": {
+        "no_article": "wichtigstem",
+        "bestimmt": "dem wichtigsten",
+        "unbestimmt": "einem wichtigsten"
+      },
+      "Plural": {
+        "no_article": "wichtigsten",
+        "bestimmt": "den wichtigsten",
+        "unbestimmt": "keinen wichtigsten"
+      }
+    },
+    "Akkusativ": {
+      "Maskulin": {
+        "no_article": "wichtigsten",
+        "bestimmt": "den wichtigsten",
+        "unbestimmt": "einen wichtigsten"
+      },
+      "Feminin": {
+        "no_article": "wichtigste",
+        "bestimmt": "die wichtigste",
+        "unbestimmt": "eine wichtigste"
+      },
+      "Neutral": {
+        "no_article": "wichtigstes",
+        "bestimmt": "das wichtigste",
+        "unbestimmt": "ein wichtigstes"
+      },
+      "Plural": {
+        "no_article": "wichtigste",
+        "bestimmt": "die wichtigsten",
+        "unbestimmt": "keine wichtigsten"
+      }
+    }
+  }
+}

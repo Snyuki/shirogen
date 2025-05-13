@@ -6,7 +6,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "abhängiger",
+            "bestimmt": "der abhängige",
+            "unbestimmt": "ein abhängiger"
+          },
+          "Feminin": {
+            "no_article": "abhängige",
+            "bestimmt": "die abhängige",
+            "unbestimmt": "eine abhängige"
+          },
+          "Neutral": {
+            "no_article": "abhängiges",
+            "bestimmt": "das abhängige",
+            "unbestimmt": "ein abhängiges"
+          },
+          "Plural": {
+            "no_article": "abhängige",
+            "bestimmt": "die abhängigen",
+            "unbestimmt": "keine abhängigen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "abhängigen",
+            "bestimmt": "des abhängigen",
+            "unbestimmt": "eines abhängigen"
+          },
+          "Feminin": {
+            "no_article": "abhängiger",
+            "bestimmt": "der abhängigen",
+            "unbestimmt": "einer abhängigen"
+          },
+          "Neutral": {
+            "no_article": "abhängigen",
+            "bestimmt": "des abhängigen",
+            "unbestimmt": "eines abhängigen"
+          },
+          "Plural": {
+            "no_article": "abhängiger",
+            "bestimmt": "der abhängigen",
+            "unbestimmt": "keiner abhängigen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "abhängigem",
+            "bestimmt": "dem abhängigen",
+            "unbestimmt": "einem abhängigen"
+          },
+          "Feminin": {
+            "no_article": "abhängiger",
+            "bestimmt": "der abhängigen",
+            "unbestimmt": "einer abhängigen"
+          },
+          "Neutral": {
+            "no_article": "abhängigem",
+            "bestimmt": "dem abhängigen",
+            "unbestimmt": "einem abhängigen"
+          },
+          "Plural": {
+            "no_article": "abhängigen",
+            "bestimmt": "den abhängigen",
+            "unbestimmt": "keinen abhängigen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "abhängigen",
+            "bestimmt": "den abhängigen",
+            "unbestimmt": "einen abhängigen"
+          },
+          "Feminin": {
+            "no_article": "abhängige",
+            "bestimmt": "die abhängige",
+            "unbestimmt": "eine abhängige"
+          },
+          "Neutral": {
+            "no_article": "abhängiges",
+            "bestimmt": "das abhängige",
+            "unbestimmt": "ein abhängiges"
+          },
+          "Plural": {
+            "no_article": "abhängige",
+            "bestimmt": "die abhängigen",
+            "unbestimmt": "keine abhängigen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "24": {
     "word": "absolut",
@@ -15,7 +108,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "absoluter",
+            "bestimmt": "der absolute",
+            "unbestimmt": "ein absoluter"
+          },
+          "Feminin": {
+            "no_article": "absolute",
+            "bestimmt": "die absolute",
+            "unbestimmt": "eine absolute"
+          },
+          "Neutral": {
+            "no_article": "absolutes",
+            "bestimmt": "das absolute",
+            "unbestimmt": "ein absolutes"
+          },
+          "Plural": {
+            "no_article": "absolute",
+            "bestimmt": "die absoluten",
+            "unbestimmt": "keine absoluten"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "absoluten",
+            "bestimmt": "des absoluten",
+            "unbestimmt": "eines absoluten"
+          },
+          "Feminin": {
+            "no_article": "absoluter",
+            "bestimmt": "der absoluten",
+            "unbestimmt": "einer absoluten"
+          },
+          "Neutral": {
+            "no_article": "absoluten",
+            "bestimmt": "des absoluten",
+            "unbestimmt": "eines absoluten"
+          },
+          "Plural": {
+            "no_article": "absoluter",
+            "bestimmt": "der absoluten",
+            "unbestimmt": "keiner absoluten"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "absolutem",
+            "bestimmt": "dem absoluten",
+            "unbestimmt": "einem absoluten"
+          },
+          "Feminin": {
+            "no_article": "absoluter",
+            "bestimmt": "der absoluten",
+            "unbestimmt": "einer absoluten"
+          },
+          "Neutral": {
+            "no_article": "absolutem",
+            "bestimmt": "dem absoluten",
+            "unbestimmt": "einem absoluten"
+          },
+          "Plural": {
+            "no_article": "absoluten",
+            "bestimmt": "den absoluten",
+            "unbestimmt": "keinen absoluten"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "absoluten",
+            "bestimmt": "den absoluten",
+            "unbestimmt": "einen absoluten"
+          },
+          "Feminin": {
+            "no_article": "absolute",
+            "bestimmt": "die absolute",
+            "unbestimmt": "eine absolute"
+          },
+          "Neutral": {
+            "no_article": "absolutes",
+            "bestimmt": "das absolute",
+            "unbestimmt": "ein absolutes"
+          },
+          "Plural": {
+            "no_article": "absolute",
+            "bestimmt": "die absoluten",
+            "unbestimmt": "keine absoluten"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "31": {
     "word": "abwesend",
@@ -24,7 +210,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "abwesender",
+            "bestimmt": "der abwesende",
+            "unbestimmt": "ein abwesender"
+          },
+          "Feminin": {
+            "no_article": "abwesende",
+            "bestimmt": "die abwesende",
+            "unbestimmt": "eine abwesende"
+          },
+          "Neutral": {
+            "no_article": "abwesendes",
+            "bestimmt": "das abwesende",
+            "unbestimmt": "ein abwesendes"
+          },
+          "Plural": {
+            "no_article": "abwesende",
+            "bestimmt": "die abwesenden",
+            "unbestimmt": "keine abwesenden"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "abwesenden",
+            "bestimmt": "des abwesenden",
+            "unbestimmt": "eines abwesenden"
+          },
+          "Feminin": {
+            "no_article": "abwesender",
+            "bestimmt": "der abwesenden",
+            "unbestimmt": "einer abwesenden"
+          },
+          "Neutral": {
+            "no_article": "abwesenden",
+            "bestimmt": "des abwesenden",
+            "unbestimmt": "eines abwesenden"
+          },
+          "Plural": {
+            "no_article": "abwesender",
+            "bestimmt": "der abwesenden",
+            "unbestimmt": "keiner abwesenden"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "abwesendem",
+            "bestimmt": "dem abwesenden",
+            "unbestimmt": "einem abwesenden"
+          },
+          "Feminin": {
+            "no_article": "abwesender",
+            "bestimmt": "der abwesenden",
+            "unbestimmt": "einer abwesenden"
+          },
+          "Neutral": {
+            "no_article": "abwesendem",
+            "bestimmt": "dem abwesenden",
+            "unbestimmt": "einem abwesenden"
+          },
+          "Plural": {
+            "no_article": "abwesenden",
+            "bestimmt": "den abwesenden",
+            "unbestimmt": "keinen abwesenden"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "abwesenden",
+            "bestimmt": "den abwesenden",
+            "unbestimmt": "einen abwesenden"
+          },
+          "Feminin": {
+            "no_article": "abwesende",
+            "bestimmt": "die abwesende",
+            "unbestimmt": "eine abwesende"
+          },
+          "Neutral": {
+            "no_article": "abwesendes",
+            "bestimmt": "das abwesende",
+            "unbestimmt": "ein abwesendes"
+          },
+          "Plural": {
+            "no_article": "abwesende",
+            "bestimmt": "die abwesenden",
+            "unbestimmt": "keine abwesenden"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "40": {
     "word": "allerbest",
@@ -33,7 +312,11 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {},
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "42": {
     "word": "allerschönst",
@@ -42,7 +325,11 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {},
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "43": {
     "word": "allgemein",
@@ -51,7 +338,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "allgemeiner",
+            "bestimmt": "der allgemeine",
+            "unbestimmt": "ein allgemeiner"
+          },
+          "Feminin": {
+            "no_article": "allgemeine",
+            "bestimmt": "die allgemeine",
+            "unbestimmt": "eine allgemeine"
+          },
+          "Neutral": {
+            "no_article": "allgemeines",
+            "bestimmt": "das allgemeine",
+            "unbestimmt": "ein allgemeines"
+          },
+          "Plural": {
+            "no_article": "allgemeine",
+            "bestimmt": "die allgemeinen",
+            "unbestimmt": "keine allgemeinen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "allgemeinen",
+            "bestimmt": "des allgemeinen",
+            "unbestimmt": "eines allgemeinen"
+          },
+          "Feminin": {
+            "no_article": "allgemeiner",
+            "bestimmt": "der allgemeinen",
+            "unbestimmt": "einer allgemeinen"
+          },
+          "Neutral": {
+            "no_article": "allgemeinen",
+            "bestimmt": "des allgemeinen",
+            "unbestimmt": "eines allgemeinen"
+          },
+          "Plural": {
+            "no_article": "allgemeiner",
+            "bestimmt": "der allgemeinen",
+            "unbestimmt": "keiner allgemeinen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "allgemeinem",
+            "bestimmt": "dem allgemeinen",
+            "unbestimmt": "einem allgemeinen"
+          },
+          "Feminin": {
+            "no_article": "allgemeiner",
+            "bestimmt": "der allgemeinen",
+            "unbestimmt": "einer allgemeinen"
+          },
+          "Neutral": {
+            "no_article": "allgemeinem",
+            "bestimmt": "dem allgemeinen",
+            "unbestimmt": "einem allgemeinen"
+          },
+          "Plural": {
+            "no_article": "allgemeinen",
+            "bestimmt": "den allgemeinen",
+            "unbestimmt": "keinen allgemeinen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "allgemeinen",
+            "bestimmt": "den allgemeinen",
+            "unbestimmt": "einen allgemeinen"
+          },
+          "Feminin": {
+            "no_article": "allgemeine",
+            "bestimmt": "die allgemeine",
+            "unbestimmt": "eine allgemeine"
+          },
+          "Neutral": {
+            "no_article": "allgemeines",
+            "bestimmt": "das allgemeine",
+            "unbestimmt": "ein allgemeines"
+          },
+          "Plural": {
+            "no_article": "allgemeine",
+            "bestimmt": "die allgemeinen",
+            "unbestimmt": "keine allgemeinen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "45": {
     "word": "alltäglich",
@@ -60,7 +440,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "alltäglicher",
+            "bestimmt": "der alltägliche",
+            "unbestimmt": "ein alltäglicher"
+          },
+          "Feminin": {
+            "no_article": "alltägliche",
+            "bestimmt": "die alltägliche",
+            "unbestimmt": "eine alltägliche"
+          },
+          "Neutral": {
+            "no_article": "alltägliches",
+            "bestimmt": "das alltägliche",
+            "unbestimmt": "ein alltägliches"
+          },
+          "Plural": {
+            "no_article": "alltägliche",
+            "bestimmt": "die alltäglichen",
+            "unbestimmt": "keine alltäglichen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "alltäglichen",
+            "bestimmt": "des alltäglichen",
+            "unbestimmt": "eines alltäglichen"
+          },
+          "Feminin": {
+            "no_article": "alltäglicher",
+            "bestimmt": "der alltäglichen",
+            "unbestimmt": "einer alltäglichen"
+          },
+          "Neutral": {
+            "no_article": "alltäglichen",
+            "bestimmt": "des alltäglichen",
+            "unbestimmt": "eines alltäglichen"
+          },
+          "Plural": {
+            "no_article": "alltäglicher",
+            "bestimmt": "der alltäglichen",
+            "unbestimmt": "keiner alltäglichen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "alltäglichem",
+            "bestimmt": "dem alltäglichen",
+            "unbestimmt": "einem alltäglichen"
+          },
+          "Feminin": {
+            "no_article": "alltäglicher",
+            "bestimmt": "der alltäglichen",
+            "unbestimmt": "einer alltäglichen"
+          },
+          "Neutral": {
+            "no_article": "alltäglichem",
+            "bestimmt": "dem alltäglichen",
+            "unbestimmt": "einem alltäglichen"
+          },
+          "Plural": {
+            "no_article": "alltäglichen",
+            "bestimmt": "den alltäglichen",
+            "unbestimmt": "keinen alltäglichen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "alltäglichen",
+            "bestimmt": "den alltäglichen",
+            "unbestimmt": "einen alltäglichen"
+          },
+          "Feminin": {
+            "no_article": "alltägliche",
+            "bestimmt": "die alltägliche",
+            "unbestimmt": "eine alltägliche"
+          },
+          "Neutral": {
+            "no_article": "alltägliches",
+            "bestimmt": "das alltägliche",
+            "unbestimmt": "ein alltägliches"
+          },
+          "Plural": {
+            "no_article": "alltägliche",
+            "bestimmt": "die alltäglichen",
+            "unbestimmt": "keine alltäglichen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "48": {
     "word": "alternativ",
@@ -69,7 +542,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "alternativer",
+            "bestimmt": "der alternative",
+            "unbestimmt": "ein alternativer"
+          },
+          "Feminin": {
+            "no_article": "alternative",
+            "bestimmt": "die alternative",
+            "unbestimmt": "eine alternative"
+          },
+          "Neutral": {
+            "no_article": "alternatives",
+            "bestimmt": "das alternative",
+            "unbestimmt": "ein alternatives"
+          },
+          "Plural": {
+            "no_article": "alternative",
+            "bestimmt": "die alternativen",
+            "unbestimmt": "keine alternativen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "alternativen",
+            "bestimmt": "des alternativen",
+            "unbestimmt": "eines alternativen"
+          },
+          "Feminin": {
+            "no_article": "alternativer",
+            "bestimmt": "der alternativen",
+            "unbestimmt": "einer alternativen"
+          },
+          "Neutral": {
+            "no_article": "alternativen",
+            "bestimmt": "des alternativen",
+            "unbestimmt": "eines alternativen"
+          },
+          "Plural": {
+            "no_article": "alternativer",
+            "bestimmt": "der alternativen",
+            "unbestimmt": "keiner alternativen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "alternativem",
+            "bestimmt": "dem alternativen",
+            "unbestimmt": "einem alternativen"
+          },
+          "Feminin": {
+            "no_article": "alternativer",
+            "bestimmt": "der alternativen",
+            "unbestimmt": "einer alternativen"
+          },
+          "Neutral": {
+            "no_article": "alternativem",
+            "bestimmt": "dem alternativen",
+            "unbestimmt": "einem alternativen"
+          },
+          "Plural": {
+            "no_article": "alternativen",
+            "bestimmt": "den alternativen",
+            "unbestimmt": "keinen alternativen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "alternativen",
+            "bestimmt": "den alternativen",
+            "unbestimmt": "einen alternativen"
+          },
+          "Feminin": {
+            "no_article": "alternative",
+            "bestimmt": "die alternative",
+            "unbestimmt": "eine alternative"
+          },
+          "Neutral": {
+            "no_article": "alternatives",
+            "bestimmt": "das alternative",
+            "unbestimmt": "ein alternatives"
+          },
+          "Plural": {
+            "no_article": "alternative",
+            "bestimmt": "die alternativen",
+            "unbestimmt": "keine alternativen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "63": {
     "word": "angenehm",
@@ -78,7 +644,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "angenehmer",
+            "bestimmt": "der angenehme",
+            "unbestimmt": "ein angenehmer"
+          },
+          "Feminin": {
+            "no_article": "angenehme",
+            "bestimmt": "die angenehme",
+            "unbestimmt": "eine angenehme"
+          },
+          "Neutral": {
+            "no_article": "angenehmes",
+            "bestimmt": "das angenehme",
+            "unbestimmt": "ein angenehmes"
+          },
+          "Plural": {
+            "no_article": "angenehme",
+            "bestimmt": "die angenehmen",
+            "unbestimmt": "keine angenehmen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "angenehmen",
+            "bestimmt": "des angenehmen",
+            "unbestimmt": "eines angenehmen"
+          },
+          "Feminin": {
+            "no_article": "angenehmer",
+            "bestimmt": "der angenehmen",
+            "unbestimmt": "einer angenehmen"
+          },
+          "Neutral": {
+            "no_article": "angenehmen",
+            "bestimmt": "des angenehmen",
+            "unbestimmt": "eines angenehmen"
+          },
+          "Plural": {
+            "no_article": "angenehmer",
+            "bestimmt": "der angenehmen",
+            "unbestimmt": "keiner angenehmen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "angenehmem",
+            "bestimmt": "dem angenehmen",
+            "unbestimmt": "einem angenehmen"
+          },
+          "Feminin": {
+            "no_article": "angenehmer",
+            "bestimmt": "der angenehmen",
+            "unbestimmt": "einer angenehmen"
+          },
+          "Neutral": {
+            "no_article": "angenehmem",
+            "bestimmt": "dem angenehmen",
+            "unbestimmt": "einem angenehmen"
+          },
+          "Plural": {
+            "no_article": "angenehmen",
+            "bestimmt": "den angenehmen",
+            "unbestimmt": "keinen angenehmen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "angenehmen",
+            "bestimmt": "den angenehmen",
+            "unbestimmt": "einen angenehmen"
+          },
+          "Feminin": {
+            "no_article": "angenehme",
+            "bestimmt": "die angenehme",
+            "unbestimmt": "eine angenehme"
+          },
+          "Neutral": {
+            "no_article": "angenehmes",
+            "bestimmt": "das angenehme",
+            "unbestimmt": "ein angenehmes"
+          },
+          "Plural": {
+            "no_article": "angenehme",
+            "bestimmt": "die angenehmen",
+            "unbestimmt": "keine angenehmen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "82": {
     "word": "anwesend",
@@ -87,7 +746,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "anwesender",
+            "bestimmt": "der anwesende",
+            "unbestimmt": "ein anwesender"
+          },
+          "Feminin": {
+            "no_article": "anwesende",
+            "bestimmt": "die anwesende",
+            "unbestimmt": "eine anwesende"
+          },
+          "Neutral": {
+            "no_article": "anwesendes",
+            "bestimmt": "das anwesende",
+            "unbestimmt": "ein anwesendes"
+          },
+          "Plural": {
+            "no_article": "anwesende",
+            "bestimmt": "die anwesenden",
+            "unbestimmt": "keine anwesenden"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "anwesenden",
+            "bestimmt": "des anwesenden",
+            "unbestimmt": "eines anwesenden"
+          },
+          "Feminin": {
+            "no_article": "anwesender",
+            "bestimmt": "der anwesenden",
+            "unbestimmt": "einer anwesenden"
+          },
+          "Neutral": {
+            "no_article": "anwesenden",
+            "bestimmt": "des anwesenden",
+            "unbestimmt": "eines anwesenden"
+          },
+          "Plural": {
+            "no_article": "anwesender",
+            "bestimmt": "der anwesenden",
+            "unbestimmt": "keiner anwesenden"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "anwesendem",
+            "bestimmt": "dem anwesenden",
+            "unbestimmt": "einem anwesenden"
+          },
+          "Feminin": {
+            "no_article": "anwesender",
+            "bestimmt": "der anwesenden",
+            "unbestimmt": "einer anwesenden"
+          },
+          "Neutral": {
+            "no_article": "anwesendem",
+            "bestimmt": "dem anwesenden",
+            "unbestimmt": "einem anwesenden"
+          },
+          "Plural": {
+            "no_article": "anwesenden",
+            "bestimmt": "den anwesenden",
+            "unbestimmt": "keinen anwesenden"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "anwesenden",
+            "bestimmt": "den anwesenden",
+            "unbestimmt": "einen anwesenden"
+          },
+          "Feminin": {
+            "no_article": "anwesende",
+            "bestimmt": "die anwesende",
+            "unbestimmt": "eine anwesende"
+          },
+          "Neutral": {
+            "no_article": "anwesendes",
+            "bestimmt": "das anwesende",
+            "unbestimmt": "ein anwesendes"
+          },
+          "Plural": {
+            "no_article": "anwesende",
+            "bestimmt": "die anwesenden",
+            "unbestimmt": "keine anwesenden"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "109": {
     "word": "aufmerksam",
@@ -96,7 +848,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "aufmerksamer",
+            "bestimmt": "der aufmerksame",
+            "unbestimmt": "ein aufmerksamer"
+          },
+          "Feminin": {
+            "no_article": "aufmerksame",
+            "bestimmt": "die aufmerksame",
+            "unbestimmt": "eine aufmerksame"
+          },
+          "Neutral": {
+            "no_article": "aufmerksames",
+            "bestimmt": "das aufmerksame",
+            "unbestimmt": "ein aufmerksames"
+          },
+          "Plural": {
+            "no_article": "aufmerksame",
+            "bestimmt": "die aufmerksamen",
+            "unbestimmt": "keine aufmerksamen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "aufmerksamen",
+            "bestimmt": "des aufmerksamen",
+            "unbestimmt": "eines aufmerksamen"
+          },
+          "Feminin": {
+            "no_article": "aufmerksamer",
+            "bestimmt": "der aufmerksamen",
+            "unbestimmt": "einer aufmerksamen"
+          },
+          "Neutral": {
+            "no_article": "aufmerksamen",
+            "bestimmt": "des aufmerksamen",
+            "unbestimmt": "eines aufmerksamen"
+          },
+          "Plural": {
+            "no_article": "aufmerksamer",
+            "bestimmt": "der aufmerksamen",
+            "unbestimmt": "keiner aufmerksamen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "aufmerksamem",
+            "bestimmt": "dem aufmerksamen",
+            "unbestimmt": "einem aufmerksamen"
+          },
+          "Feminin": {
+            "no_article": "aufmerksamer",
+            "bestimmt": "der aufmerksamen",
+            "unbestimmt": "einer aufmerksamen"
+          },
+          "Neutral": {
+            "no_article": "aufmerksamem",
+            "bestimmt": "dem aufmerksamen",
+            "unbestimmt": "einem aufmerksamen"
+          },
+          "Plural": {
+            "no_article": "aufmerksamen",
+            "bestimmt": "den aufmerksamen",
+            "unbestimmt": "keinen aufmerksamen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "aufmerksamen",
+            "bestimmt": "den aufmerksamen",
+            "unbestimmt": "einen aufmerksamen"
+          },
+          "Feminin": {
+            "no_article": "aufmerksame",
+            "bestimmt": "die aufmerksame",
+            "unbestimmt": "eine aufmerksame"
+          },
+          "Neutral": {
+            "no_article": "aufmerksames",
+            "bestimmt": "das aufmerksame",
+            "unbestimmt": "ein aufmerksames"
+          },
+          "Plural": {
+            "no_article": "aufmerksame",
+            "bestimmt": "die aufmerksamen",
+            "unbestimmt": "keine aufmerksamen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "199": {
     "word": "bereit",
@@ -105,7 +950,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "bereiter",
+            "bestimmt": "der bereite",
+            "unbestimmt": "ein bereiter"
+          },
+          "Feminin": {
+            "no_article": "bereite",
+            "bestimmt": "die bereite",
+            "unbestimmt": "eine bereite"
+          },
+          "Neutral": {
+            "no_article": "bereites",
+            "bestimmt": "das bereite",
+            "unbestimmt": "ein bereites"
+          },
+          "Plural": {
+            "no_article": "bereite",
+            "bestimmt": "die bereiten",
+            "unbestimmt": "keine bereiten"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "bereiten",
+            "bestimmt": "des bereiten",
+            "unbestimmt": "eines bereiten"
+          },
+          "Feminin": {
+            "no_article": "bereiter",
+            "bestimmt": "der bereiten",
+            "unbestimmt": "einer bereiten"
+          },
+          "Neutral": {
+            "no_article": "bereiten",
+            "bestimmt": "des bereiten",
+            "unbestimmt": "eines bereiten"
+          },
+          "Plural": {
+            "no_article": "bereiter",
+            "bestimmt": "der bereiten",
+            "unbestimmt": "keiner bereiten"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "bereitem",
+            "bestimmt": "dem bereiten",
+            "unbestimmt": "einem bereiten"
+          },
+          "Feminin": {
+            "no_article": "bereiter",
+            "bestimmt": "der bereiten",
+            "unbestimmt": "einer bereiten"
+          },
+          "Neutral": {
+            "no_article": "bereitem",
+            "bestimmt": "dem bereiten",
+            "unbestimmt": "einem bereiten"
+          },
+          "Plural": {
+            "no_article": "bereiten",
+            "bestimmt": "den bereiten",
+            "unbestimmt": "keinen bereiten"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "bereiten",
+            "bestimmt": "den bereiten",
+            "unbestimmt": "einen bereiten"
+          },
+          "Feminin": {
+            "no_article": "bereite",
+            "bestimmt": "die bereite",
+            "unbestimmt": "eine bereite"
+          },
+          "Neutral": {
+            "no_article": "bereites",
+            "bestimmt": "das bereite",
+            "unbestimmt": "ein bereites"
+          },
+          "Plural": {
+            "no_article": "bereite",
+            "bestimmt": "die bereiten",
+            "unbestimmt": "keine bereiten"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "202": {
     "word": "beruflich",
@@ -114,7 +1052,100 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "beruflicher",
+            "bestimmt": "der berufliche",
+            "unbestimmt": "ein beruflicher"
+          },
+          "Feminin": {
+            "no_article": "berufliche",
+            "bestimmt": "die berufliche",
+            "unbestimmt": "eine berufliche"
+          },
+          "Neutral": {
+            "no_article": "berufliches",
+            "bestimmt": "das berufliche",
+            "unbestimmt": "ein berufliches"
+          },
+          "Plural": {
+            "no_article": "berufliche",
+            "bestimmt": "die beruflichen",
+            "unbestimmt": "keine beruflichen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "beruflichen",
+            "bestimmt": "des beruflichen",
+            "unbestimmt": "eines beruflichen"
+          },
+          "Feminin": {
+            "no_article": "beruflicher",
+            "bestimmt": "der beruflichen",
+            "unbestimmt": "einer beruflichen"
+          },
+          "Neutral": {
+            "no_article": "beruflichen",
+            "bestimmt": "des beruflichen",
+            "unbestimmt": "eines beruflichen"
+          },
+          "Plural": {
+            "no_article": "beruflicher",
+            "bestimmt": "der beruflichen",
+            "unbestimmt": "keiner beruflichen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "beruflichem",
+            "bestimmt": "dem beruflichen",
+            "unbestimmt": "einem beruflichen"
+          },
+          "Feminin": {
+            "no_article": "beruflicher",
+            "bestimmt": "der beruflichen",
+            "unbestimmt": "einer beruflichen"
+          },
+          "Neutral": {
+            "no_article": "beruflichem",
+            "bestimmt": "dem beruflichen",
+            "unbestimmt": "einem beruflichen"
+          },
+          "Plural": {
+            "no_article": "beruflichen",
+            "bestimmt": "den beruflichen",
+            "unbestimmt": "keinen beruflichen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "beruflichen",
+            "bestimmt": "den beruflichen",
+            "unbestimmt": "einen beruflichen"
+          },
+          "Feminin": {
+            "no_article": "berufliche",
+            "bestimmt": "die berufliche",
+            "unbestimmt": "eine berufliche"
+          },
+          "Neutral": {
+            "no_article": "berufliches",
+            "bestimmt": "das berufliche",
+            "unbestimmt": "ein berufliches"
+          },
+          "Plural": {
+            "no_article": "berufliche",
+            "bestimmt": "die beruflichen",
+            "unbestimmt": "keine beruflichen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   },
   "203": {
     "word": "berufstätig",
@@ -123,6 +1154,99 @@
     "genus": "",
     "article": "",
     "only_plural": "0",
-    "declinations": {}
+    "declensions": {
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "berufstätiger",
+            "bestimmt": "der berufstätige",
+            "unbestimmt": "ein berufstätiger"
+          },
+          "Feminin": {
+            "no_article": "berufstätige",
+            "bestimmt": "die berufstätige",
+            "unbestimmt": "eine berufstätige"
+          },
+          "Neutral": {
+            "no_article": "berufstätiges",
+            "bestimmt": "das berufstätige",
+            "unbestimmt": "ein berufstätiges"
+          },
+          "Plural": {
+            "no_article": "berufstätige",
+            "bestimmt": "die berufstätigen",
+            "unbestimmt": "keine berufstätigen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "berufstätigen",
+            "bestimmt": "des berufstätigen",
+            "unbestimmt": "eines berufstätigen"
+          },
+          "Feminin": {
+            "no_article": "berufstätiger",
+            "bestimmt": "der berufstätigen",
+            "unbestimmt": "einer berufstätigen"
+          },
+          "Neutral": {
+            "no_article": "berufstätigen",
+            "bestimmt": "des berufstätigen",
+            "unbestimmt": "eines berufstätigen"
+          },
+          "Plural": {
+            "no_article": "berufstätiger",
+            "bestimmt": "der berufstätigen",
+            "unbestimmt": "keiner berufstätigen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "berufstätigem",
+            "bestimmt": "dem berufstätigen",
+            "unbestimmt": "einem berufstätigen"
+          },
+          "Feminin": {
+            "no_article": "berufstätiger",
+            "bestimmt": "der berufstätigen",
+            "unbestimmt": "einer berufstätigen"
+          },
+          "Neutral": {
+            "no_article": "berufstätigem",
+            "bestimmt": "dem berufstätigen",
+            "unbestimmt": "einem berufstätigen"
+          },
+          "Plural": {
+            "no_article": "berufstätigen",
+            "bestimmt": "den berufstätigen",
+            "unbestimmt": "keinen berufstätigen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "berufstätigen",
+            "bestimmt": "den berufstätigen",
+            "unbestimmt": "einen berufstätigen"
+          },
+          "Feminin": {
+            "no_article": "berufstätige",
+            "bestimmt": "die berufstätige",
+            "unbestimmt": "eine berufstätige"
+          },
+          "Neutral": {
+            "no_article": "berufstätiges",
+            "bestimmt": "das berufstätige",
+            "unbestimmt": "ein berufstätiges"
+          },
+          "Plural": {
+            "no_article": "berufstätige",
+            "bestimmt": "die berufstätigen",
+            "unbestimmt": "keine berufstätigen"
+          }
+        }
+      },
+      "comparative": {},
+      "superlative": {}
+    }
   }
 }

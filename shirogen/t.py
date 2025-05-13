@@ -1,124 +1,120 @@
 import requests
 from bs4 import BeautifulSoup
+import json
+import time
 
-def scrape_adjective_declensions(word):
-    url = f"https://en.wiktionary.org/wiki/{word}#German"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
+base_url = "https://www.verbformen.de"
 
-    declensions = {}
+genders = ["maskulin", "feminin", "neutral", "plural"]
+cases = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
+types = ["no_article", "bestimmt", "unbestimmt"]
+forms = ["base_form", "comparative", "superlative"]
 
-    # Find all adjective inflection tables
-    for section in soup.find_all("div", class_="NavFrame"):
-        header = section.find("div", class_="NavHead")
-        table = section.find("table", class_="inflection-table")
+case_map = {
+    "Nom.": "Nominativ",
+    "Akk.": "Akkusativ",
+    "Dat.": "Dativ",
+    "Gen.": "Genitiv"
+}
+
+class Adjective:
+    def __init__(self, base_form):
+        self.word = base_form
+        # Fetch the page content
+        self.adjective_url = f"/deklination/adjektive/{self.word}.htm" 
+        response = requests.get(base_url + self.adjective_url)
+        self.base_soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Find the base adjective, its comparative and superlative forms
+        adjective_section = self.base_soup.find('h1', class_="rClear").text.strip()
+        self.adjective_base = adjective_section.split(' ')[-1]
+
+        # Find links to the comparative and superlative forms
+        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href')]
+        self.comparative_link = redirects[1]
+        self.superlative_link = redirects[2]
+
+        # Create output object
+        self.declensions = {"base_form": {}, "comparative": {}, "superlative": {}}
+
+
+    def fetch_form(self, soup, form):
+        """
+        Call this function for each form
+        """
+        declension_section = soup.find_all('div', class_='vTbl')
+        current_type = 0
+        for section in declension_section:
+            # print(section)
+            # Extract table headers and data
+            header = section.find('h2')
+            if not header:
+                header = section.find('h3')      # From the weak declension on the header is in h3
+
+            gender = header.text.strip()
+            if gender.lower() == "singular":
+                break               # From here on we dont need the forms
+            if gender.lower() not in genders:
+                continue
+            table_rows = section.find_all('tr')
+
+            # print(types[current_type])
+            # print(f"Gender: {gender}")
+            for row in table_rows:
+                case = row.find('th').text.strip()
+                declension = ' '.join([elem.text.strip() for elem in row.find_all('td')])
+                # print(f"{case}: {declension}")
+                case_mapped = case_map.get(case)
+                if case_mapped not in self.declensions[form]:
+                    self.declensions[form][case_mapped] = {}
+                if gender not in self.declensions[form][case_mapped]:
+                    self.declensions[form][case_mapped][gender] = {}
+                self.declensions[form][case_mapped][gender][types[current_type]] = declension
+            # print("-" * 20)
+
+            if gender.lower() == genders[3]:
+                current_type += 1
+
+
+    def fetch_one_adjective_full(self):
+        # Load soups
+        response = requests.get(base_url + self.comparative_link)
+        comparative_soup = BeautifulSoup(response.text, 'html.parser')
+        response = requests.get(base_url + self.superlative_link)
+        superlative_soup = BeautifulSoup(response.text, 'html.parser')
         
-        if header and table:
-            label = header.get_text(strip=True)
-            declensions[label] = []
+        self.fetch_form(self.base_soup, forms[0])
+        if comparative_soup : self.fetch_form(comparative_soup, forms[1])
+        if superlative_soup : self.fetch_form(superlative_soup, forms[2])
 
-            # Parse each row of the table
-            for row in table.find_all("tr"):
-                row_data = []
-                for cell in row.find_all(["th", "td"]):
-                    text = cell.get_text(" ", strip=True)
-                    row_data.append(text)
-                if row_data:
-                    declensions[label].append(row_data)
-    
-    return declensions
-
-def get_declension_tables(word):
-    url = f"https://en.wiktionary.org/wiki/{word}#German"
-    r = requests.get(url)
-    soup = BeautifulSoup(r.text, 'html.parser')
-    
-    declensions = {
-        "base_form": {},
-        "comparative": {},
-        "superlative": {}
-    }
-
-    table_labels = {
-        'starke': 'unbestimmt',
-        'schwache': 'bestimmt',
-        'gemischte': 'mixed'
-    }
-
-    nav_heads = soup.find_all("div", class_="NavHead")
-
-    for nav_head in nav_heads:
-        title = nav_head.get_text(strip=True).lower()
-        if "comparative" in title:
-            form_key = "comparative"
-        elif "superlative" in title:
-            form_key = "superlative"
-        else:
-            form_key = "base_form"
-
-        nav_content = nav_head.find_next_sibling("div", class_="NavContent")
-        tables = nav_content.find_all("table", class_="inflection-table")
-
-        for table in tables:
-            caption = table.find_all("td", class_="latn")
-            # print(table)
-            print(caption)
-            if not caption:
-                continue
-            caption_text = caption.get_text(strip=True).lower()
-            decl_type = None
-
-            for k, v in table_labels.items():
-                if k in caption_text:
-                    decl_type = v
-                    break
-            if not decl_type:
-                continue
-
-            rows = table.find_all("tr")
-            case_names = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
-
-            for row in rows:
-                headers = row.find_all("th")
-                cells = row.find_all("td")
-
-                if headers and headers[0].get_text(strip=True) in case_names:
-                    case = headers[0].get_text(strip=True)
-                    values = [c.get_text(strip=True).replace('\xa0', ' ') for c in cells]
-
-                    if len(values) != 4:
-                        continue  # skip malformed rows
-
-                    genders = ["maskuline", "feminine", "neutrum", "plural"]
-                    for i, gender in enumerate(genders):
-                        declensions[form_key].setdefault(case, {}).setdefault(gender, {})
-                        declensions[form_key][case][gender][decl_type] = values[i]
-
-    return declensions, url
-
-def build_entry(word, id_num):
-    declensions, url = get_declension_tables(word)
-    entry = {
-        str(id_num): {
-            "word": word,
-            "url": url,
-            "word_type": "Adjektiv",
-            "genus": "",
-            "article": "",
-            "only_plural": "0",
-            "declinations": declensions
-        }
-    }
-    return entry
-
-declension_data = scrape_adjective_declensions("wichtig")
+        return self.declensions
 
 
-entry = build_entry("wichtig", 1)
-print(entry)
 
-# # Display results
-# for form_type, table in declension_data.items():
-#     print(f"\n{form_type}")
-#     for row in table:
-#         print("\t".join(row))
+
+def update_adjective_data(filepath_in, filepath_out):
+    with open(filepath_in, 'r') as file:
+        existing_data = json.load(file)
+
+    updated_data = existing_data.copy()
+    for key, entry in existing_data.items():
+        word = entry["word"]
+        print(word)
+        adjective = Adjective(word)
+        declensions = adjective.fetch_one_adjective_full()
+        # print(declensions)
+        updated_data[key]["declensions"] = declensions
+
+        # Sleep a little to avoid overloading the server
+        time.sleep(1)
+
+    # Save the enriched data back to the output file
+    with open(filepath_out, "w", encoding="utf-8") as f:
+        json.dump(updated_data, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Declensions added. Output saved to {filepath_out}")
+
+
+
+if __name__ == "__main__":
+    update_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
