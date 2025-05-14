@@ -133,32 +133,36 @@ const GenderQuiz = () => {
     const genderOptions = ['Maskulin', 'Feminin', 'Neutral', 'Plural'];
     const specOptions = ['no_article', 'bestimmt', 'unbestimmt'];
   
-    let randomForm = formOptions[Math.floor(Math.random() * formOptions.length)];
-    const randomCase = caseOptions[Math.floor(Math.random() * caseOptions.length)];
-    const randomGender = genderOptions[Math.floor(Math.random() * genderOptions.length)];
-    const randomSpecification = specOptions[Math.floor(Math.random() * specOptions.length)];
-  
-    let adjective = randomAdjective.declensions[randomForm]?.[randomCase]?.[randomGender]?.[randomSpecification] || '';
-    if (!adjective) {
-      randomForm = formOptions[0]
-      adjective = randomAdjective.declensions[randomForm]?.[randomCase]?.[randomGender]?.[randomSpecification] || '';
+    // Try all combinations in a randomized order for fairness
+    const shuffledForms = shuffle([...formOptions]);
+    const shuffledCases = shuffle([...caseOptions]);
+    const shuffledGenders = shuffle([...genderOptions]);
+    const shuffledSpecs = shuffle([...specOptions]);
+
+    for (const randomForm of shuffledForms) {
+      for (const randomCase of shuffledCases) {
+        for (const randomGender of shuffledGenders) {
+          for (const randomSpec of shuffledSpecs) {
+            const adjective = randomAdjective.declensions?.[randomForm]?.[randomCase]?.[randomGender]?.[randomSpec];
+            if (adjective && adjective.trim() !== '') {
+              return {
+                baseForm: randomAdjective.word,
+                adjective,
+                case: randomCase,
+                form: randomForm,
+                specification: randomSpec,
+                gender: randomGender,
+              };
+            }
+          }
+        }
+      }
     }
 
-    // Avoid having '' viable as an answer for adjectives without data. This is dangerous and only temporary until all adjectives are filled in
-    if (!adjective) {
-      return getRandomAdjective()
-    }
-
-    return {
-      baseForm: randomAdjective.word,
-      adjective: adjective,
-      case: randomCase,
-      form: randomForm,
-      specification: randomSpecification,
-      gender: randomGender
-    };
+    // If no valid adjective form is found for this word, try a different adjective
+    return getRandomAdjective();
   }
-
+  
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
   const adjectiveInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
   
@@ -212,7 +216,19 @@ const GenderQuiz = () => {
 
   const handleAdjectiveSubmit = () => {
     const userAnswer = adjectiveInput.trim().toLowerCase();
-    const correct = currentAdjective.adjective === userAnswer;
+
+    let correctAnswers: string[] = currentAdjective.adjective.split("/");
+
+    if (currentAdjective.adjective.includes(" ")) {
+      const [forms, prefix] = currentAdjective.adjective.split(" ");
+      correctAnswers = forms.split("/").map(form => `${form} ${prefix}`);
+    } else if (currentAdjective.adjective.includes("/")) {
+      correctAnswers = currentAdjective.adjective.split("/")
+    } else {
+      correctAnswers = [currentAdjective.adjective]
+    }
+
+    const correct = correctAnswers.includes(userAnswer);
 
     if (!adjectiveAnswered) {
       if (correct) {

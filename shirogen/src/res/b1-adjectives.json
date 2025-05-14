@@ -32524,114 +32524,114 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "seltener/seltner⁶",
-            "bestimmt": "der seltene/seltne⁶",
-            "unbestimmt": "ein seltener/seltner⁶"
+            "no_article": "seltener/seltner",
+            "bestimmt": "der seltene/seltne",
+            "unbestimmt": "ein seltener/seltner"
           },
           "Feminin": {
-            "no_article": "seltene/seltne⁶",
-            "bestimmt": "die seltene/seltne⁶",
-            "unbestimmt": "eine seltene/seltne⁶"
+            "no_article": "seltene/seltne",
+            "bestimmt": "die seltene/seltne",
+            "unbestimmt": "eine seltene/seltne"
           },
           "Neutral": {
-            "no_article": "seltenes/seltnes⁶",
-            "bestimmt": "das seltene/seltne⁶",
-            "unbestimmt": "ein seltenes/seltnes⁶"
+            "no_article": "seltenes/seltnes",
+            "bestimmt": "das seltene/seltne",
+            "unbestimmt": "ein seltenes/seltnes"
           },
           "Plural": {
-            "no_article": "seltene/seltne⁶",
-            "bestimmt": "die seltenen/seltnen⁶",
-            "unbestimmt": "keine seltenen/seltnen⁶"
+            "no_article": "seltene/seltne",
+            "bestimmt": "die seltenen/seltnen",
+            "unbestimmt": "keine seltenen/seltnen"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "seltenen/seltnen⁶",
-            "bestimmt": "des seltenen/seltnen⁶",
-            "unbestimmt": "eines seltenen/seltnen⁶"
+            "no_article": "seltenen/seltnen",
+            "bestimmt": "des seltenen/seltnen",
+            "unbestimmt": "eines seltenen/seltnen"
           },
           "Feminin": {
-            "no_article": "seltener/seltner⁶",
-            "bestimmt": "der seltenen/seltnen⁶",
-            "unbestimmt": "einer seltenen/seltnen⁶"
+            "no_article": "seltener/seltner",
+            "bestimmt": "der seltenen/seltnen",
+            "unbestimmt": "einer seltenen/seltnen"
           },
           "Neutral": {
-            "no_article": "seltenen/seltnen⁶",
-            "bestimmt": "des seltenen/seltnen⁶",
-            "unbestimmt": "eines seltenen/seltnen⁶"
+            "no_article": "seltenen/seltnen",
+            "bestimmt": "des seltenen/seltnen",
+            "unbestimmt": "eines seltenen/seltnen"
           },
           "Plural": {
-            "no_article": "seltener/seltner⁶",
-            "bestimmt": "der seltenen/seltnen⁶",
-            "unbestimmt": "keiner seltenen/seltnen⁶"
+            "no_article": "seltener/seltner",
+            "bestimmt": "der seltenen/seltnen",
+            "unbestimmt": "keiner seltenen/seltnen"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "seltenem/seltnem⁶",
-            "bestimmt": "dem seltenen/seltnen⁶",
-            "unbestimmt": "einem seltenen/seltnen⁶"
+            "no_article": "seltenem/seltnem",
+            "bestimmt": "dem seltenen/seltnen",
+            "unbestimmt": "einem seltenen/seltnen"
           },
           "Feminin": {
-            "no_article": "seltener/seltner⁶",
-            "bestimmt": "der seltenen/seltnen⁶",
-            "unbestimmt": "einer seltenen/seltnen⁶"
+            "no_article": "seltener/seltner",
+            "bestimmt": "der seltenen/seltnen",
+            "unbestimmt": "einer seltenen/seltnen"
           },
           "Neutral": {
-            "no_article": "seltenem/seltnem⁶",
-            "bestimmt": "dem seltenen/seltnen⁶",
-            "unbestimmt": "einem seltenen/seltnen⁶"
+            "no_article": "seltenem/seltnem",
+            "bestimmt": "dem seltenen/seltnen",
+            "unbestimmt": "einem seltenen/seltnen"
           },
           "Plural": {
-            "no_article": "seltenen/seltnen⁶",
-            "bestimmt": "den seltenen/seltnen⁶",
-            "unbestimmt": "keinen seltenen/seltnen⁶"
+            "no_article": "seltenen/seltnen",
+            "bestimmt": "den seltenen/seltnen",
+            "unbestimmt": "keinen seltenen/seltnen"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "seltenen/seltnen⁶",
-            "bestimmt": "den seltenen/seltnen⁶",
-            "unbestimmt": "einen seltenen/seltnen⁶"
+            "no_article": "seltenen/seltnen",
+            "bestimmt": "den seltenen/seltnen",
+            "unbestimmt": "einen seltenen/seltnen"
           },
           "Feminin": {
-            "no_article": "seltene/seltne⁶",
-            "bestimmt": "die seltene/seltne⁶",
-            "unbestimmt": "eine seltene/seltne⁶"
+            "no_article": "seltene/seltne",
+            "bestimmt": "die seltene/seltne",
+            "unbestimmt": "eine seltene/seltne"
           },
           "Neutral": {
-            "no_article": "seltenes/seltnes⁶",
-            "bestimmt": "das seltene/seltne⁶",
-            "unbestimmt": "ein seltenes/seltnes⁶"
+            "no_article": "seltenes/seltnes",
+            "bestimmt": "das seltene/seltne",
+            "unbestimmt": "ein seltenes/seltnes"
           },
           "Plural": {
-            "no_article": "seltene/seltne⁶",
-            "bestimmt": "die seltenen/seltnen⁶",
-            "unbestimmt": "keine seltenen/seltnen⁶"
+            "no_article": "seltene/seltne",
+            "bestimmt": "die seltenen/seltnen",
+            "unbestimmt": "keine seltenen/seltnen"
           }
         }
       },
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "seltenerer/seltnerer⁴",
-            "bestimmt": "der seltenere/seltnere⁴",
-            "unbestimmt": "ein seltenerer/seltnerer⁴"
+            "no_article": "seltenerer/seltnerer",
+            "bestimmt": "der seltenere/seltnere",
+            "unbestimmt": "ein seltenerer/seltnerer"
           },
           "Feminin": {
-            "no_article": "seltenere/seltnere⁴",
-            "bestimmt": "die seltenere/seltnere⁴",
-            "unbestimmt": "eine seltenere/seltnere⁴"
+            "no_article": "seltenere/seltnere",
+            "bestimmt": "die seltenere/seltnere",
+            "unbestimmt": "eine seltenere/seltnere"
           },
           "Neutral": {
-            "no_article": "selteneres/seltneres⁴",
-            "bestimmt": "das seltenere/seltnere⁴",
-            "unbestimmt": "ein selteneres/seltneres⁴"
+            "no_article": "selteneres/seltneres",
+            "bestimmt": "das seltenere/seltnere",
+            "unbestimmt": "ein selteneres/seltneres"
           },
           "Plural": {
-            "no_article": "seltenere/seltnere⁴",
-            "bestimmt": "die selteneren/seltneren⁴",
-            "unbestimmt": "keine selteneren/seltneren⁴"
+            "no_article": "seltenere/seltnere",
+            "bestimmt": "die selteneren/seltneren",
+            "unbestimmt": "keine selteneren/seltneren"
           }
         },
         "Genitiv": {
@@ -32641,63 +32641,63 @@
             "unbestimmt": "eines selteneren/seltneren⁴"
           },
           "Feminin": {
-            "no_article": "seltenerer/seltnerer⁴",
-            "bestimmt": "der selteneren/seltneren⁴",
-            "unbestimmt": "einer selteneren/seltneren⁴"
+            "no_article": "seltenerer/seltnerer",
+            "bestimmt": "der selteneren/seltneren",
+            "unbestimmt": "einer selteneren/seltneren"
           },
           "Neutral": {
-            "no_article": "selteneren/seltneren⁴",
-            "bestimmt": "des selteneren/seltneren⁴",
-            "unbestimmt": "eines selteneren/seltneren⁴"
+            "no_article": "selteneren/seltneren",
+            "bestimmt": "des selteneren/seltneren",
+            "unbestimmt": "eines selteneren/seltneren"
           },
           "Plural": {
-            "no_article": "seltenerer/seltnerer⁴",
-            "bestimmt": "der selteneren/seltneren⁴",
-            "unbestimmt": "keiner selteneren/seltneren⁴"
+            "no_article": "seltenerer/seltnerer",
+            "bestimmt": "der selteneren/seltneren",
+            "unbestimmt": "keiner selteneren/seltneren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "seltenerem/seltnerem⁴",
-            "bestimmt": "dem selteneren/seltneren⁴",
-            "unbestimmt": "einem selteneren/seltneren⁴"
+            "no_article": "seltenerem/seltnerem",
+            "bestimmt": "dem selteneren/seltneren",
+            "unbestimmt": "einem selteneren/seltneren"
           },
           "Feminin": {
-            "no_article": "seltenerer/seltnerer⁴",
-            "bestimmt": "der selteneren/seltneren⁴",
-            "unbestimmt": "einer selteneren/seltneren⁴"
+            "no_article": "seltenerer/seltnerer",
+            "bestimmt": "der selteneren/seltneren",
+            "unbestimmt": "einer selteneren/seltneren"
           },
           "Neutral": {
-            "no_article": "seltenerem/seltnerem⁴",
-            "bestimmt": "dem selteneren/seltneren⁴",
-            "unbestimmt": "einem selteneren/seltneren⁴"
+            "no_article": "seltenerem/seltnerem",
+            "bestimmt": "dem selteneren/seltneren",
+            "unbestimmt": "einem selteneren/seltneren"
           },
           "Plural": {
-            "no_article": "selteneren/seltneren⁴",
-            "bestimmt": "den selteneren/seltneren⁴",
-            "unbestimmt": "keinen selteneren/seltneren⁴"
+            "no_article": "selteneren/seltneren",
+            "bestimmt": "den selteneren/seltneren",
+            "unbestimmt": "keinen selteneren/seltneren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "selteneren/seltneren⁴",
-            "bestimmt": "den selteneren/seltneren⁴",
-            "unbestimmt": "einen selteneren/seltneren⁴"
+            "no_article": "selteneren/seltneren",
+            "bestimmt": "den selteneren/seltneren",
+            "unbestimmt": "einen selteneren/seltneren"
           },
           "Feminin": {
-            "no_article": "seltenere/seltnere⁴",
-            "bestimmt": "die seltenere/seltnere⁴",
-            "unbestimmt": "eine seltenere/seltnere⁴"
+            "no_article": "seltenere/seltnere",
+            "bestimmt": "die seltenere/seltnere",
+            "unbestimmt": "eine seltenere/seltnere"
           },
           "Neutral": {
-            "no_article": "selteneres/seltneres⁴",
-            "bestimmt": "das seltenere/seltnere⁴",
-            "unbestimmt": "ein selteneres/seltneres⁴"
+            "no_article": "selteneres/seltneres",
+            "bestimmt": "das seltenere/seltnere",
+            "unbestimmt": "ein selteneres/seltneres"
           },
           "Plural": {
-            "no_article": "seltenere/seltnere⁴",
-            "bestimmt": "die selteneren/seltneren⁴",
-            "unbestimmt": "keine selteneren/seltneren⁴"
+            "no_article": "seltenere/seltnere",
+            "bestimmt": "die selteneren/seltneren",
+            "unbestimmt": "keine selteneren/seltneren"
           }
         }
       },
