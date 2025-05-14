@@ -182,6 +182,7 @@ button:focus-visible {
   align-items: center;
   gap: 1.5rem;                /* Space between the buttons */
   margin-bottom: 2rem;
+  animation: slideFadeIn 0.4s ease-out; /* On site load fade in */
 }
 
 .mode-button {
@@ -223,10 +224,6 @@ button:focus-visible {
   }
 }
 
-.mode-switch-container {
-  animation: slideFadeIn 0.4s ease-out; /* On site load fade in */
-}
-
 .pronoun-tag {
   font-size: 1.25rem;
   font-weight: 600;
@@ -264,7 +261,34 @@ button:focus-visible {
   height: 44px;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 500px) {
+  .quiz-container {
+    max-width: 350px;
+  }
+  .mode-switch-container {
+    gap: 0
+  }
+  .quiz-container h2 {
+    font-size: 1rem;
+  }
+  .quiz-container strong {
+    font-size: 1rem;
+  }
+  .feedback {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  .mode-button {
+    min-width: 100px;
+  }
+  .text-input {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
   .verb-input-row {
     flex-wrap: nowrap; /* force same line on desktop */
   }

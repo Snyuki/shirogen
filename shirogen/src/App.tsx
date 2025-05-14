@@ -76,6 +76,15 @@ const GenderQuiz = () => {
     bestimmt: "Bestimmt",
     unbestimmt: "Unbestimmt"
   };
+  const [adjectiveButtonLabel, setAdjectiveButtonLabel] = useState('Adjectives');
+
+  const updateAdjectiveButtonLabel = () => {
+    if (window.innerWidth < 500) {
+      setAdjectiveButtonLabel('Adj.');
+    } else {
+      setAdjectiveButtonLabel('Adjectives');
+    }
+  };
 
   function getRandomNoun() {
     const randomIndex = Math.floor(Math.random() * shuffledNouns.length);
@@ -236,6 +245,14 @@ const GenderQuiz = () => {
     }
   }, [mode, currentAdjective]);
 
+  useEffect(() => {
+    window.addEventListener('resize', updateAdjectiveButtonLabel);
+    updateAdjectiveButtonLabel();
+    return () => {
+      window.removeEventListener('resize', updateAdjectiveButtonLabel);
+    };
+  }, []);
+
   const totalAnswers = correctAnswers + incorrectAnswers;
   const correctPercentage = totalAnswers > 0 ? (correctAnswers / totalAnswers) * 100 : 0;
   const incorrectPercentage = totalAnswers === 0 ? 0 : 100 - correctPercentage;
@@ -259,7 +276,7 @@ const GenderQuiz = () => {
           className={`mode-button ${mode === 'adjective' ? 'active' : ''}`}
           onClick={() => setMode('adjective')}
         >
-          Adjectives
+          {adjectiveButtonLabel}
         </button>
       </div>
       <div className="progress-bar-text">
