@@ -11,6 +11,7 @@ const InfoTooltip: React.FC<InfoTooltipProps> = ({updatePopupText} : { updatePop
 
     const togglePopup = () => {
         setMessage(updatePopupText())
+        console.log(message)
         setShowPopup(prev => !prev)
     };
 

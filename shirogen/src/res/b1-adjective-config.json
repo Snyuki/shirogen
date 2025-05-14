@@ -1,0 +1,6 @@
+{
+    "Formen": ["base_form", "comparative", "superlative"],
+    "Kasi": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
+    "Gender": ["Maskulin", "Feminin", "Neutral", "Plural"],
+    "Specifications": ["bestimmt", "unbestimmt"]
+}

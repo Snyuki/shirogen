@@ -11,6 +11,7 @@ import b1nounsData from './res/b1-nouns.json'
 import b1VerbsData from './res/b1-verbs.json'
 import b1VerbsTensesConfig from './res/b1-verb-tenses-config.json'
 import b1AdjectiveData from './res/b1-adjectives.json'
+import b1AdjectiveConfig from './res/b1-adjective-config.json'
 
 type VerbFormSelection = {
   baseForm: string;
@@ -130,12 +131,19 @@ const GenderQuiz = () => {
     };
   }
 
-  function getRandomAdjective(): AdjectiveFormSelection {
+  function getRandomAdjective(attempts = 0): AdjectiveFormSelection {
+    // Infinite recursion protection
+    if (attempts > 10) {
+      // TODO Should show Popup in the future
+      throw new Error("No valid adjective form found after multiple attempts");
+    }
+
     const randomAdjective = b1adjectives[Math.floor(Math.random() * b1adjectives.length)];
-    const formOptions = ['base_form', 'comparative', 'superlative'];
-    const caseOptions = ['Nominativ', 'Genitiv', 'Dativ', 'Akkusativ'];
-    const genderOptions = ['Maskulin', 'Feminin', 'Neutral', 'Plural'];
-    const specOptions = ['no_article', 'bestimmt', 'unbestimmt'];
+    const formOptions = b1AdjectiveConfig.Formen;
+    const caseOptions = b1AdjectiveConfig.Kasi;
+    const genderOptions = b1AdjectiveConfig.Gender;
+    const specOptions = b1AdjectiveConfig.Specifications;
+    // TODO Add binary value to config to just toggle each instead of hardcoding
   
     // Try all combinations in a randomized order for fairness
     const shuffledForms = shuffle([...formOptions]);
@@ -164,7 +172,7 @@ const GenderQuiz = () => {
     }
 
     // If no valid adjective form is found for this word, try a different adjective
-    return getRandomAdjective();
+    return getRandomAdjective(attempts + 1);
   }
   
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
