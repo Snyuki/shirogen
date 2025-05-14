@@ -1,12 +1,10 @@
 
 
 .infoButton {
-    /* size it small */
-    width: 1em;               /* roughly one letter wide */
+    width: 1em;                 
     height: 1em;                /* one line-height tall */
     padding: 0;                 /* no extra padding */
     
-    /* text styling */
     font-size: 0.75em;          /* smaller than body text */
     line-height: 1em;           /* exactly matches button height */
     font-weight: bold;
@@ -14,9 +12,8 @@
     /* center “i” inside the box */
     display: inline-flex;
     align-items: flex-start;    /* top-align the “i” within the 1em box */
-    justify-content: center;    /* center horizontally */
+    justify-content: center;    
     
-    /* look */
     background: none;
     border: 1px solid #ffffff;
     border-radius: 50%;

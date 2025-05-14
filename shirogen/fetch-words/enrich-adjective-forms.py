@@ -19,6 +19,11 @@ case_map = {
     "Gen.": "Genitiv"
 }
 
+class FetchError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
+
 class Adjective:
     def __init__(self, base_form):
         self.word = base_form
@@ -27,15 +32,22 @@ class Adjective:
     def init_fetching(self):
         # Fetch the page content
         self.adjective_url = f"/deklination/adjektive/{self.word}.htm" 
-        response = requests.get(base_url + self.adjective_url)
+        response = None
+        try:
+            response = requests.get(base_url + self.adjective_url)
+        except requests.exceptions.ConnectionError:
+            raise FetchError("Remote Closed")
         self.base_soup = BeautifulSoup(response.text, 'html.parser')
 
         # Find the base adjective, its comparative and superlative forms
-        adjective_section = self.base_soup.find('h1', class_="rClear").text.strip()
-        self.adjective_base = adjective_section.split(' ')[-1]
+        try:
+            adjective_section = self.base_soup.find('h1', class_="rClear").text.strip()
+            self.adjective_base = adjective_section.split(' ')[-1]
+        except AttributeError:
+            raise FetchError("Site has changed")
 
         # Find links to the comparative and superlative forms
-        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href') if "adjektive" in a ]
+        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href') and "adjektive" in a['href'] ]
         self.comparative_link = ""
         self.superlative_link = ""
         if len(redirects) >= 2: self.comparative_link = redirects[1]
@@ -53,7 +65,6 @@ class Adjective:
         declension_section = soup.find_all('div', class_='vTbl')
         current_type = 0
         for section in declension_section:
-            # print(section)
             # Extract table headers and data
             header = section.find('h2')
             if not header:
@@ -66,19 +77,15 @@ class Adjective:
                 continue
             table_rows = section.find_all('tr')
 
-            # print(types[current_type])
-            # print(f"Gender: {gender}")
             for row in table_rows:
                 case = row.find('th').text.strip()
                 declension = ' '.join([elem.text.strip() for elem in row.find_all('td')])
-                # print(f"{case}: {declension}")
                 case_mapped = case_map.get(case)
                 if case_mapped not in self.declensions[form]:
                     self.declensions[form][case_mapped] = {}
                 if gender not in self.declensions[form][case_mapped]:
                     self.declensions[form][case_mapped][gender] = {}
                 self.declensions[form][case_mapped][gender][types[current_type]] = declension
-            # print("-" * 20)
 
             if gender.lower() == genders[3]:
                 current_type += 1
@@ -87,10 +94,17 @@ class Adjective:
     def fetch_one_adjective_full(self):
         # Load soups
         self.init_fetching()
-        response = requests.get(base_url + self.comparative_link)
-        comparative_soup = BeautifulSoup(response.text, 'html.parser')
-        response = requests.get(base_url + self.superlative_link)
-        superlative_soup = BeautifulSoup(response.text, 'html.parser')
+        print(self.comparative_link, end=" | ")
+        print(self.superlative_link)
+        comparative_soup = ""
+        superlative_soup = ""
+        if self.comparative_link:
+            response = requests.get(base_url + self.comparative_link)
+            comparative_soup = BeautifulSoup(response.text, 'html.parser')
+
+        if self.superlative_link:
+            response = requests.get(base_url + self.superlative_link)
+            superlative_soup = BeautifulSoup(response.text, 'html.parser')
         
         self.fetch_form(self.base_soup, forms[0])
         if comparative_soup : self.fetch_form(comparative_soup, forms[1])
@@ -128,21 +142,20 @@ def update_adjective_data(filepath_in, filepath_out):
     updated_data = existing_data.copy()
     for key, entry in existing_data.items():
         word = entry["word"]
-        print(word)
+        print(word, end=": ")
         adjective = Adjective(word)
         try:
             declensions = adjective.fetch_one_adjective_full()
-        except:
+        except FetchError:
             timer_break[0] = True
             input("Waiting...")
             timer_break[0] = False
             declensions = adjective.fetch_one_adjective_full()
-        # print(declensions)
         updated_data[key]["declensions"] = declensions
         completed[0] += 1
  
         # Sleep a little to avoid overloading the server
-        time.sleep(1)
+        time.sleep(2)
 
     # Save the enriched data back to the output file
     with open(filepath_out, "w", encoding="utf-8") as f:
@@ -151,6 +164,30 @@ def update_adjective_data(filepath_in, filepath_out):
     print(f"✅ Declensions added. Output saved to {filepath_out}")
 
 
+def update_specific_adjective_data(filepath_in, filepath_out, adjective):
+    with open(filepath_in, 'r') as file:
+        existing_data = json.load(file)
+
+    updated_data = existing_data.copy()
+    for key, entry in existing_data.items():
+        word = entry["word"]
+        if word != adjective:
+            continue
+        print(word, end=' found:')
+        adjective = Adjective(word)
+        try:
+            declensions = adjective.fetch_one_adjective_full()
+        except FetchError:
+            input("Waiting...")
+            declensions = adjective.fetch_one_adjective_full()
+        updated_data[key]["declensions"] = declensions
+        break
+
+    # Save the enriched data back to the output file
+    with open(filepath_out, "w", encoding="utf-8") as f:
+        json.dump(updated_data, f, indent=2, ensure_ascii=False)
+
 
 if __name__ == "__main__":
-    update_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json")
+    # update_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json")
+    update_specific_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json", "milde")
