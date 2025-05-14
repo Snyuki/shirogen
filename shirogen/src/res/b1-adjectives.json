@@ -20772,9 +20772,276 @@
     "article": "",
     "only_plural": "0",
     "declensions": {
-      "base_form": {},
-      "comparative": {},
-      "superlative": {}
+      "base_form": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "milder",
+            "bestimmt": "der milde",
+            "unbestimmt": "ein milder"
+          },
+          "Feminin": {
+            "no_article": "milde",
+            "bestimmt": "die milde",
+            "unbestimmt": "eine milde"
+          },
+          "Neutral": {
+            "no_article": "mildes",
+            "bestimmt": "das milde",
+            "unbestimmt": "ein mildes"
+          },
+          "Plural": {
+            "no_article": "milde",
+            "bestimmt": "die milden",
+            "unbestimmt": "keine milden"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "milden",
+            "bestimmt": "des milden",
+            "unbestimmt": "eines milden"
+          },
+          "Feminin": {
+            "no_article": "milder",
+            "bestimmt": "der milden",
+            "unbestimmt": "einer milden"
+          },
+          "Neutral": {
+            "no_article": "milden",
+            "bestimmt": "des milden",
+            "unbestimmt": "eines milden"
+          },
+          "Plural": {
+            "no_article": "milder",
+            "bestimmt": "der milden",
+            "unbestimmt": "keiner milden"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "mildem",
+            "bestimmt": "dem milden",
+            "unbestimmt": "einem milden"
+          },
+          "Feminin": {
+            "no_article": "milder",
+            "bestimmt": "der milden",
+            "unbestimmt": "einer milden"
+          },
+          "Neutral": {
+            "no_article": "mildem",
+            "bestimmt": "dem milden",
+            "unbestimmt": "einem milden"
+          },
+          "Plural": {
+            "no_article": "milden",
+            "bestimmt": "den milden",
+            "unbestimmt": "keinen milden"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "milden",
+            "bestimmt": "den milden",
+            "unbestimmt": "einen milden"
+          },
+          "Feminin": {
+            "no_article": "milde",
+            "bestimmt": "die milde",
+            "unbestimmt": "eine milde"
+          },
+          "Neutral": {
+            "no_article": "mildes",
+            "bestimmt": "das milde",
+            "unbestimmt": "ein mildes"
+          },
+          "Plural": {
+            "no_article": "milde",
+            "bestimmt": "die milden",
+            "unbestimmt": "keine milden"
+          }
+        }
+      },
+      "comparative": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "milderer",
+            "bestimmt": "der mildere",
+            "unbestimmt": "ein milderer"
+          },
+          "Feminin": {
+            "no_article": "mildere",
+            "bestimmt": "die mildere",
+            "unbestimmt": "eine mildere"
+          },
+          "Neutral": {
+            "no_article": "milderes",
+            "bestimmt": "das mildere",
+            "unbestimmt": "ein milderes"
+          },
+          "Plural": {
+            "no_article": "mildere",
+            "bestimmt": "die milderen",
+            "unbestimmt": "keine milderen"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "milderen",
+            "bestimmt": "des milderen",
+            "unbestimmt": "eines milderen"
+          },
+          "Feminin": {
+            "no_article": "milderer",
+            "bestimmt": "der milderen",
+            "unbestimmt": "einer milderen"
+          },
+          "Neutral": {
+            "no_article": "milderen",
+            "bestimmt": "des milderen",
+            "unbestimmt": "eines milderen"
+          },
+          "Plural": {
+            "no_article": "milderer",
+            "bestimmt": "der milderen",
+            "unbestimmt": "keiner milderen"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "milderem",
+            "bestimmt": "dem milderen",
+            "unbestimmt": "einem milderen"
+          },
+          "Feminin": {
+            "no_article": "milderer",
+            "bestimmt": "der milderen",
+            "unbestimmt": "einer milderen"
+          },
+          "Neutral": {
+            "no_article": "milderem",
+            "bestimmt": "dem milderen",
+            "unbestimmt": "einem milderen"
+          },
+          "Plural": {
+            "no_article": "milderen",
+            "bestimmt": "den milderen",
+            "unbestimmt": "keinen milderen"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "milderen",
+            "bestimmt": "den milderen",
+            "unbestimmt": "einen milderen"
+          },
+          "Feminin": {
+            "no_article": "mildere",
+            "bestimmt": "die mildere",
+            "unbestimmt": "eine mildere"
+          },
+          "Neutral": {
+            "no_article": "milderes",
+            "bestimmt": "das mildere",
+            "unbestimmt": "ein milderes"
+          },
+          "Plural": {
+            "no_article": "mildere",
+            "bestimmt": "die milderen",
+            "unbestimmt": "keine milderen"
+          }
+        }
+      },
+      "superlative": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "mildester",
+            "bestimmt": "der mildeste",
+            "unbestimmt": "ein mildester"
+          },
+          "Feminin": {
+            "no_article": "mildeste",
+            "bestimmt": "die mildeste",
+            "unbestimmt": "eine mildeste"
+          },
+          "Neutral": {
+            "no_article": "mildestes",
+            "bestimmt": "das mildeste",
+            "unbestimmt": "ein mildestes"
+          },
+          "Plural": {
+            "no_article": "mildeste",
+            "bestimmt": "die mildesten",
+            "unbestimmt": "keine mildesten"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "mildesten",
+            "bestimmt": "des mildesten",
+            "unbestimmt": "eines mildesten"
+          },
+          "Feminin": {
+            "no_article": "mildester",
+            "bestimmt": "der mildesten",
+            "unbestimmt": "einer mildesten"
+          },
+          "Neutral": {
+            "no_article": "mildesten",
+            "bestimmt": "des mildesten",
+            "unbestimmt": "eines mildesten"
+          },
+          "Plural": {
+            "no_article": "mildester",
+            "bestimmt": "der mildesten",
+            "unbestimmt": "keiner mildesten"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "mildestem",
+            "bestimmt": "dem mildesten",
+            "unbestimmt": "einem mildesten"
+          },
+          "Feminin": {
+            "no_article": "mildester",
+            "bestimmt": "der mildesten",
+            "unbestimmt": "einer mildesten"
+          },
+          "Neutral": {
+            "no_article": "mildestem",
+            "bestimmt": "dem mildesten",
+            "unbestimmt": "einem mildesten"
+          },
+          "Plural": {
+            "no_article": "mildesten",
+            "bestimmt": "den mildesten",
+            "unbestimmt": "keinen mildesten"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "mildesten",
+            "bestimmt": "den mildesten",
+            "unbestimmt": "einen mildesten"
+          },
+          "Feminin": {
+            "no_article": "mildeste",
+            "bestimmt": "die mildeste",
+            "unbestimmt": "eine mildeste"
+          },
+          "Neutral": {
+            "no_article": "mildestes",
+            "bestimmt": "das mildeste",
+            "unbestimmt": "ein mildestes"
+          },
+          "Plural": {
+            "no_article": "mildeste",
+            "bestimmt": "die mildesten",
+            "unbestimmt": "keine mildesten"
+          }
+        }
+      }
     }
   },
   "997": {
@@ -21066,8 +21333,186 @@
     "only_plural": "0",
     "declensions": {
       "base_form": {},
-      "comparative": {},
-      "superlative": {}
+      "comparative": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "mittlerer",
+            "bestimmt": "der mittlere",
+            "unbestimmt": "ein mittlerer"
+          },
+          "Feminin": {
+            "no_article": "mittlere",
+            "bestimmt": "die mittlere",
+            "unbestimmt": "eine mittlere"
+          },
+          "Neutral": {
+            "no_article": "mittleres",
+            "bestimmt": "das mittlere",
+            "unbestimmt": "ein mittleres"
+          },
+          "Plural": {
+            "no_article": "mittlere",
+            "bestimmt": "die mittleren",
+            "unbestimmt": "keine mittleren"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "mittleren",
+            "bestimmt": "des mittleren",
+            "unbestimmt": "eines mittleren"
+          },
+          "Feminin": {
+            "no_article": "mittlerer",
+            "bestimmt": "der mittleren",
+            "unbestimmt": "einer mittleren"
+          },
+          "Neutral": {
+            "no_article": "mittleren",
+            "bestimmt": "des mittleren",
+            "unbestimmt": "eines mittleren"
+          },
+          "Plural": {
+            "no_article": "mittlerer",
+            "bestimmt": "der mittleren",
+            "unbestimmt": "keiner mittleren"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "mittlerem",
+            "bestimmt": "dem mittleren",
+            "unbestimmt": "einem mittleren"
+          },
+          "Feminin": {
+            "no_article": "mittlerer",
+            "bestimmt": "der mittleren",
+            "unbestimmt": "einer mittleren"
+          },
+          "Neutral": {
+            "no_article": "mittlerem",
+            "bestimmt": "dem mittleren",
+            "unbestimmt": "einem mittleren"
+          },
+          "Plural": {
+            "no_article": "mittleren",
+            "bestimmt": "den mittleren",
+            "unbestimmt": "keinen mittleren"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "mittleren",
+            "bestimmt": "den mittleren",
+            "unbestimmt": "einen mittleren"
+          },
+          "Feminin": {
+            "no_article": "mittlere",
+            "bestimmt": "die mittlere",
+            "unbestimmt": "eine mittlere"
+          },
+          "Neutral": {
+            "no_article": "mittleres",
+            "bestimmt": "das mittlere",
+            "unbestimmt": "ein mittleres"
+          },
+          "Plural": {
+            "no_article": "mittlere",
+            "bestimmt": "die mittleren",
+            "unbestimmt": "keine mittleren"
+          }
+        }
+      },
+      "superlative": {
+        "Nominativ": {
+          "Maskulin": {
+            "no_article": "mittelster",
+            "bestimmt": "der mittelste",
+            "unbestimmt": "ein mittelster"
+          },
+          "Feminin": {
+            "no_article": "mittelste",
+            "bestimmt": "die mittelste",
+            "unbestimmt": "eine mittelste"
+          },
+          "Neutral": {
+            "no_article": "mittelstes",
+            "bestimmt": "das mittelste",
+            "unbestimmt": "ein mittelstes"
+          },
+          "Plural": {
+            "no_article": "mittelste",
+            "bestimmt": "die mittelsten",
+            "unbestimmt": "keine mittelsten"
+          }
+        },
+        "Genitiv": {
+          "Maskulin": {
+            "no_article": "mittelsten",
+            "bestimmt": "des mittelsten",
+            "unbestimmt": "eines mittelsten"
+          },
+          "Feminin": {
+            "no_article": "mittelster",
+            "bestimmt": "der mittelsten",
+            "unbestimmt": "einer mittelsten"
+          },
+          "Neutral": {
+            "no_article": "mittelsten",
+            "bestimmt": "des mittelsten",
+            "unbestimmt": "eines mittelsten"
+          },
+          "Plural": {
+            "no_article": "mittelster",
+            "bestimmt": "der mittelsten",
+            "unbestimmt": "keiner mittelsten"
+          }
+        },
+        "Dativ": {
+          "Maskulin": {
+            "no_article": "mittelstem",
+            "bestimmt": "dem mittelsten",
+            "unbestimmt": "einem mittelsten"
+          },
+          "Feminin": {
+            "no_article": "mittelster",
+            "bestimmt": "der mittelsten",
+            "unbestimmt": "einer mittelsten"
+          },
+          "Neutral": {
+            "no_article": "mittelstem",
+            "bestimmt": "dem mittelsten",
+            "unbestimmt": "einem mittelsten"
+          },
+          "Plural": {
+            "no_article": "mittelsten",
+            "bestimmt": "den mittelsten",
+            "unbestimmt": "keinen mittelsten"
+          }
+        },
+        "Akkusativ": {
+          "Maskulin": {
+            "no_article": "mittelsten",
+            "bestimmt": "den mittelsten",
+            "unbestimmt": "einen mittelsten"
+          },
+          "Feminin": {
+            "no_article": "mittelste",
+            "bestimmt": "die mittelste",
+            "unbestimmt": "eine mittelste"
+          },
+          "Neutral": {
+            "no_article": "mittelstes",
+            "bestimmt": "das mittelste",
+            "unbestimmt": "ein mittelstes"
+          },
+          "Plural": {
+            "no_article": "mittelste",
+            "bestimmt": "die mittelsten",
+            "unbestimmt": "keine mittelsten"
+          }
+        }
+      }
     }
   },
   "1007": {

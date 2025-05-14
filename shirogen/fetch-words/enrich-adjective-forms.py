@@ -215,5 +215,5 @@ def update_specific_adjective_data(filepath_in, filepath_out, adjective):
 
 if __name__ == "__main__":
     # update_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json")
-    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives-tm2.json", "mild")
-    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives-tmp.json", "mittlere")
+    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives.json", "mild")
+    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives.json", "mittlere")
