@@ -216,30 +216,36 @@ const GenderQuiz = () => {
 
   const handleAdjectiveSubmit = () => {
     const userAnswer = adjectiveInput.trim().toLowerCase();
-
-    let correctAnswers: string[] = currentAdjective.adjective.split("/");
-
+  
+    let correctAnswers: string[] = [];
+  
     if (currentAdjective.adjective.includes(" ")) {
-      const [forms, prefix] = currentAdjective.adjective.split(" ");
-      correctAnswers = forms.split("/").map(form => `${form} ${prefix}`);
+      const [prefix, formsPart] = currentAdjective.adjective.split(" ");
+      const forms = formsPart.split("/");
+      correctAnswers = forms.map(form => `${prefix} ${form}`.toLowerCase());
     } else if (currentAdjective.adjective.includes("/")) {
-      correctAnswers = currentAdjective.adjective.split("/")
+      correctAnswers = currentAdjective.adjective.split("/").map(a => a.toLowerCase());
     } else {
-      correctAnswers = [currentAdjective.adjective]
+      correctAnswers = [currentAdjective.adjective.toLowerCase()];
     }
-
+  
     const correct = correctAnswers.includes(userAnswer);
-
+  
     if (!adjectiveAnswered) {
       if (correct) {
-        setCorrectAnswers(prev => prev + 1)
+        setCorrectAnswers(prev => prev + 1);
       } else {
-        setIncorrectAnswers(prev => prev + 1)
+        setIncorrectAnswers(prev => prev + 1);
       }
-      setAdjectiveAnswered(true)
+      setAdjectiveAnswered(true);
     }
-    setAdjectiveFeedback(correct ? "Correct!" : 'Wrong! The correct answer is: ' + currentAdjective.adjective + '!');
-  }
+  
+    setAdjectiveFeedback(
+      correct
+        ? "Correct!"
+        : `Wrong! The correct answer${correctAnswers.length === 1 ? ' is' : 's are'}: ${correctAnswers.join(" / ")}!`
+    );
+  };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && e.ctrlKey && mode === 'gender' && nounAnswered) {

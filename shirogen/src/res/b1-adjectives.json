@@ -2838,90 +2838,90 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Feminin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Neutral": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Plural": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Feminin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Neutral": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Plural": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Feminin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Neutral": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Plural": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Feminin": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Neutral": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           },
           "Plural": {
-            "no_article": "-",
-            "bestimmt": "-",
-            "unbestimmt": "-"
+            "no_article": "",
+            "bestimmt": "",
+            "unbestimmt": ""
           }
         }
       },
