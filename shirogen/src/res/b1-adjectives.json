@@ -18815,90 +18815,90 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "leckerer/leckrer⁶",
-            "bestimmt": "der leckere/leckre⁶",
-            "unbestimmt": "ein leckerer/leckrer⁶"
+            "no_article": "leckerer/leckrer",
+            "bestimmt": "der leckere/leckre",
+            "unbestimmt": "ein leckerer/leckrer"
           },
           "Feminin": {
-            "no_article": "leckere/leckre⁶",
-            "bestimmt": "die leckere/leckre⁶",
-            "unbestimmt": "eine leckere/leckre⁶"
+            "no_article": "leckere/leckre",
+            "bestimmt": "die leckere/leckre",
+            "unbestimmt": "eine leckere/leckre"
           },
           "Neutral": {
-            "no_article": "leckeres/leckres⁶",
-            "bestimmt": "das leckere/leckre⁶",
-            "unbestimmt": "ein leckeres/leckres⁶"
+            "no_article": "leckeres/leckres",
+            "bestimmt": "das leckere/leckre",
+            "unbestimmt": "ein leckeres/leckres"
           },
           "Plural": {
-            "no_article": "leckere/leckre⁶",
-            "bestimmt": "die leckeren/leckren⁶/leckern",
-            "unbestimmt": "keine leckeren/leckren⁶/leckern"
+            "no_article": "leckere/leckre",
+            "bestimmt": "die leckeren/leckren/leckern",
+            "unbestimmt": "keine leckeren/leckren/leckern"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "leckeren/leckren⁶/leckern",
-            "bestimmt": "des leckeren/leckren⁶/leckern",
-            "unbestimmt": "eines leckeren/leckren⁶/leckern"
+            "no_article": "leckeren/leckren/leckern",
+            "bestimmt": "des leckeren/leckren/leckern",
+            "unbestimmt": "eines leckeren/leckren/leckern"
           },
           "Feminin": {
-            "no_article": "leckerer/leckrer⁶",
-            "bestimmt": "der leckeren/leckren⁶/leckern",
-            "unbestimmt": "einer leckeren/leckren⁶/leckern"
+            "no_article": "leckerer/leckrer",
+            "bestimmt": "der leckeren/leckren/leckern",
+            "unbestimmt": "einer leckeren/leckren/leckern"
           },
           "Neutral": {
-            "no_article": "leckeren/leckren⁶/leckern",
-            "bestimmt": "des leckeren/leckren⁶/leckern",
-            "unbestimmt": "eines leckeren/leckren⁶/leckern"
+            "no_article": "leckeren/leckren/leckern",
+            "bestimmt": "des leckeren/leckren/leckern",
+            "unbestimmt": "eines leckeren/leckren/leckern"
           },
           "Plural": {
-            "no_article": "leckerer/leckrer⁶",
-            "bestimmt": "der leckeren/leckren⁶/leckern",
-            "unbestimmt": "keiner leckeren/leckren⁶/leckern"
+            "no_article": "leckerer/leckrer",
+            "bestimmt": "der leckeren/leckren/leckern",
+            "unbestimmt": "keiner leckeren/leckren/leckern"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "leckerem/leckrem⁶/leckerm⁴",
-            "bestimmt": "dem leckeren/leckren⁶/leckern",
-            "unbestimmt": "einem leckeren/leckren⁶/leckern"
+            "no_article": "leckerem/leckrem/leckerm⁴",
+            "bestimmt": "dem leckeren/leckren/leckern",
+            "unbestimmt": "einem leckeren/leckren/leckern"
           },
           "Feminin": {
-            "no_article": "leckerer/leckrer⁶",
-            "bestimmt": "der leckeren/leckren⁶/leckern",
-            "unbestimmt": "einer leckeren/leckren⁶/leckern"
+            "no_article": "leckerer/leckrer",
+            "bestimmt": "der leckeren/leckren/leckern",
+            "unbestimmt": "einer leckeren/leckren/leckern"
           },
           "Neutral": {
-            "no_article": "leckerem/leckrem⁶/leckerm⁴",
-            "bestimmt": "dem leckeren/leckren⁶/leckern",
-            "unbestimmt": "einem leckeren/leckren⁶/leckern"
+            "no_article": "leckerem/leckrem/leckerm⁴",
+            "bestimmt": "dem leckeren/leckren/leckern",
+            "unbestimmt": "einem leckeren/leckren/leckern"
           },
           "Plural": {
-            "no_article": "leckeren/leckren⁶/leckern",
-            "bestimmt": "den leckeren/leckren⁶/leckern",
-            "unbestimmt": "keinen leckeren/leckren⁶/leckern"
+            "no_article": "leckeren/leckren/leckern",
+            "bestimmt": "den leckeren/leckren/leckern",
+            "unbestimmt": "keinen leckeren/leckren/leckern"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "leckeren/leckren⁶/leckern",
-            "bestimmt": "den leckeren/leckren⁶/leckern",
-            "unbestimmt": "einen leckeren/leckren⁶/leckern"
+            "no_article": "leckeren/leckren/leckern",
+            "bestimmt": "den leckeren/leckren/leckern",
+            "unbestimmt": "einen leckeren/leckren/leckern"
           },
           "Feminin": {
-            "no_article": "leckere/leckre⁶",
-            "bestimmt": "die leckere/leckre⁶",
-            "unbestimmt": "eine leckere/leckre⁶"
+            "no_article": "leckere/leckre",
+            "bestimmt": "die leckere/leckre",
+            "unbestimmt": "eine leckere/leckre"
           },
           "Neutral": {
-            "no_article": "leckeres/leckres⁶",
-            "bestimmt": "das leckere/leckre⁶",
-            "unbestimmt": "ein leckeres/leckres⁶"
+            "no_article": "leckeres/leckres",
+            "bestimmt": "das leckere/leckre",
+            "unbestimmt": "ein leckeres/leckres"
           },
           "Plural": {
-            "no_article": "leckere/leckre⁶",
-            "bestimmt": "die leckeren/leckren⁶/leckern",
-            "unbestimmt": "keine leckeren/leckren⁶/leckern"
+            "no_article": "leckere/leckre",
+            "bestimmt": "die leckeren/leckren/leckern",
+            "unbestimmt": "keine leckeren/leckren/leckern"
           }
         }
       },
@@ -19375,90 +19375,90 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "lockerer/lockrer⁶",
-            "bestimmt": "der lockere/lockre⁶",
-            "unbestimmt": "ein lockerer/lockrer⁶"
+            "no_article": "lockerer/lockrer",
+            "bestimmt": "der lockere/lockre",
+            "unbestimmt": "ein lockerer/lockrer"
           },
           "Feminin": {
-            "no_article": "lockere/lockre⁶",
-            "bestimmt": "die lockere/lockre⁶",
-            "unbestimmt": "eine lockere/lockre⁶"
+            "no_article": "lockere/lockre",
+            "bestimmt": "die lockere/lockre",
+            "unbestimmt": "eine lockere/lockre"
           },
           "Neutral": {
-            "no_article": "lockeres/lockres⁶",
-            "bestimmt": "das lockere/lockre⁶",
-            "unbestimmt": "ein lockeres/lockres⁶"
+            "no_article": "lockeres/lockres",
+            "bestimmt": "das lockere/lockre",
+            "unbestimmt": "ein lockeres/lockres"
           },
           "Plural": {
-            "no_article": "lockere/lockre⁶",
-            "bestimmt": "die lockeren/lockren⁶/lockern",
-            "unbestimmt": "keine lockeren/lockren⁶/lockern"
+            "no_article": "lockere/lockre",
+            "bestimmt": "die lockeren/lockren/lockern",
+            "unbestimmt": "keine lockeren/lockren/lockern"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "lockeren/lockren⁶/lockern",
-            "bestimmt": "des lockeren/lockren⁶/lockern",
-            "unbestimmt": "eines lockeren/lockren⁶/lockern"
+            "no_article": "lockeren/lockren/lockern",
+            "bestimmt": "des lockeren/lockren/lockern",
+            "unbestimmt": "eines lockeren/lockren/lockern"
           },
           "Feminin": {
-            "no_article": "lockerer/lockrer⁶",
-            "bestimmt": "der lockeren/lockren⁶/lockern",
-            "unbestimmt": "einer lockeren/lockren⁶/lockern"
+            "no_article": "lockerer/lockrer",
+            "bestimmt": "der lockeren/lockren/lockern",
+            "unbestimmt": "einer lockeren/lockren/lockern"
           },
           "Neutral": {
-            "no_article": "lockeren/lockren⁶/lockern",
-            "bestimmt": "des lockeren/lockren⁶/lockern",
-            "unbestimmt": "eines lockeren/lockren⁶/lockern"
+            "no_article": "lockeren/lockren/lockern",
+            "bestimmt": "des lockeren/lockren/lockern",
+            "unbestimmt": "eines lockeren/lockren/lockern"
           },
           "Plural": {
-            "no_article": "lockerer/lockrer⁶",
-            "bestimmt": "der lockeren/lockren⁶/lockern",
-            "unbestimmt": "keiner lockeren/lockren⁶/lockern"
+            "no_article": "lockerer/lockrer",
+            "bestimmt": "der lockeren/lockren/lockern",
+            "unbestimmt": "keiner lockeren/lockren/lockern"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "lockerem/lockrem⁶/lockerm⁴",
-            "bestimmt": "dem lockeren/lockren⁶/lockern",
-            "unbestimmt": "einem lockeren/lockren⁶/lockern"
+            "no_article": "lockerem/lockrem/lockerm⁴",
+            "bestimmt": "dem lockeren/lockren/lockern",
+            "unbestimmt": "einem lockeren/lockren/lockern"
           },
           "Feminin": {
-            "no_article": "lockerer/lockrer⁶",
-            "bestimmt": "der lockeren/lockren⁶/lockern",
-            "unbestimmt": "einer lockeren/lockren⁶/lockern"
+            "no_article": "lockerer/lockrer",
+            "bestimmt": "der lockeren/lockren/lockern",
+            "unbestimmt": "einer lockeren/lockren/lockern"
           },
           "Neutral": {
-            "no_article": "lockerem/lockrem⁶/lockerm⁴",
-            "bestimmt": "dem lockeren/lockren⁶/lockern",
-            "unbestimmt": "einem lockeren/lockren⁶/lockern"
+            "no_article": "lockerem/lockrem/lockerm⁴",
+            "bestimmt": "dem lockeren/lockren/lockern",
+            "unbestimmt": "einem lockeren/lockren/lockern"
           },
           "Plural": {
-            "no_article": "lockeren/lockren⁶/lockern",
-            "bestimmt": "den lockeren/lockren⁶/lockern",
-            "unbestimmt": "keinen lockeren/lockren⁶/lockern"
+            "no_article": "lockeren/lockren/lockern",
+            "bestimmt": "den lockeren/lockren/lockern",
+            "unbestimmt": "keinen lockeren/lockren/lockern"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "lockeren/lockren⁶/lockern",
-            "bestimmt": "den lockeren/lockren⁶/lockern",
-            "unbestimmt": "einen lockeren/lockren⁶/lockern"
+            "no_article": "lockeren/lockren/lockern",
+            "bestimmt": "den lockeren/lockren/lockern",
+            "unbestimmt": "einen lockeren/lockren/lockern"
           },
           "Feminin": {
-            "no_article": "lockere/lockre⁶",
-            "bestimmt": "die lockere/lockre⁶",
-            "unbestimmt": "eine lockere/lockre⁶"
+            "no_article": "lockere/lockre",
+            "bestimmt": "die lockere/lockre",
+            "unbestimmt": "eine lockere/lockre"
           },
           "Neutral": {
-            "no_article": "lockeres/lockres⁶",
-            "bestimmt": "das lockere/lockre⁶",
-            "unbestimmt": "ein lockeres/lockres⁶"
+            "no_article": "lockeres/lockres",
+            "bestimmt": "das lockere/lockre",
+            "unbestimmt": "ein lockeres/lockres"
           },
           "Plural": {
-            "no_article": "lockere/lockre⁶",
-            "bestimmt": "die lockeren/lockren⁶/lockern",
-            "unbestimmt": "keine lockeren/lockren⁶/lockern"
+            "no_article": "lockere/lockre",
+            "bestimmt": "die lockeren/lockren/lockern",
+            "unbestimmt": "keine lockeren/lockren/lockern"
           }
         }
       },
@@ -19655,90 +19655,90 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "magerer/magrer⁶",
-            "bestimmt": "der magere/magre⁶",
-            "unbestimmt": "ein magerer/magrer⁶"
+            "no_article": "magerer/magrer",
+            "bestimmt": "der magere/magre",
+            "unbestimmt": "ein magerer/magrer"
           },
           "Feminin": {
-            "no_article": "magere/magre⁶",
-            "bestimmt": "die magere/magre⁶",
-            "unbestimmt": "eine magere/magre⁶"
+            "no_article": "magere/magre",
+            "bestimmt": "die magere/magre",
+            "unbestimmt": "eine magere/magre"
           },
           "Neutral": {
-            "no_article": "mageres/magres⁶",
-            "bestimmt": "das magere/magre⁶",
-            "unbestimmt": "ein mageres/magres⁶"
+            "no_article": "mageres/magres",
+            "bestimmt": "das magere/magre",
+            "unbestimmt": "ein mageres/magres"
           },
           "Plural": {
-            "no_article": "magere/magre⁶",
-            "bestimmt": "die mageren/magren⁶/magern",
-            "unbestimmt": "keine mageren/magren⁶/magern"
+            "no_article": "magere/magre",
+            "bestimmt": "die mageren/magren/magern",
+            "unbestimmt": "keine mageren/magren/magern"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "mageren/magren⁶/magern",
-            "bestimmt": "des mageren/magren⁶/magern",
-            "unbestimmt": "eines mageren/magren⁶/magern"
+            "no_article": "mageren/magren/magern",
+            "bestimmt": "des mageren/magren/magern",
+            "unbestimmt": "eines mageren/magren/magern"
           },
           "Feminin": {
-            "no_article": "magerer/magrer⁶",
-            "bestimmt": "der mageren/magren⁶/magern",
-            "unbestimmt": "einer mageren/magren⁶/magern"
+            "no_article": "magerer/magrer",
+            "bestimmt": "der mageren/magren/magern",
+            "unbestimmt": "einer mageren/magren/magern"
           },
           "Neutral": {
-            "no_article": "mageren/magren⁶/magern",
-            "bestimmt": "des mageren/magren⁶/magern",
-            "unbestimmt": "eines mageren/magren⁶/magern"
+            "no_article": "mageren/magren/magern",
+            "bestimmt": "des mageren/magren/magern",
+            "unbestimmt": "eines mageren/magren/magern"
           },
           "Plural": {
-            "no_article": "magerer/magrer⁶",
-            "bestimmt": "der mageren/magren⁶/magern",
-            "unbestimmt": "keiner mageren/magren⁶/magern"
+            "no_article": "magerer/magrer",
+            "bestimmt": "der mageren/magren/magern",
+            "unbestimmt": "keiner mageren/magren/magern"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "magerem/magrem⁶/magerm⁴",
-            "bestimmt": "dem mageren/magren⁶/magern",
-            "unbestimmt": "einem mageren/magren⁶/magern"
+            "no_article": "magerem/magrem/magerm⁴",
+            "bestimmt": "dem mageren/magren/magern",
+            "unbestimmt": "einem mageren/magren/magern"
           },
           "Feminin": {
-            "no_article": "magerer/magrer⁶",
-            "bestimmt": "der mageren/magren⁶/magern",
-            "unbestimmt": "einer mageren/magren⁶/magern"
+            "no_article": "magerer/magrer",
+            "bestimmt": "der mageren/magren/magern",
+            "unbestimmt": "einer mageren/magren/magern"
           },
           "Neutral": {
-            "no_article": "magerem/magrem⁶/magerm⁴",
-            "bestimmt": "dem mageren/magren⁶/magern",
-            "unbestimmt": "einem mageren/magren⁶/magern"
+            "no_article": "magerem/magrem/magerm⁴",
+            "bestimmt": "dem mageren/magren/magern",
+            "unbestimmt": "einem mageren/magren/magern"
           },
           "Plural": {
-            "no_article": "mageren/magren⁶/magern",
-            "bestimmt": "den mageren/magren⁶/magern",
-            "unbestimmt": "keinen mageren/magren⁶/magern"
+            "no_article": "mageren/magren/magern",
+            "bestimmt": "den mageren/magren/magern",
+            "unbestimmt": "keinen mageren/magren/magern"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "mageren/magren⁶/magern",
-            "bestimmt": "den mageren/magren⁶/magern",
-            "unbestimmt": "einen mageren/magren⁶/magern"
+            "no_article": "mageren/magren/magern",
+            "bestimmt": "den mageren/magren/magern",
+            "unbestimmt": "einen mageren/magren/magern"
           },
           "Feminin": {
-            "no_article": "magere/magre⁶",
-            "bestimmt": "die magere/magre⁶",
-            "unbestimmt": "eine magere/magre⁶"
+            "no_article": "magere/magre",
+            "bestimmt": "die magere/magre",
+            "unbestimmt": "eine magere/magre"
           },
           "Neutral": {
-            "no_article": "mageres/magres⁶",
-            "bestimmt": "das magere/magre⁶",
-            "unbestimmt": "ein mageres/magres⁶"
+            "no_article": "mageres/magres",
+            "bestimmt": "das magere/magre",
+            "unbestimmt": "ein mageres/magres"
           },
           "Plural": {
-            "no_article": "magere/magre⁶",
-            "bestimmt": "die mageren/magren⁶/magern",
-            "unbestimmt": "keine mageren/magren⁶/magern"
+            "no_article": "magere/magre",
+            "bestimmt": "die mageren/magren/magern",
+            "unbestimmt": "keine mageren/magren/magern"
           }
         }
       },
@@ -33186,90 +33186,90 @@
       "base_form": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "sicherer/sichrer⁶",
-            "bestimmt": "der sichere/sichre⁶",
-            "unbestimmt": "ein sicherer/sichrer⁶"
+            "no_article": "sicherer/sichrer",
+            "bestimmt": "der sichere/sichre",
+            "unbestimmt": "ein sicherer/sichrer"
           },
           "Feminin": {
-            "no_article": "sichere/sichre⁶",
-            "bestimmt": "die sichere/sichre⁶",
-            "unbestimmt": "eine sichere/sichre⁶"
+            "no_article": "sichere/sichre",
+            "bestimmt": "die sichere/sichre",
+            "unbestimmt": "eine sichere/sichre"
           },
           "Neutral": {
-            "no_article": "sicheres/sichres⁶",
-            "bestimmt": "das sichere/sichre⁶",
-            "unbestimmt": "ein sicheres/sichres⁶"
+            "no_article": "sicheres/sichres",
+            "bestimmt": "das sichere/sichre",
+            "unbestimmt": "ein sicheres/sichres"
           },
           "Plural": {
-            "no_article": "sichere/sichre⁶",
-            "bestimmt": "die sicheren/sichren⁶/sichern",
-            "unbestimmt": "keine sicheren/sichren⁶/sichern"
+            "no_article": "sichere/sichre",
+            "bestimmt": "die sicheren/sichren/sichern",
+            "unbestimmt": "keine sicheren/sichren/sichern"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "sicheren/sichren⁶/sichern",
-            "bestimmt": "des sicheren/sichren⁶/sichern",
-            "unbestimmt": "eines sicheren/sichren⁶/sichern"
+            "no_article": "sicheren/sichren/sichern",
+            "bestimmt": "des sicheren/sichren/sichern",
+            "unbestimmt": "eines sicheren/sichren/sichern"
           },
           "Feminin": {
-            "no_article": "sicherer/sichrer⁶",
-            "bestimmt": "der sicheren/sichren⁶/sichern",
-            "unbestimmt": "einer sicheren/sichren⁶/sichern"
+            "no_article": "sicherer/sichrer",
+            "bestimmt": "der sicheren/sichren/sichern",
+            "unbestimmt": "einer sicheren/sichren/sichern"
           },
           "Neutral": {
-            "no_article": "sicheren/sichren⁶/sichern",
-            "bestimmt": "des sicheren/sichren⁶/sichern",
-            "unbestimmt": "eines sicheren/sichren⁶/sichern"
+            "no_article": "sicheren/sichren/sichern",
+            "bestimmt": "des sicheren/sichren/sichern",
+            "unbestimmt": "eines sicheren/sichren/sichern"
           },
           "Plural": {
-            "no_article": "sicherer/sichrer⁶",
-            "bestimmt": "der sicheren/sichren⁶/sichern",
-            "unbestimmt": "keiner sicheren/sichren⁶/sichern"
+            "no_article": "sicherer/sichrer",
+            "bestimmt": "der sicheren/sichren/sichern",
+            "unbestimmt": "keiner sicheren/sichren/sichern"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "sicherem/sichrem⁶/sicherm⁴",
-            "bestimmt": "dem sicheren/sichren⁶/sichern",
-            "unbestimmt": "einem sicheren/sichren⁶/sichern"
+            "no_article": "sicherem/sichrem/sicherm⁴",
+            "bestimmt": "dem sicheren/sichren/sichern",
+            "unbestimmt": "einem sicheren/sichren/sichern"
           },
           "Feminin": {
-            "no_article": "sicherer/sichrer⁶",
-            "bestimmt": "der sicheren/sichren⁶/sichern",
-            "unbestimmt": "einer sicheren/sichren⁶/sichern"
+            "no_article": "sicherer/sichrer",
+            "bestimmt": "der sicheren/sichren/sichern",
+            "unbestimmt": "einer sicheren/sichren/sichern"
           },
           "Neutral": {
-            "no_article": "sicherem/sichrem⁶/sicherm⁴",
-            "bestimmt": "dem sicheren/sichren⁶/sichern",
-            "unbestimmt": "einem sicheren/sichren⁶/sichern"
+            "no_article": "sicherem/sichrem/sicherm⁴",
+            "bestimmt": "dem sicheren/sichren/sichern",
+            "unbestimmt": "einem sicheren/sichren/sichern"
           },
           "Plural": {
-            "no_article": "sicheren/sichren⁶/sichern",
-            "bestimmt": "den sicheren/sichren⁶/sichern",
-            "unbestimmt": "keinen sicheren/sichren⁶/sichern"
+            "no_article": "sicheren/sichren/sichern",
+            "bestimmt": "den sicheren/sichren/sichern",
+            "unbestimmt": "keinen sicheren/sichren/sichern"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "sicheren/sichren⁶/sichern",
-            "bestimmt": "den sicheren/sichren⁶/sichern",
-            "unbestimmt": "einen sicheren/sichren⁶/sichern"
+            "no_article": "sicheren/sichren/sichern",
+            "bestimmt": "den sicheren/sichren/sichern",
+            "unbestimmt": "einen sicheren/sichren/sichern"
           },
           "Feminin": {
-            "no_article": "sichere/sichre⁶",
-            "bestimmt": "die sichere/sichre⁶",
-            "unbestimmt": "eine sichere/sichre⁶"
+            "no_article": "sichere/sichre",
+            "bestimmt": "die sichere/sichre",
+            "unbestimmt": "eine sichere/sichre"
           },
           "Neutral": {
-            "no_article": "sicheres/sichres⁶",
-            "bestimmt": "das sichere/sichre⁶",
-            "unbestimmt": "ein sicheres/sichres⁶"
+            "no_article": "sicheres/sichres",
+            "bestimmt": "das sichere/sichre",
+            "unbestimmt": "ein sicheres/sichres"
           },
           "Plural": {
-            "no_article": "sichere/sichre⁶",
-            "bestimmt": "die sicheren/sichren⁶/sichern",
-            "unbestimmt": "keine sicheren/sichren⁶/sichern"
+            "no_article": "sichere/sichre",
+            "bestimmt": "die sicheren/sichren/sichern",
+            "unbestimmt": "keine sicheren/sichren/sichern"
           }
         }
       },
