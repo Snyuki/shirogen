@@ -7,6 +7,7 @@ import b1nounsData from './res/b1-nouns.json'
 // import verbsData from './res/german_verbs.json';
 import b1VerbsData from './res/b1-verbs.json'
 import b1VerbsTensesConfig from './res/b1-verb-tenses-config.json'
+import b1AdjectiveData from './res/b1-adjectives.json'
 
 type VerbFormSelection = {
   baseForm: string;
@@ -15,11 +16,21 @@ type VerbFormSelection = {
   pronoun: string;
 };
 
+type AdjectiveFormSelection = {
+  baseForm: string;   // Base Form
+  adjective: string;  // Correct Answer
+  case: string;   // Kasus
+  form: string;   // base/comparative/superlative
+  specification: string; // unbestimmt/bestimmt/no_article
+  gender: string; // Maskulin/Feminin/Neutral/Plural
+};
+
 // const femaleNouns = Object.values(femaleNounsData)
 // const maleNouns = Object.values(maleNounsData)
 // const neutralNouns = Object.values(neutralNounsData)
 const b1nouns = Object.values(b1nounsData)
 const b1verbs = Object.values(b1VerbsData)
+const b1adjectives = Object.values(b1AdjectiveData)
 
 // const allNouns = [...femaleNouns, ...maleNouns, ...neutralNouns];
 
@@ -37,18 +48,34 @@ const selectedTenses = b1VerbsTensesConfig.tenses;
 const tenses = Object.keys(selectedTenses);
 
 const GenderQuiz = () => {
-  const [mode, setMode] = useState<'gender' | 'verb'>('gender')
+  const [mode, setMode] = useState<'gender' | 'verb' | 'adjective'>('gender')
   const [currentNoun, setCurrentNoun] = useState(() => getRandomNoun());
   const [feedback, setFeedback] = useState('');
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
   const [nounAnswered, setNounAnswered] = useState(false);
   const [verbAnswered, setVerbAnswered] = useState(false);
+  const [adjectiveAnswered, setAdjectiveAnswered] = useState(false);
 
   // Verbs
   const [currentVerb, setCurrentVerb] = useState(() => getRandomVerb());
   const [verbInput, setVerbInput] = useState('');
   const [verbFeedback, setVerbFeedback] = useState('');
+
+  // Adjectives
+  const [currentAdjective, setCurrentAdjective] = useState(() => getRandomAdjective());
+  const [adjectiveInput, setAdjectiveInput] = useState('');
+  const [adjectiveFeedback, setAdjectiveFeedback] = useState('');
+  const adjectiveFormLabels: { [key: string]: string } = {
+    base_form: "Grundform",
+    comparative: "Komparativ",
+    superlative: "Superlativ",
+  };
+  const adjectiveSpecLabels: { [key: string]: string } = {
+    no_article: "Kein Artikel",
+    bestimmt: "Bestimmt",
+    unbestimmt: "Unbestimmt"
+  };
 
   function getRandomNoun() {
     const randomIndex = Math.floor(Math.random() * shuffledNouns.length);
@@ -70,7 +97,41 @@ const GenderQuiz = () => {
     };
   }
 
+  function getRandomAdjective(): AdjectiveFormSelection {
+    const randomAdjective = b1adjectives[Math.floor(Math.random() * b1adjectives.length)];
+    const formOptions = ['base_form', 'comparative', 'superlative'];
+    const caseOptions = ['Nominativ', 'Genitiv', 'Dativ', 'Akkusativ'];
+    const genderOptions = ['Maskulin', 'Feminin', 'Neutral', 'Plural'];
+    const specOptions = ['no_article', 'bestimmt', 'unbestimmt'];
+  
+    let randomForm = formOptions[Math.floor(Math.random() * formOptions.length)];
+    const randomCase = caseOptions[Math.floor(Math.random() * caseOptions.length)];
+    const randomGender = genderOptions[Math.floor(Math.random() * genderOptions.length)];
+    const randomSpecification = specOptions[Math.floor(Math.random() * specOptions.length)];
+  
+    let adjective = randomAdjective.declensions[randomForm]?.[randomCase]?.[randomGender]?.[randomSpecification] || '';
+    if (!adjective) {
+      randomForm = formOptions[0]
+      adjective = randomAdjective.declensions[randomForm]?.[randomCase]?.[randomGender]?.[randomSpecification] || '';
+    }
+
+    // Avoid having '' viable as an answer for adjectives without data. This is dangerous and only temporary until all adjectives are filled in
+    if (!adjective) {
+      return getRandomAdjective()
+    }
+
+    return {
+      baseForm: randomAdjective.word,
+      adjective: adjective,
+      case: randomCase,
+      form: randomForm,
+      specification: randomSpecification,
+      gender: randomGender
+    };
+  }
+
   const verbInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
+  const adjectiveInputRef = useRef<HTMLInputElement>(null); // For auto focus on verbs text input
   
   const handleAnswer = (answer: string) => {
     const correct = currentNoun.article.indexOf(answer) >= 0;
@@ -120,13 +181,32 @@ const GenderQuiz = () => {
     setVerbFeedback(correct ? "Correct!" : 'Wrong! The correct answer' + (correctAnswers.length === 1 ? ' is' : 's are') + ': ' + correctAnswers.join("/") + '!');
   };
 
+  const handleAdjectiveSubmit = () => {
+    const userAnswer = adjectiveInput.trim().toLowerCase();
+    const correct = currentAdjective.adjective === userAnswer;
+
+    if (!adjectiveAnswered) {
+      if (correct) {
+        setCorrectAnswers(prev => prev + 1)
+      } else {
+        setIncorrectAnswers(prev => prev + 1)
+      }
+      setAdjectiveAnswered(true)
+    }
+    setAdjectiveFeedback(correct ? "Correct!" : 'Wrong! The correct answer is: ' + currentAdjective.adjective + '!');
+  }
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && e.ctrlKey && mode === 'gender' && nounAnswered) {
       nextQuestion()
     } else if (e.key === 'Enter' && e.ctrlKey && mode === 'verb' && verbAnswered) {
       nextVerbQuestion()
+    } else if (e.key === 'Enter' && e.ctrlKey && mode === 'adjective' && adjectiveAnswered) {
+      nextAdjectiveQuestion()
     } else if (e.key === 'Enter' && !e.ctrlKey && mode === 'verb') {
       handleVerbSubmit();
+    } else if (e.key === 'Enter' && !e.ctrlKey && mode === 'adjective') {
+      handleAdjectiveSubmit();
     }
   };
 
@@ -137,12 +217,24 @@ const GenderQuiz = () => {
       setCurrentVerb(getRandomVerb());
   };
 
+  const nextAdjectiveQuestion = () => {
+    setAdjectiveAnswered(false)
+    setAdjectiveInput('')
+    setAdjectiveFeedback('')
+    setCurrentAdjective(getRandomAdjective())
+  }
+
   useEffect(() => {
     if (mode === 'verb' && verbInputRef.current) {
       verbInputRef.current.focus();
     }
   }, [mode, currentVerb]);
 
+  useEffect(() => {
+    if (mode === 'adjective' && adjectiveInputRef.current) {
+      adjectiveInputRef.current.focus();
+    }
+  }, [mode, currentAdjective]);
 
   const totalAnswers = correctAnswers + incorrectAnswers;
   const correctPercentage = totalAnswers > 0 ? (correctAnswers / totalAnswers) * 100 : 0;
@@ -162,6 +254,12 @@ const GenderQuiz = () => {
           onClick={() => setMode('verb')}
         >
           Verbs
+        </button>
+        <button
+          className={`mode-button ${mode === 'adjective' ? 'active' : ''}`}
+          onClick={() => setMode('adjective')}
+        >
+          Adjectives
         </button>
       </div>
       <div className="progress-bar-text">
@@ -203,7 +301,7 @@ const GenderQuiz = () => {
           </div>
           <button className="next-button" disabled={!nounAnswered} title={!nounAnswered ? "Please answer first" : ""} onClick={nextQuestion}>Next</button>
         </>
-      ) : (
+      ) : mode === 'verb' ? (
         <>
           <h2>Enter the <strong>{currentVerb.tense}</strong> form of <strong>
           <a 
@@ -232,6 +330,34 @@ const GenderQuiz = () => {
           </div>
           <button className="next-button" disabled={!verbAnswered} title={!verbAnswered ? "Please answer first" : ""} onClick={nextVerbQuestion}>Next</button>
         </>
+      ) : (
+        <>
+        <h2>Enter the <strong>{adjectiveFormLabels[currentAdjective.form]}</strong> | <strong>{currentAdjective.gender}</strong> | <strong>{currentAdjective.case}</strong> | <strong>{adjectiveSpecLabels[currentAdjective.specification]}</strong> of <strong>
+        <a 
+            href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentAdjective.baseForm)}&op=translate`}
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              {currentAdjective.baseForm}
+            </a>
+            </strong>:</h2>
+        <div className="verb-input-row">
+          <input
+            type="text"
+            ref={adjectiveInputRef}
+            onKeyDown={handleKeyDown}
+            value={adjectiveInput}
+            onChange={(e) => setAdjectiveInput(e.target.value)}
+            placeholder="Type your answer..."
+            className="text-input short"
+          />
+          <button className="submit-button" onClick={handleAdjectiveSubmit}>Submit</button>
+        </div>
+        <div className={`feedback ${adjectiveFeedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
+          {adjectiveFeedback}
+        </div>
+        <button className="next-button" disabled={!adjectiveAnswered} title={!adjectiveAnswered ? "Please answer first" : ""} onClick={nextAdjectiveQuestion}>Next</button>
+      </>
       )}
     </div>
     

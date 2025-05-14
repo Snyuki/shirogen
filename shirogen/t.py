@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import threading
+import datetime
 
 base_url = "https://www.verbformen.de"
 
@@ -20,6 +22,9 @@ case_map = {
 class Adjective:
     def __init__(self, base_form):
         self.word = base_form
+
+
+    def init_fetching(self):
         # Fetch the page content
         self.adjective_url = f"/deklination/adjektive/{self.word}.htm" 
         response = requests.get(base_url + self.adjective_url)
@@ -30,9 +35,12 @@ class Adjective:
         self.adjective_base = adjective_section.split(' ')[-1]
 
         # Find links to the comparative and superlative forms
-        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href')]
-        self.comparative_link = redirects[1]
-        self.superlative_link = redirects[2]
+        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href') if "adjektive" in a ]
+        self.comparative_link = ""
+        self.superlative_link = ""
+        if len(redirects) >= 2: self.comparative_link = redirects[1]
+        if len(redirects) >= 3: self.superlative_link = redirects[2]
+        if len(redirects) >= 4: print(f"More than 3 redirects found for word [{self.word}] at url [{base_url}{self.adjective_url}]")
 
         # Create output object
         self.declensions = {"base_form": {}, "comparative": {}, "superlative": {}}
@@ -78,6 +86,7 @@ class Adjective:
 
     def fetch_one_adjective_full(self):
         # Load soups
+        self.init_fetching()
         response = requests.get(base_url + self.comparative_link)
         comparative_soup = BeautifulSoup(response.text, 'html.parser')
         response = requests.get(base_url + self.superlative_link)
@@ -90,21 +99,48 @@ class Adjective:
         return self.declensions
 
 
+def start_progress_monitor(total_tasks, completed_counter, timer_break):
+    start_time = time.time()
+
+    def monitor(timer_break):
+        while completed_counter[0] < total_tasks:
+            elapsed = time.time() - start_time
+            avg_time = elapsed / max(1, completed_counter[0])
+            remaining = (total_tasks - completed_counter[0]) * avg_time
+            eta = datetime.timedelta(seconds=int(remaining))
+
+            if not timer_break[0]: print(f"[Progress] {completed_counter[0]}/{total_tasks} verbs processed. ETA: {eta}")
+            time.sleep(5)
+
+    thread = threading.Thread(target=monitor, args=(timer_break,), daemon=True)
+    thread.start()
 
 
 def update_adjective_data(filepath_in, filepath_out):
     with open(filepath_in, 'r') as file:
         existing_data = json.load(file)
 
+    
+    completed = [0]
+    timer_break = [False]
+    start_progress_monitor(len(existing_data.items()), completed, timer_break)
+
     updated_data = existing_data.copy()
     for key, entry in existing_data.items():
         word = entry["word"]
         print(word)
         adjective = Adjective(word)
-        declensions = adjective.fetch_one_adjective_full()
+        try:
+            declensions = adjective.fetch_one_adjective_full()
+        except:
+            timer_break[0] = True
+            input("Waiting...")
+            timer_break[0] = False
+            declensions = adjective.fetch_one_adjective_full()
         # print(declensions)
         updated_data[key]["declensions"] = declensions
-
+        completed[0] += 1
+ 
         # Sleep a little to avoid overloading the server
         time.sleep(1)
 
@@ -117,4 +153,4 @@ def update_adjective_data(filepath_in, filepath_out):
 
 
 if __name__ == "__main__":
-    update_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/adjectives_with_declensions.json")
+    update_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json")
