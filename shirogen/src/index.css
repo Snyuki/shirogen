@@ -262,6 +262,7 @@ button:focus-visible {
 }
 
 @media (max-width: 500px) {
+  /* TODO Mobile Layout for Gender and Verbs */
   .quiz-container {
     max-width: 350px;
   }
