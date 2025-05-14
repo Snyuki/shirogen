@@ -380,180 +380,180 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "absoluterer⁵",
-            "bestimmt": "der absolutere⁵",
-            "unbestimmt": "ein absoluterer⁵"
+            "no_article": "absoluterer",
+            "bestimmt": "der absolutere",
+            "unbestimmt": "ein absoluterer"
           },
           "Feminin": {
-            "no_article": "absolutere⁵",
-            "bestimmt": "die absolutere⁵",
-            "unbestimmt": "eine absolutere⁵"
+            "no_article": "absolutere",
+            "bestimmt": "die absolutere",
+            "unbestimmt": "eine absolutere"
           },
           "Neutral": {
-            "no_article": "absoluteres⁵",
-            "bestimmt": "das absolutere⁵",
-            "unbestimmt": "ein absoluteres⁵"
+            "no_article": "absoluteres",
+            "bestimmt": "das absolutere",
+            "unbestimmt": "ein absoluteres"
           },
           "Plural": {
-            "no_article": "absolutere⁵",
-            "bestimmt": "die absoluteren⁵",
-            "unbestimmt": "keine absoluteren⁵"
+            "no_article": "absolutere",
+            "bestimmt": "die absoluteren",
+            "unbestimmt": "keine absoluteren"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "absoluteren⁵",
-            "bestimmt": "des absoluteren⁵",
-            "unbestimmt": "eines absoluteren⁵"
+            "no_article": "absoluteren",
+            "bestimmt": "des absoluteren",
+            "unbestimmt": "eines absoluteren"
           },
           "Feminin": {
-            "no_article": "absoluterer⁵",
-            "bestimmt": "der absoluteren⁵",
-            "unbestimmt": "einer absoluteren⁵"
+            "no_article": "absoluterer",
+            "bestimmt": "der absoluteren",
+            "unbestimmt": "einer absoluteren"
           },
           "Neutral": {
-            "no_article": "absoluteren⁵",
-            "bestimmt": "des absoluteren⁵",
-            "unbestimmt": "eines absoluteren⁵"
+            "no_article": "absoluteren",
+            "bestimmt": "des absoluteren",
+            "unbestimmt": "eines absoluteren"
           },
           "Plural": {
-            "no_article": "absoluterer⁵",
-            "bestimmt": "der absoluteren⁵",
-            "unbestimmt": "keiner absoluteren⁵"
+            "no_article": "absoluterer",
+            "bestimmt": "der absoluteren",
+            "unbestimmt": "keiner absoluteren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "absoluterem⁵",
-            "bestimmt": "dem absoluteren⁵",
-            "unbestimmt": "einem absoluteren⁵"
+            "no_article": "absoluterem",
+            "bestimmt": "dem absoluteren",
+            "unbestimmt": "einem absoluteren"
           },
           "Feminin": {
-            "no_article": "absoluterer⁵",
-            "bestimmt": "der absoluteren⁵",
-            "unbestimmt": "einer absoluteren⁵"
+            "no_article": "absoluterer",
+            "bestimmt": "der absoluteren",
+            "unbestimmt": "einer absoluteren"
           },
           "Neutral": {
-            "no_article": "absoluterem⁵",
-            "bestimmt": "dem absoluteren⁵",
-            "unbestimmt": "einem absoluteren⁵"
+            "no_article": "absoluterem",
+            "bestimmt": "dem absoluteren",
+            "unbestimmt": "einem absoluteren"
           },
           "Plural": {
-            "no_article": "absoluteren⁵",
-            "bestimmt": "den absoluteren⁵",
-            "unbestimmt": "keinen absoluteren⁵"
+            "no_article": "absoluteren",
+            "bestimmt": "den absoluteren",
+            "unbestimmt": "keinen absoluteren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "absoluteren⁵",
-            "bestimmt": "den absoluteren⁵",
-            "unbestimmt": "einen absoluteren⁵"
+            "no_article": "absoluteren",
+            "bestimmt": "den absoluteren",
+            "unbestimmt": "einen absoluteren"
           },
           "Feminin": {
-            "no_article": "absolutere⁵",
-            "bestimmt": "die absolutere⁵",
-            "unbestimmt": "eine absolutere⁵"
+            "no_article": "absolutere",
+            "bestimmt": "die absolutere",
+            "unbestimmt": "eine absolutere"
           },
           "Neutral": {
-            "no_article": "absoluteres⁵",
-            "bestimmt": "das absolutere⁵",
-            "unbestimmt": "ein absoluteres⁵"
+            "no_article": "absoluteres",
+            "bestimmt": "das absolutere",
+            "unbestimmt": "ein absoluteres"
           },
           "Plural": {
-            "no_article": "absolutere⁵",
-            "bestimmt": "die absoluteren⁵",
-            "unbestimmt": "keine absoluteren⁵"
+            "no_article": "absolutere",
+            "bestimmt": "die absoluteren",
+            "unbestimmt": "keine absoluteren"
           }
         }
       },
       "superlative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "absolutester⁵",
-            "bestimmt": "der absoluteste⁵",
-            "unbestimmt": "ein absolutester⁵"
+            "no_article": "absolutester",
+            "bestimmt": "der absoluteste",
+            "unbestimmt": "ein absolutester"
           },
           "Feminin": {
-            "no_article": "absoluteste⁵",
-            "bestimmt": "die absoluteste⁵",
-            "unbestimmt": "eine absoluteste⁵"
+            "no_article": "absoluteste",
+            "bestimmt": "die absoluteste",
+            "unbestimmt": "eine absoluteste"
           },
           "Neutral": {
-            "no_article": "absolutestes⁵",
-            "bestimmt": "das absoluteste⁵",
-            "unbestimmt": "ein absolutestes⁵"
+            "no_article": "absolutestes",
+            "bestimmt": "das absoluteste",
+            "unbestimmt": "ein absolutestes"
           },
           "Plural": {
-            "no_article": "absoluteste⁵",
-            "bestimmt": "die absolutesten⁵",
-            "unbestimmt": "keine absolutesten⁵"
+            "no_article": "absoluteste",
+            "bestimmt": "die absolutesten",
+            "unbestimmt": "keine absolutesten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "absolutesten⁵",
-            "bestimmt": "des absolutesten⁵",
-            "unbestimmt": "eines absolutesten⁵"
+            "no_article": "absolutesten",
+            "bestimmt": "des absolutesten",
+            "unbestimmt": "eines absolutesten"
           },
           "Feminin": {
-            "no_article": "absolutester⁵",
-            "bestimmt": "der absolutesten⁵",
-            "unbestimmt": "einer absolutesten⁵"
+            "no_article": "absolutester",
+            "bestimmt": "der absolutesten",
+            "unbestimmt": "einer absolutesten"
           },
           "Neutral": {
-            "no_article": "absolutesten⁵",
-            "bestimmt": "des absolutesten⁵",
-            "unbestimmt": "eines absolutesten⁵"
+            "no_article": "absolutesten",
+            "bestimmt": "des absolutesten",
+            "unbestimmt": "eines absolutesten"
           },
           "Plural": {
-            "no_article": "absolutester⁵",
-            "bestimmt": "der absolutesten⁵",
-            "unbestimmt": "keiner absolutesten⁵"
+            "no_article": "absolutester",
+            "bestimmt": "der absolutesten",
+            "unbestimmt": "keiner absolutesten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "absolutestem⁵",
-            "bestimmt": "dem absolutesten⁵",
-            "unbestimmt": "einem absolutesten⁵"
+            "no_article": "absolutestem",
+            "bestimmt": "dem absolutesten",
+            "unbestimmt": "einem absolutesten"
           },
           "Feminin": {
-            "no_article": "absolutester⁵",
-            "bestimmt": "der absolutesten⁵",
-            "unbestimmt": "einer absolutesten⁵"
+            "no_article": "absolutester",
+            "bestimmt": "der absolutesten",
+            "unbestimmt": "einer absolutesten"
           },
           "Neutral": {
-            "no_article": "absolutestem⁵",
-            "bestimmt": "dem absolutesten⁵",
-            "unbestimmt": "einem absolutesten⁵"
+            "no_article": "absolutestem",
+            "bestimmt": "dem absolutesten",
+            "unbestimmt": "einem absolutesten"
           },
           "Plural": {
-            "no_article": "absolutesten⁵",
-            "bestimmt": "den absolutesten⁵",
-            "unbestimmt": "keinen absolutesten⁵"
+            "no_article": "absolutesten",
+            "bestimmt": "den absolutesten",
+            "unbestimmt": "keinen absolutesten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "absolutesten⁵",
-            "bestimmt": "den absolutesten⁵",
-            "unbestimmt": "einen absolutesten⁵"
+            "no_article": "absolutesten",
+            "bestimmt": "den absolutesten",
+            "unbestimmt": "einen absolutesten"
           },
           "Feminin": {
-            "no_article": "absoluteste⁵",
-            "bestimmt": "die absoluteste⁵",
-            "unbestimmt": "eine absoluteste⁵"
+            "no_article": "absoluteste",
+            "bestimmt": "die absoluteste",
+            "unbestimmt": "eine absoluteste"
           },
           "Neutral": {
-            "no_article": "absolutestes⁵",
-            "bestimmt": "das absoluteste⁵",
-            "unbestimmt": "ein absolutestes⁵"
+            "no_article": "absolutestes",
+            "bestimmt": "das absoluteste",
+            "unbestimmt": "ein absolutestes"
           },
           "Plural": {
-            "no_article": "absoluteste⁵",
-            "bestimmt": "die absolutesten⁵",
-            "unbestimmt": "keine absolutesten⁵"
+            "no_article": "absoluteste",
+            "bestimmt": "die absolutesten",
+            "unbestimmt": "keine absolutesten"
           }
         }
       }
@@ -5754,90 +5754,90 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "einzigster⁵",
-            "bestimmt": "der einzigste⁵",
-            "unbestimmt": "ein einzigster⁵"
+            "no_article": "einzigster",
+            "bestimmt": "der einzigste",
+            "unbestimmt": "ein einzigster"
           },
           "Feminin": {
-            "no_article": "einzigste⁵",
-            "bestimmt": "die einzigste⁵",
-            "unbestimmt": "eine einzigste⁵"
+            "no_article": "einzigste",
+            "bestimmt": "die einzigste",
+            "unbestimmt": "eine einzigste"
           },
           "Neutral": {
-            "no_article": "einzigstes⁵",
-            "bestimmt": "das einzigste⁵",
-            "unbestimmt": "ein einzigstes⁵"
+            "no_article": "einzigstes",
+            "bestimmt": "das einzigste",
+            "unbestimmt": "ein einzigstes"
           },
           "Plural": {
-            "no_article": "einzigste⁵",
-            "bestimmt": "die einzigsten⁵",
-            "unbestimmt": "keine einzigsten⁵"
+            "no_article": "einzigste",
+            "bestimmt": "die einzigsten",
+            "unbestimmt": "keine einzigsten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "einzigsten⁵",
-            "bestimmt": "des einzigsten⁵",
-            "unbestimmt": "eines einzigsten⁵"
+            "no_article": "einzigsten",
+            "bestimmt": "des einzigsten",
+            "unbestimmt": "eines einzigsten"
           },
           "Feminin": {
-            "no_article": "einzigster⁵",
-            "bestimmt": "der einzigsten⁵",
-            "unbestimmt": "einer einzigsten⁵"
+            "no_article": "einzigster",
+            "bestimmt": "der einzigsten",
+            "unbestimmt": "einer einzigsten"
           },
           "Neutral": {
-            "no_article": "einzigsten⁵",
-            "bestimmt": "des einzigsten⁵",
-            "unbestimmt": "eines einzigsten⁵"
+            "no_article": "einzigsten",
+            "bestimmt": "des einzigsten",
+            "unbestimmt": "eines einzigsten"
           },
           "Plural": {
-            "no_article": "einzigster⁵",
-            "bestimmt": "der einzigsten⁵",
-            "unbestimmt": "keiner einzigsten⁵"
+            "no_article": "einzigster",
+            "bestimmt": "der einzigsten",
+            "unbestimmt": "keiner einzigsten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "einzigstem⁵",
-            "bestimmt": "dem einzigsten⁵",
-            "unbestimmt": "einem einzigsten⁵"
+            "no_article": "einzigstem",
+            "bestimmt": "dem einzigsten",
+            "unbestimmt": "einem einzigsten"
           },
           "Feminin": {
-            "no_article": "einzigster⁵",
-            "bestimmt": "der einzigsten⁵",
-            "unbestimmt": "einer einzigsten⁵"
+            "no_article": "einzigster",
+            "bestimmt": "der einzigsten",
+            "unbestimmt": "einer einzigsten"
           },
           "Neutral": {
-            "no_article": "einzigstem⁵",
-            "bestimmt": "dem einzigsten⁵",
-            "unbestimmt": "einem einzigsten⁵"
+            "no_article": "einzigstem",
+            "bestimmt": "dem einzigsten",
+            "unbestimmt": "einem einzigsten"
           },
           "Plural": {
-            "no_article": "einzigsten⁵",
-            "bestimmt": "den einzigsten⁵",
-            "unbestimmt": "keinen einzigsten⁵"
+            "no_article": "einzigsten",
+            "bestimmt": "den einzigsten",
+            "unbestimmt": "keinen einzigsten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "einzigsten⁵",
-            "bestimmt": "den einzigsten⁵",
-            "unbestimmt": "einen einzigsten⁵"
+            "no_article": "einzigsten",
+            "bestimmt": "den einzigsten",
+            "unbestimmt": "einen einzigsten"
           },
           "Feminin": {
-            "no_article": "einzigste⁵",
-            "bestimmt": "die einzigste⁵",
-            "unbestimmt": "eine einzigste⁵"
+            "no_article": "einzigste",
+            "bestimmt": "die einzigste",
+            "unbestimmt": "eine einzigste"
           },
           "Neutral": {
-            "no_article": "einzigstes⁵",
-            "bestimmt": "das einzigste⁵",
-            "unbestimmt": "ein einzigstes⁵"
+            "no_article": "einzigstes",
+            "bestimmt": "das einzigste",
+            "unbestimmt": "ein einzigstes"
           },
           "Plural": {
-            "no_article": "einzigste⁵",
-            "bestimmt": "die einzigsten⁵",
-            "unbestimmt": "keine einzigsten⁵"
+            "no_article": "einzigste",
+            "bestimmt": "die einzigsten",
+            "unbestimmt": "keine einzigsten"
           }
         }
       },
@@ -7766,180 +7766,180 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "extremerer⁵",
-            "bestimmt": "der extremere⁵",
-            "unbestimmt": "ein extremerer⁵"
+            "no_article": "extremerer",
+            "bestimmt": "der extremere",
+            "unbestimmt": "ein extremerer"
           },
           "Feminin": {
-            "no_article": "extremere⁵",
-            "bestimmt": "die extremere⁵",
-            "unbestimmt": "eine extremere⁵"
+            "no_article": "extremere",
+            "bestimmt": "die extremere",
+            "unbestimmt": "eine extremere"
           },
           "Neutral": {
-            "no_article": "extremeres⁵",
-            "bestimmt": "das extremere⁵",
-            "unbestimmt": "ein extremeres⁵"
+            "no_article": "extremeres",
+            "bestimmt": "das extremere",
+            "unbestimmt": "ein extremeres"
           },
           "Plural": {
-            "no_article": "extremere⁵",
-            "bestimmt": "die extremeren⁵",
-            "unbestimmt": "keine extremeren⁵"
+            "no_article": "extremere",
+            "bestimmt": "die extremeren",
+            "unbestimmt": "keine extremeren"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "extremeren⁵",
-            "bestimmt": "des extremeren⁵",
-            "unbestimmt": "eines extremeren⁵"
+            "no_article": "extremeren",
+            "bestimmt": "des extremeren",
+            "unbestimmt": "eines extremeren"
           },
           "Feminin": {
-            "no_article": "extremerer⁵",
-            "bestimmt": "der extremeren⁵",
-            "unbestimmt": "einer extremeren⁵"
+            "no_article": "extremerer",
+            "bestimmt": "der extremeren",
+            "unbestimmt": "einer extremeren"
           },
           "Neutral": {
-            "no_article": "extremeren⁵",
-            "bestimmt": "des extremeren⁵",
-            "unbestimmt": "eines extremeren⁵"
+            "no_article": "extremeren",
+            "bestimmt": "des extremeren",
+            "unbestimmt": "eines extremeren"
           },
           "Plural": {
-            "no_article": "extremerer⁵",
-            "bestimmt": "der extremeren⁵",
-            "unbestimmt": "keiner extremeren⁵"
+            "no_article": "extremerer",
+            "bestimmt": "der extremeren",
+            "unbestimmt": "keiner extremeren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "extremerem⁵",
-            "bestimmt": "dem extremeren⁵",
-            "unbestimmt": "einem extremeren⁵"
+            "no_article": "extremerem",
+            "bestimmt": "dem extremeren",
+            "unbestimmt": "einem extremeren"
           },
           "Feminin": {
-            "no_article": "extremerer⁵",
-            "bestimmt": "der extremeren⁵",
-            "unbestimmt": "einer extremeren⁵"
+            "no_article": "extremerer",
+            "bestimmt": "der extremeren",
+            "unbestimmt": "einer extremeren"
           },
           "Neutral": {
-            "no_article": "extremerem⁵",
-            "bestimmt": "dem extremeren⁵",
-            "unbestimmt": "einem extremeren⁵"
+            "no_article": "extremerem",
+            "bestimmt": "dem extremeren",
+            "unbestimmt": "einem extremeren"
           },
           "Plural": {
-            "no_article": "extremeren⁵",
-            "bestimmt": "den extremeren⁵",
-            "unbestimmt": "keinen extremeren⁵"
+            "no_article": "extremeren",
+            "bestimmt": "den extremeren",
+            "unbestimmt": "keinen extremeren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "extremeren⁵",
-            "bestimmt": "den extremeren⁵",
-            "unbestimmt": "einen extremeren⁵"
+            "no_article": "extremeren",
+            "bestimmt": "den extremeren",
+            "unbestimmt": "einen extremeren"
           },
           "Feminin": {
-            "no_article": "extremere⁵",
-            "bestimmt": "die extremere⁵",
-            "unbestimmt": "eine extremere⁵"
+            "no_article": "extremere",
+            "bestimmt": "die extremere",
+            "unbestimmt": "eine extremere"
           },
           "Neutral": {
-            "no_article": "extremeres⁵",
-            "bestimmt": "das extremere⁵",
-            "unbestimmt": "ein extremeres⁵"
+            "no_article": "extremeres",
+            "bestimmt": "das extremere",
+            "unbestimmt": "ein extremeres"
           },
           "Plural": {
-            "no_article": "extremere⁵",
-            "bestimmt": "die extremeren⁵",
-            "unbestimmt": "keine extremeren⁵"
+            "no_article": "extremere",
+            "bestimmt": "die extremeren",
+            "unbestimmt": "keine extremeren"
           }
         }
       },
       "superlative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "extremster⁵",
-            "bestimmt": "der extremste⁵",
-            "unbestimmt": "ein extremster⁵"
+            "no_article": "extremster",
+            "bestimmt": "der extremste",
+            "unbestimmt": "ein extremster"
           },
           "Feminin": {
-            "no_article": "extremste⁵",
-            "bestimmt": "die extremste⁵",
-            "unbestimmt": "eine extremste⁵"
+            "no_article": "extremste",
+            "bestimmt": "die extremste",
+            "unbestimmt": "eine extremste"
           },
           "Neutral": {
-            "no_article": "extremstes⁵",
-            "bestimmt": "das extremste⁵",
-            "unbestimmt": "ein extremstes⁵"
+            "no_article": "extremstes",
+            "bestimmt": "das extremste",
+            "unbestimmt": "ein extremstes"
           },
           "Plural": {
-            "no_article": "extremste⁵",
-            "bestimmt": "die extremsten⁵",
-            "unbestimmt": "keine extremsten⁵"
+            "no_article": "extremste",
+            "bestimmt": "die extremsten",
+            "unbestimmt": "keine extremsten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "extremsten⁵",
-            "bestimmt": "des extremsten⁵",
-            "unbestimmt": "eines extremsten⁵"
+            "no_article": "extremsten",
+            "bestimmt": "des extremsten",
+            "unbestimmt": "eines extremsten"
           },
           "Feminin": {
-            "no_article": "extremster⁵",
-            "bestimmt": "der extremsten⁵",
-            "unbestimmt": "einer extremsten⁵"
+            "no_article": "extremster",
+            "bestimmt": "der extremsten",
+            "unbestimmt": "einer extremsten"
           },
           "Neutral": {
-            "no_article": "extremsten⁵",
-            "bestimmt": "des extremsten⁵",
-            "unbestimmt": "eines extremsten⁵"
+            "no_article": "extremsten",
+            "bestimmt": "des extremsten",
+            "unbestimmt": "eines extremsten"
           },
           "Plural": {
-            "no_article": "extremster⁵",
-            "bestimmt": "der extremsten⁵",
-            "unbestimmt": "keiner extremsten⁵"
+            "no_article": "extremster",
+            "bestimmt": "der extremsten",
+            "unbestimmt": "keiner extremsten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "extremstem⁵",
-            "bestimmt": "dem extremsten⁵",
-            "unbestimmt": "einem extremsten⁵"
+            "no_article": "extremstem",
+            "bestimmt": "dem extremsten",
+            "unbestimmt": "einem extremsten"
           },
           "Feminin": {
-            "no_article": "extremster⁵",
-            "bestimmt": "der extremsten⁵",
-            "unbestimmt": "einer extremsten⁵"
+            "no_article": "extremster",
+            "bestimmt": "der extremsten",
+            "unbestimmt": "einer extremsten"
           },
           "Neutral": {
-            "no_article": "extremstem⁵",
-            "bestimmt": "dem extremsten⁵",
-            "unbestimmt": "einem extremsten⁵"
+            "no_article": "extremstem",
+            "bestimmt": "dem extremsten",
+            "unbestimmt": "einem extremsten"
           },
           "Plural": {
-            "no_article": "extremsten⁵",
-            "bestimmt": "den extremsten⁵",
-            "unbestimmt": "keinen extremsten⁵"
+            "no_article": "extremsten",
+            "bestimmt": "den extremsten",
+            "unbestimmt": "keinen extremsten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "extremsten⁵",
-            "bestimmt": "den extremsten⁵",
-            "unbestimmt": "einen extremsten⁵"
+            "no_article": "extremsten",
+            "bestimmt": "den extremsten",
+            "unbestimmt": "einen extremsten"
           },
           "Feminin": {
-            "no_article": "extremste⁵",
-            "bestimmt": "die extremste⁵",
-            "unbestimmt": "eine extremste⁵"
+            "no_article": "extremste",
+            "bestimmt": "die extremste",
+            "unbestimmt": "eine extremste"
           },
           "Neutral": {
-            "no_article": "extremstes⁵",
-            "bestimmt": "das extremste⁵",
-            "unbestimmt": "ein extremstes⁵"
+            "no_article": "extremstes",
+            "bestimmt": "das extremste",
+            "unbestimmt": "ein extremstes"
           },
           "Plural": {
-            "no_article": "extremste⁵",
-            "bestimmt": "die extremsten⁵",
-            "unbestimmt": "keine extremsten⁵"
+            "no_article": "extremste",
+            "bestimmt": "die extremsten",
+            "unbestimmt": "keine extremsten"
           }
         }
       }
@@ -15213,180 +15213,180 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "idealerer⁵",
-            "bestimmt": "der idealere⁵",
-            "unbestimmt": "ein idealerer⁵"
+            "no_article": "idealerer",
+            "bestimmt": "der idealere",
+            "unbestimmt": "ein idealerer"
           },
           "Feminin": {
-            "no_article": "idealere⁵",
-            "bestimmt": "die idealere⁵",
-            "unbestimmt": "eine idealere⁵"
+            "no_article": "idealere",
+            "bestimmt": "die idealere",
+            "unbestimmt": "eine idealere"
           },
           "Neutral": {
-            "no_article": "idealeres⁵",
-            "bestimmt": "das idealere⁵",
-            "unbestimmt": "ein idealeres⁵"
+            "no_article": "idealeres",
+            "bestimmt": "das idealere",
+            "unbestimmt": "ein idealeres"
           },
           "Plural": {
-            "no_article": "idealere⁵",
-            "bestimmt": "die idealeren⁵",
-            "unbestimmt": "keine idealeren⁵"
+            "no_article": "idealere",
+            "bestimmt": "die idealeren",
+            "unbestimmt": "keine idealeren"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "idealeren⁵",
-            "bestimmt": "des idealeren⁵",
-            "unbestimmt": "eines idealeren⁵"
+            "no_article": "idealeren",
+            "bestimmt": "des idealeren",
+            "unbestimmt": "eines idealeren"
           },
           "Feminin": {
-            "no_article": "idealerer⁵",
-            "bestimmt": "der idealeren⁵",
-            "unbestimmt": "einer idealeren⁵"
+            "no_article": "idealerer",
+            "bestimmt": "der idealeren",
+            "unbestimmt": "einer idealeren"
           },
           "Neutral": {
-            "no_article": "idealeren⁵",
-            "bestimmt": "des idealeren⁵",
-            "unbestimmt": "eines idealeren⁵"
+            "no_article": "idealeren",
+            "bestimmt": "des idealeren",
+            "unbestimmt": "eines idealeren"
           },
           "Plural": {
-            "no_article": "idealerer⁵",
-            "bestimmt": "der idealeren⁵",
-            "unbestimmt": "keiner idealeren⁵"
+            "no_article": "idealerer",
+            "bestimmt": "der idealeren",
+            "unbestimmt": "keiner idealeren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "idealerem⁵",
-            "bestimmt": "dem idealeren⁵",
-            "unbestimmt": "einem idealeren⁵"
+            "no_article": "idealerem",
+            "bestimmt": "dem idealeren",
+            "unbestimmt": "einem idealeren"
           },
           "Feminin": {
-            "no_article": "idealerer⁵",
-            "bestimmt": "der idealeren⁵",
-            "unbestimmt": "einer idealeren⁵"
+            "no_article": "idealerer",
+            "bestimmt": "der idealeren",
+            "unbestimmt": "einer idealeren"
           },
           "Neutral": {
-            "no_article": "idealerem⁵",
-            "bestimmt": "dem idealeren⁵",
-            "unbestimmt": "einem idealeren⁵"
+            "no_article": "idealerem",
+            "bestimmt": "dem idealeren",
+            "unbestimmt": "einem idealeren"
           },
           "Plural": {
-            "no_article": "idealeren⁵",
-            "bestimmt": "den idealeren⁵",
-            "unbestimmt": "keinen idealeren⁵"
+            "no_article": "idealeren",
+            "bestimmt": "den idealeren",
+            "unbestimmt": "keinen idealeren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "idealeren⁵",
-            "bestimmt": "den idealeren⁵",
-            "unbestimmt": "einen idealeren⁵"
+            "no_article": "idealeren",
+            "bestimmt": "den idealeren",
+            "unbestimmt": "einen idealeren"
           },
           "Feminin": {
-            "no_article": "idealere⁵",
-            "bestimmt": "die idealere⁵",
-            "unbestimmt": "eine idealere⁵"
+            "no_article": "idealere",
+            "bestimmt": "die idealere",
+            "unbestimmt": "eine idealere"
           },
           "Neutral": {
-            "no_article": "idealeres⁵",
-            "bestimmt": "das idealere⁵",
-            "unbestimmt": "ein idealeres⁵"
+            "no_article": "idealeres",
+            "bestimmt": "das idealere",
+            "unbestimmt": "ein idealeres"
           },
           "Plural": {
-            "no_article": "idealere⁵",
-            "bestimmt": "die idealeren⁵",
-            "unbestimmt": "keine idealeren⁵"
+            "no_article": "idealere",
+            "bestimmt": "die idealeren",
+            "unbestimmt": "keine idealeren"
           }
         }
       },
       "superlative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "idealster⁵",
-            "bestimmt": "der idealste⁵",
-            "unbestimmt": "ein idealster⁵"
+            "no_article": "idealster",
+            "bestimmt": "der idealste",
+            "unbestimmt": "ein idealster"
           },
           "Feminin": {
-            "no_article": "idealste⁵",
-            "bestimmt": "die idealste⁵",
-            "unbestimmt": "eine idealste⁵"
+            "no_article": "idealste",
+            "bestimmt": "die idealste",
+            "unbestimmt": "eine idealste"
           },
           "Neutral": {
-            "no_article": "idealstes⁵",
-            "bestimmt": "das idealste⁵",
-            "unbestimmt": "ein idealstes⁵"
+            "no_article": "idealstes",
+            "bestimmt": "das idealste",
+            "unbestimmt": "ein idealstes"
           },
           "Plural": {
-            "no_article": "idealste⁵",
-            "bestimmt": "die idealsten⁵",
-            "unbestimmt": "keine idealsten⁵"
+            "no_article": "idealste",
+            "bestimmt": "die idealsten",
+            "unbestimmt": "keine idealsten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "idealsten⁵",
-            "bestimmt": "des idealsten⁵",
-            "unbestimmt": "eines idealsten⁵"
+            "no_article": "idealsten",
+            "bestimmt": "des idealsten",
+            "unbestimmt": "eines idealsten"
           },
           "Feminin": {
-            "no_article": "idealster⁵",
-            "bestimmt": "der idealsten⁵",
-            "unbestimmt": "einer idealsten⁵"
+            "no_article": "idealster",
+            "bestimmt": "der idealsten",
+            "unbestimmt": "einer idealsten"
           },
           "Neutral": {
-            "no_article": "idealsten⁵",
-            "bestimmt": "des idealsten⁵",
-            "unbestimmt": "eines idealsten⁵"
+            "no_article": "idealsten",
+            "bestimmt": "des idealsten",
+            "unbestimmt": "eines idealsten"
           },
           "Plural": {
-            "no_article": "idealster⁵",
-            "bestimmt": "der idealsten⁵",
-            "unbestimmt": "keiner idealsten⁵"
+            "no_article": "idealster",
+            "bestimmt": "der idealsten",
+            "unbestimmt": "keiner idealsten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "idealstem⁵",
-            "bestimmt": "dem idealsten⁵",
-            "unbestimmt": "einem idealsten⁵"
+            "no_article": "idealstem",
+            "bestimmt": "dem idealsten",
+            "unbestimmt": "einem idealsten"
           },
           "Feminin": {
-            "no_article": "idealster⁵",
-            "bestimmt": "der idealsten⁵",
-            "unbestimmt": "einer idealsten⁵"
+            "no_article": "idealster",
+            "bestimmt": "der idealsten",
+            "unbestimmt": "einer idealsten"
           },
           "Neutral": {
-            "no_article": "idealstem⁵",
-            "bestimmt": "dem idealsten⁵",
-            "unbestimmt": "einem idealsten⁵"
+            "no_article": "idealstem",
+            "bestimmt": "dem idealsten",
+            "unbestimmt": "einem idealsten"
           },
           "Plural": {
-            "no_article": "idealsten⁵",
-            "bestimmt": "den idealsten⁵",
-            "unbestimmt": "keinen idealsten⁵"
+            "no_article": "idealsten",
+            "bestimmt": "den idealsten",
+            "unbestimmt": "keinen idealsten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "idealsten⁵",
-            "bestimmt": "den idealsten⁵",
-            "unbestimmt": "einen idealsten⁵"
+            "no_article": "idealsten",
+            "bestimmt": "den idealsten",
+            "unbestimmt": "einen idealsten"
           },
           "Feminin": {
-            "no_article": "idealste⁵",
-            "bestimmt": "die idealste⁵",
-            "unbestimmt": "eine idealste⁵"
+            "no_article": "idealste",
+            "bestimmt": "die idealste",
+            "unbestimmt": "eine idealste"
           },
           "Neutral": {
-            "no_article": "idealstes⁵",
-            "bestimmt": "das idealste⁵",
-            "unbestimmt": "ein idealstes⁵"
+            "no_article": "idealstes",
+            "bestimmt": "das idealste",
+            "unbestimmt": "ein idealstes"
           },
           "Plural": {
-            "no_article": "idealste⁵",
-            "bestimmt": "die idealsten⁵",
-            "unbestimmt": "keine idealsten⁵"
+            "no_article": "idealste",
+            "bestimmt": "die idealsten",
+            "unbestimmt": "keine idealsten"
           }
         }
       }
@@ -20025,180 +20025,180 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "maximalerer⁵",
-            "bestimmt": "der maximalere⁵",
-            "unbestimmt": "ein maximalerer⁵"
+            "no_article": "maximalerer",
+            "bestimmt": "der maximalere",
+            "unbestimmt": "ein maximalerer"
           },
           "Feminin": {
-            "no_article": "maximalere⁵",
-            "bestimmt": "die maximalere⁵",
-            "unbestimmt": "eine maximalere⁵"
+            "no_article": "maximalere",
+            "bestimmt": "die maximalere",
+            "unbestimmt": "eine maximalere"
           },
           "Neutral": {
-            "no_article": "maximaleres⁵",
-            "bestimmt": "das maximalere⁵",
-            "unbestimmt": "ein maximaleres⁵"
+            "no_article": "maximaleres",
+            "bestimmt": "das maximalere",
+            "unbestimmt": "ein maximaleres"
           },
           "Plural": {
-            "no_article": "maximalere⁵",
-            "bestimmt": "die maximaleren⁵",
-            "unbestimmt": "keine maximaleren⁵"
+            "no_article": "maximalere",
+            "bestimmt": "die maximaleren",
+            "unbestimmt": "keine maximaleren"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "maximaleren⁵",
-            "bestimmt": "des maximaleren⁵",
-            "unbestimmt": "eines maximaleren⁵"
+            "no_article": "maximaleren",
+            "bestimmt": "des maximaleren",
+            "unbestimmt": "eines maximaleren"
           },
           "Feminin": {
-            "no_article": "maximalerer⁵",
-            "bestimmt": "der maximaleren⁵",
-            "unbestimmt": "einer maximaleren⁵"
+            "no_article": "maximalerer",
+            "bestimmt": "der maximaleren",
+            "unbestimmt": "einer maximaleren"
           },
           "Neutral": {
-            "no_article": "maximaleren⁵",
-            "bestimmt": "des maximaleren⁵",
-            "unbestimmt": "eines maximaleren⁵"
+            "no_article": "maximaleren",
+            "bestimmt": "des maximaleren",
+            "unbestimmt": "eines maximaleren"
           },
           "Plural": {
-            "no_article": "maximalerer⁵",
-            "bestimmt": "der maximaleren⁵",
-            "unbestimmt": "keiner maximaleren⁵"
+            "no_article": "maximalerer",
+            "bestimmt": "der maximaleren",
+            "unbestimmt": "keiner maximaleren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "maximalerem⁵",
-            "bestimmt": "dem maximaleren⁵",
-            "unbestimmt": "einem maximaleren⁵"
+            "no_article": "maximalerem",
+            "bestimmt": "dem maximaleren",
+            "unbestimmt": "einem maximaleren"
           },
           "Feminin": {
-            "no_article": "maximalerer⁵",
-            "bestimmt": "der maximaleren⁵",
-            "unbestimmt": "einer maximaleren⁵"
+            "no_article": "maximalerer",
+            "bestimmt": "der maximaleren",
+            "unbestimmt": "einer maximaleren"
           },
           "Neutral": {
-            "no_article": "maximalerem⁵",
-            "bestimmt": "dem maximaleren⁵",
-            "unbestimmt": "einem maximaleren⁵"
+            "no_article": "maximalerem",
+            "bestimmt": "dem maximaleren",
+            "unbestimmt": "einem maximaleren"
           },
           "Plural": {
-            "no_article": "maximaleren⁵",
-            "bestimmt": "den maximaleren⁵",
-            "unbestimmt": "keinen maximaleren⁵"
+            "no_article": "maximaleren",
+            "bestimmt": "den maximaleren",
+            "unbestimmt": "keinen maximaleren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "maximaleren⁵",
-            "bestimmt": "den maximaleren⁵",
-            "unbestimmt": "einen maximaleren⁵"
+            "no_article": "maximaleren",
+            "bestimmt": "den maximaleren",
+            "unbestimmt": "einen maximaleren"
           },
           "Feminin": {
-            "no_article": "maximalere⁵",
-            "bestimmt": "die maximalere⁵",
-            "unbestimmt": "eine maximalere⁵"
+            "no_article": "maximalere",
+            "bestimmt": "die maximalere",
+            "unbestimmt": "eine maximalere"
           },
           "Neutral": {
-            "no_article": "maximaleres⁵",
-            "bestimmt": "das maximalere⁵",
-            "unbestimmt": "ein maximaleres⁵"
+            "no_article": "maximaleres",
+            "bestimmt": "das maximalere",
+            "unbestimmt": "ein maximaleres"
           },
           "Plural": {
-            "no_article": "maximalere⁵",
-            "bestimmt": "die maximaleren⁵",
-            "unbestimmt": "keine maximaleren⁵"
+            "no_article": "maximalere",
+            "bestimmt": "die maximaleren",
+            "unbestimmt": "keine maximaleren"
           }
         }
       },
       "superlative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "maximalster⁵",
-            "bestimmt": "der maximalste⁵",
-            "unbestimmt": "ein maximalster⁵"
+            "no_article": "maximalster",
+            "bestimmt": "der maximalste",
+            "unbestimmt": "ein maximalster"
           },
           "Feminin": {
-            "no_article": "maximalste⁵",
-            "bestimmt": "die maximalste⁵",
-            "unbestimmt": "eine maximalste⁵"
+            "no_article": "maximalste",
+            "bestimmt": "die maximalste",
+            "unbestimmt": "eine maximalste"
           },
           "Neutral": {
-            "no_article": "maximalstes⁵",
-            "bestimmt": "das maximalste⁵",
-            "unbestimmt": "ein maximalstes⁵"
+            "no_article": "maximalstes",
+            "bestimmt": "das maximalste",
+            "unbestimmt": "ein maximalstes"
           },
           "Plural": {
-            "no_article": "maximalste⁵",
-            "bestimmt": "die maximalsten⁵",
-            "unbestimmt": "keine maximalsten⁵"
+            "no_article": "maximalste",
+            "bestimmt": "die maximalsten",
+            "unbestimmt": "keine maximalsten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "maximalsten⁵",
-            "bestimmt": "des maximalsten⁵",
-            "unbestimmt": "eines maximalsten⁵"
+            "no_article": "maximalsten",
+            "bestimmt": "des maximalsten",
+            "unbestimmt": "eines maximalsten"
           },
           "Feminin": {
-            "no_article": "maximalster⁵",
-            "bestimmt": "der maximalsten⁵",
-            "unbestimmt": "einer maximalsten⁵"
+            "no_article": "maximalster",
+            "bestimmt": "der maximalsten",
+            "unbestimmt": "einer maximalsten"
           },
           "Neutral": {
-            "no_article": "maximalsten⁵",
-            "bestimmt": "des maximalsten⁵",
-            "unbestimmt": "eines maximalsten⁵"
+            "no_article": "maximalsten",
+            "bestimmt": "des maximalsten",
+            "unbestimmt": "eines maximalsten"
           },
           "Plural": {
-            "no_article": "maximalster⁵",
-            "bestimmt": "der maximalsten⁵",
-            "unbestimmt": "keiner maximalsten⁵"
+            "no_article": "maximalster",
+            "bestimmt": "der maximalsten",
+            "unbestimmt": "keiner maximalsten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "maximalstem⁵",
-            "bestimmt": "dem maximalsten⁵",
-            "unbestimmt": "einem maximalsten⁵"
+            "no_article": "maximalstem",
+            "bestimmt": "dem maximalsten",
+            "unbestimmt": "einem maximalsten"
           },
           "Feminin": {
-            "no_article": "maximalster⁵",
-            "bestimmt": "der maximalsten⁵",
-            "unbestimmt": "einer maximalsten⁵"
+            "no_article": "maximalster",
+            "bestimmt": "der maximalsten",
+            "unbestimmt": "einer maximalsten"
           },
           "Neutral": {
-            "no_article": "maximalstem⁵",
-            "bestimmt": "dem maximalsten⁵",
-            "unbestimmt": "einem maximalsten⁵"
+            "no_article": "maximalstem",
+            "bestimmt": "dem maximalsten",
+            "unbestimmt": "einem maximalsten"
           },
           "Plural": {
-            "no_article": "maximalsten⁵",
-            "bestimmt": "den maximalsten⁵",
-            "unbestimmt": "keinen maximalsten⁵"
+            "no_article": "maximalsten",
+            "bestimmt": "den maximalsten",
+            "unbestimmt": "keinen maximalsten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "maximalsten⁵",
-            "bestimmt": "den maximalsten⁵",
-            "unbestimmt": "einen maximalsten⁵"
+            "no_article": "maximalsten",
+            "bestimmt": "den maximalsten",
+            "unbestimmt": "einen maximalsten"
           },
           "Feminin": {
-            "no_article": "maximalste⁵",
-            "bestimmt": "die maximalste⁵",
-            "unbestimmt": "eine maximalste⁵"
+            "no_article": "maximalste",
+            "bestimmt": "die maximalste",
+            "unbestimmt": "eine maximalste"
           },
           "Neutral": {
-            "no_article": "maximalstes⁵",
-            "bestimmt": "das maximalste⁵",
-            "unbestimmt": "ein maximalstes⁵"
+            "no_article": "maximalstes",
+            "bestimmt": "das maximalste",
+            "unbestimmt": "ein maximalstes"
           },
           "Plural": {
-            "no_article": "maximalste⁵",
-            "bestimmt": "die maximalsten⁵",
-            "unbestimmt": "keine maximalsten⁵"
+            "no_article": "maximalste",
+            "bestimmt": "die maximalsten",
+            "unbestimmt": "keine maximalsten"
           }
         }
       }
@@ -21145,180 +21145,180 @@
       "comparative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "minimalerer⁵",
-            "bestimmt": "der minimalere⁵",
-            "unbestimmt": "ein minimalerer⁵"
+            "no_article": "minimalerer",
+            "bestimmt": "der minimalere",
+            "unbestimmt": "ein minimalerer"
           },
           "Feminin": {
-            "no_article": "minimalere⁵",
-            "bestimmt": "die minimalere⁵",
-            "unbestimmt": "eine minimalere⁵"
+            "no_article": "minimalere",
+            "bestimmt": "die minimalere",
+            "unbestimmt": "eine minimalere"
           },
           "Neutral": {
-            "no_article": "minimaleres⁵",
-            "bestimmt": "das minimalere⁵",
-            "unbestimmt": "ein minimaleres⁵"
+            "no_article": "minimaleres",
+            "bestimmt": "das minimalere",
+            "unbestimmt": "ein minimaleres"
           },
           "Plural": {
-            "no_article": "minimalere⁵",
-            "bestimmt": "die minimaleren⁵",
-            "unbestimmt": "keine minimaleren⁵"
+            "no_article": "minimalere",
+            "bestimmt": "die minimaleren",
+            "unbestimmt": "keine minimaleren"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "minimaleren⁵",
-            "bestimmt": "des minimaleren⁵",
-            "unbestimmt": "eines minimaleren⁵"
+            "no_article": "minimaleren",
+            "bestimmt": "des minimaleren",
+            "unbestimmt": "eines minimaleren"
           },
           "Feminin": {
-            "no_article": "minimalerer⁵",
-            "bestimmt": "der minimaleren⁵",
-            "unbestimmt": "einer minimaleren⁵"
+            "no_article": "minimalerer",
+            "bestimmt": "der minimaleren",
+            "unbestimmt": "einer minimaleren"
           },
           "Neutral": {
-            "no_article": "minimaleren⁵",
-            "bestimmt": "des minimaleren⁵",
-            "unbestimmt": "eines minimaleren⁵"
+            "no_article": "minimaleren",
+            "bestimmt": "des minimaleren",
+            "unbestimmt": "eines minimaleren"
           },
           "Plural": {
-            "no_article": "minimalerer⁵",
-            "bestimmt": "der minimaleren⁵",
-            "unbestimmt": "keiner minimaleren⁵"
+            "no_article": "minimalerer",
+            "bestimmt": "der minimaleren",
+            "unbestimmt": "keiner minimaleren"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "minimalerem⁵",
-            "bestimmt": "dem minimaleren⁵",
-            "unbestimmt": "einem minimaleren⁵"
+            "no_article": "minimalerem",
+            "bestimmt": "dem minimaleren",
+            "unbestimmt": "einem minimaleren"
           },
           "Feminin": {
-            "no_article": "minimalerer⁵",
-            "bestimmt": "der minimaleren⁵",
-            "unbestimmt": "einer minimaleren⁵"
+            "no_article": "minimalerer",
+            "bestimmt": "der minimaleren",
+            "unbestimmt": "einer minimaleren"
           },
           "Neutral": {
-            "no_article": "minimalerem⁵",
-            "bestimmt": "dem minimaleren⁵",
-            "unbestimmt": "einem minimaleren⁵"
+            "no_article": "minimalerem",
+            "bestimmt": "dem minimaleren",
+            "unbestimmt": "einem minimaleren"
           },
           "Plural": {
-            "no_article": "minimaleren⁵",
-            "bestimmt": "den minimaleren⁵",
-            "unbestimmt": "keinen minimaleren⁵"
+            "no_article": "minimaleren",
+            "bestimmt": "den minimaleren",
+            "unbestimmt": "keinen minimaleren"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "minimaleren⁵",
-            "bestimmt": "den minimaleren⁵",
-            "unbestimmt": "einen minimaleren⁵"
+            "no_article": "minimaleren",
+            "bestimmt": "den minimaleren",
+            "unbestimmt": "einen minimaleren"
           },
           "Feminin": {
-            "no_article": "minimalere⁵",
-            "bestimmt": "die minimalere⁵",
-            "unbestimmt": "eine minimalere⁵"
+            "no_article": "minimalere",
+            "bestimmt": "die minimalere",
+            "unbestimmt": "eine minimalere"
           },
           "Neutral": {
-            "no_article": "minimaleres⁵",
-            "bestimmt": "das minimalere⁵",
-            "unbestimmt": "ein minimaleres⁵"
+            "no_article": "minimaleres",
+            "bestimmt": "das minimalere",
+            "unbestimmt": "ein minimaleres"
           },
           "Plural": {
-            "no_article": "minimalere⁵",
-            "bestimmt": "die minimaleren⁵",
-            "unbestimmt": "keine minimaleren⁵"
+            "no_article": "minimalere",
+            "bestimmt": "die minimaleren",
+            "unbestimmt": "keine minimaleren"
           }
         }
       },
       "superlative": {
         "Nominativ": {
           "Maskulin": {
-            "no_article": "minimalster⁵",
-            "bestimmt": "der minimalste⁵",
-            "unbestimmt": "ein minimalster⁵"
+            "no_article": "minimalster",
+            "bestimmt": "der minimalste",
+            "unbestimmt": "ein minimalster"
           },
           "Feminin": {
-            "no_article": "minimalste⁵",
-            "bestimmt": "die minimalste⁵",
-            "unbestimmt": "eine minimalste⁵"
+            "no_article": "minimalste",
+            "bestimmt": "die minimalste",
+            "unbestimmt": "eine minimalste"
           },
           "Neutral": {
-            "no_article": "minimalstes⁵",
-            "bestimmt": "das minimalste⁵",
-            "unbestimmt": "ein minimalstes⁵"
+            "no_article": "minimalstes",
+            "bestimmt": "das minimalste",
+            "unbestimmt": "ein minimalstes"
           },
           "Plural": {
-            "no_article": "minimalste⁵",
-            "bestimmt": "die minimalsten⁵",
-            "unbestimmt": "keine minimalsten⁵"
+            "no_article": "minimalste",
+            "bestimmt": "die minimalsten",
+            "unbestimmt": "keine minimalsten"
           }
         },
         "Genitiv": {
           "Maskulin": {
-            "no_article": "minimalsten⁵",
-            "bestimmt": "des minimalsten⁵",
-            "unbestimmt": "eines minimalsten⁵"
+            "no_article": "minimalsten",
+            "bestimmt": "des minimalsten",
+            "unbestimmt": "eines minimalsten"
           },
           "Feminin": {
-            "no_article": "minimalster⁵",
-            "bestimmt": "der minimalsten⁵",
-            "unbestimmt": "einer minimalsten⁵"
+            "no_article": "minimalster",
+            "bestimmt": "der minimalsten",
+            "unbestimmt": "einer minimalsten"
           },
           "Neutral": {
-            "no_article": "minimalsten⁵",
-            "bestimmt": "des minimalsten⁵",
-            "unbestimmt": "eines minimalsten⁵"
+            "no_article": "minimalsten",
+            "bestimmt": "des minimalsten",
+            "unbestimmt": "eines minimalsten"
           },
           "Plural": {
-            "no_article": "minimalster⁵",
-            "bestimmt": "der minimalsten⁵",
-            "unbestimmt": "keiner minimalsten⁵"
+            "no_article": "minimalster",
+            "bestimmt": "der minimalsten",
+            "unbestimmt": "keiner minimalsten"
           }
         },
         "Dativ": {
           "Maskulin": {
-            "no_article": "minimalstem⁵",
-            "bestimmt": "dem minimalsten⁵",
-            "unbestimmt": "einem minimalsten⁵"
+            "no_article": "minimalstem",
+            "bestimmt": "dem minimalsten",
+            "unbestimmt": "einem minimalsten"
           },
           "Feminin": {
-            "no_article": "minimalster⁵",
-            "bestimmt": "der minimalsten⁵",
-            "unbestimmt": "einer minimalsten⁵"
+            "no_article": "minimalster",
+            "bestimmt": "der minimalsten",
+            "unbestimmt": "einer minimalsten"
           },
           "Neutral": {
-            "no_article": "minimalstem⁵",
-            "bestimmt": "dem minimalsten⁵",
-            "unbestimmt": "einem minimalsten⁵"
+            "no_article": "minimalstem",
+            "bestimmt": "dem minimalsten",
+            "unbestimmt": "einem minimalsten"
           },
           "Plural": {
-            "no_article": "minimalsten⁵",
-            "bestimmt": "den minimalsten⁵",
-            "unbestimmt": "keinen minimalsten⁵"
+            "no_article": "minimalsten",
+            "bestimmt": "den minimalsten",
+            "unbestimmt": "keinen minimalsten"
           }
         },
         "Akkusativ": {
           "Maskulin": {
-            "no_article": "minimalsten⁵",
-            "bestimmt": "den minimalsten⁵",
-            "unbestimmt": "einen minimalsten⁵"
+            "no_article": "minimalsten",
+            "bestimmt": "den minimalsten",
+            "unbestimmt": "einen minimalsten"
           },
           "Feminin": {
-            "no_article": "minimalste⁵",
-            "bestimmt": "die minimalste⁵",
-            "unbestimmt": "eine minimalste⁵"
+            "no_article": "minimalste",
+            "bestimmt": "die minimalste",
+            "unbestimmt": "eine minimalste"
           },
           "Neutral": {
-            "no_article": "minimalstes⁵",
-            "bestimmt": "das minimalste⁵",
-            "unbestimmt": "ein minimalstes⁵"
+            "no_article": "minimalstes",
+            "bestimmt": "das minimalste",
+            "unbestimmt": "ein minimalstes"
           },
           "Plural": {
-            "no_article": "minimalste⁵",
-            "bestimmt": "die minimalsten⁵",
-            "unbestimmt": "keine minimalsten⁵"
+            "no_article": "minimalste",
+            "bestimmt": "die minimalsten",
+            "unbestimmt": "keine minimalsten"
           }
         }
       }
