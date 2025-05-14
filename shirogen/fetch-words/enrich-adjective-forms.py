@@ -11,6 +11,7 @@ genders = ["maskulin", "feminin", "neutral", "plural"]
 cases = ["Nominativ", "Akkusativ", "Dativ", "Genitiv"]
 types = ["no_article", "bestimmt", "unbestimmt"]
 forms = ["base_form", "comparative", "superlative"]
+forms_german = ["Positiv", "Komparativ", "Superlativ"]
 
 case_map = {
     "Nom.": "Nominativ",
@@ -29,9 +30,13 @@ class Adjective:
         self.word = base_form
 
 
-    def init_fetching(self):
+    def init_fetching(self, adj_base_url="/deklination/adjektive/"):
         # Fetch the page content
-        self.adjective_url = f"/deklination/adjektive/{self.word}.htm" 
+        if "deklination" not in adj_base_url:
+            self.adjective_url = f"{adj_base_url}{self.word}"
+        else:
+            self.adjective_url = f"{adj_base_url}{self.word}.htm" 
+
         response = None
         try:
             response = requests.get(base_url + self.adjective_url)
@@ -47,12 +52,26 @@ class Adjective:
             raise FetchError("Site has changed")
 
         # Find links to the comparative and superlative forms
-        redirects = [a['href'] for a in self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks') if a.has_attr('href') and "adjektive" in a['href'] ]
+        redirects_html = self.base_soup.find_all('a', href=True, class_='rKnpf rNoSelect rLinks')
         self.comparative_link = ""
         self.superlative_link = ""
-        if len(redirects) >= 2: self.comparative_link = redirects[1]
-        if len(redirects) >= 3: self.superlative_link = redirects[2]
-        if len(redirects) >= 4: print(f"More than 3 redirects found for word [{self.word}] at url [{base_url}{self.adjective_url}]")
+        has_positiv = False
+        for a_tag in redirects_html:
+            span = a_tag.find("span", title=True)
+            if span:
+                title = span.get("title")
+                if title == forms_german[0]:
+                    has_positiv = True
+                elif title == forms_german[1]:
+                    self.comparative_link = a_tag["href"]
+                elif title == forms_german[2]:
+                    self.superlative_link = a_tag["href"]
+
+        if not has_positiv:
+            self.base_soup = ''
+
+        # Debug print
+        print(f"Positiv: {self.base_soup != ""} | Comparative: {self.comparative_link} | Superlative: {self.superlative_link}")
 
         # Create output object
         self.declensions = {"base_form": {}, "comparative": {}, "superlative": {}}
@@ -62,6 +81,9 @@ class Adjective:
         """
         Call this function for each form
         """
+        if not soup:
+            return
+        
         declension_section = soup.find_all('div', class_='vTbl')
         current_type = 0
         for section in declension_section:
@@ -91,9 +113,12 @@ class Adjective:
                 current_type += 1
 
 
-    def fetch_one_adjective_full(self):
+    def fetch_one_adjective_full(self, adj_base_url=''):
         # Load soups
-        self.init_fetching()
+        if adj_base_url:
+            self.init_fetching(adj_base_url)
+        else:
+            self.init_fetching()
         print(self.comparative_link, end=" | ")
         print(self.superlative_link)
         comparative_soup = ""
@@ -176,10 +201,10 @@ def update_specific_adjective_data(filepath_in, filepath_out, adjective):
         print(word, end=' found:')
         adjective = Adjective(word)
         try:
-            declensions = adjective.fetch_one_adjective_full()
+            declensions = adjective.fetch_one_adjective_full("/?w=")
         except FetchError:
             input("Waiting...")
-            declensions = adjective.fetch_one_adjective_full()
+            declensions = adjective.fetch_one_adjective_full("/?w=")
         updated_data[key]["declensions"] = declensions
         break
 
@@ -190,4 +215,5 @@ def update_specific_adjective_data(filepath_in, filepath_out, adjective):
 
 if __name__ == "__main__":
     # update_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json")
-    update_specific_adjective_data("shirogen/src/res/b1-adjectives-not-enriched.json", "shirogen/src/res/b1-adjectives.json", "milde")
+    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives-tm2.json", "mild")
+    update_specific_adjective_data("shirogen/src/res/b1-adjectives.json", "shirogen/src/res/b1-adjectives-tmp.json", "mittlere")
