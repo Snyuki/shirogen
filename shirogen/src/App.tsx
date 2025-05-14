@@ -20,7 +20,7 @@ type VerbFormSelection = {
   tense: string;
   pronoun: string;
 };
-
+// TODO Next button text not centered properly
 type AdjectiveFormSelection = {
   baseForm: string;   // Base Form
   adjective: string;  // Correct Answer
@@ -111,8 +111,6 @@ const GenderQuiz = () => {
 
     Note: German has no true indefinite article in the plural. Instead, words like "kein" function as determiners in these cases.
   `;
-
-
     return text
   }
 
