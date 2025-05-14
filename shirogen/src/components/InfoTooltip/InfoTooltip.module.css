@@ -2,7 +2,7 @@
 
 .infoButton {
     /* size it small */
-    width: 1.2em;               /* roughly one letter wide */
+    width: 1em;               /* roughly one letter wide */
     height: 1em;                /* one line-height tall */
     padding: 0;                 /* no extra padding */
     
