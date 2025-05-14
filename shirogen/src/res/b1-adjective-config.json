@@ -1,6 +1,24 @@
 {
-    "Formen": ["base_form", "comparative", "superlative"],
-    "Kasi": ["Nominativ", "Genitiv", "Dativ", "Akkusativ"],
-    "Gender": ["Maskulin", "Feminin", "Neutral", "Plural"],
-    "Specifications": ["bestimmt", "unbestimmt"]
+    "Formen": {
+        "base_form": 1,
+        "comparative": 1,
+        "superlative": 1
+    },
+    "Kasi": {
+        "Nominativ": 1,
+        "Genitiv": 1,
+        "Dativ": 1,
+        "Akkusativ": 1
+    },
+    "Gender": {
+        "Maskulin": 1,
+        "Feminin": 1,
+        "Neutral": 1,
+        "Plural": 1
+    },
+    "Specifications": {
+        "no_article": 0,
+        "bestimmt": 1,
+        "unbestimmt": 1
+    }
 }

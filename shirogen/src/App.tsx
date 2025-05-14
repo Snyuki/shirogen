@@ -139,17 +139,16 @@ const GenderQuiz = () => {
     }
 
     const randomAdjective = b1adjectives[Math.floor(Math.random() * b1adjectives.length)];
-    const formOptions = b1AdjectiveConfig.Formen;
-    const caseOptions = b1AdjectiveConfig.Kasi;
-    const genderOptions = b1AdjectiveConfig.Gender;
-    const specOptions = b1AdjectiveConfig.Specifications;
-    // TODO Add binary value to config to just toggle each instead of hardcoding
-  
+    const allowedForms = Object.keys(b1AdjectiveConfig.Formen).filter(f => b1AdjectiveConfig.Formen[f] === 1);
+    const allowedCases = Object.keys(b1AdjectiveConfig.Kasi).filter(k => b1AdjectiveConfig.Kasi[k] === 1);
+    const allowedGenders = Object.keys(b1AdjectiveConfig.Gender).filter(g => b1AdjectiveConfig.Gender[g] === 1);
+    const allowedSpecs = Object.keys(b1AdjectiveConfig.Specifications).filter(s => b1AdjectiveConfig.Specifications[s] === 1);
+
     // Try all combinations in a randomized order for fairness
-    const shuffledForms = shuffle([...formOptions]);
-    const shuffledCases = shuffle([...caseOptions]);
-    const shuffledGenders = shuffle([...genderOptions]);
-    const shuffledSpecs = shuffle([...specOptions]);
+    const shuffledForms = shuffle([...allowedForms]);
+    const shuffledCases = shuffle([...allowedCases]);
+    const shuffledGenders = shuffle([...allowedGenders]);
+    const shuffledSpecs = shuffle([...allowedSpecs]);
 
     for (const randomForm of shuffledForms) {
       for (const randomCase of shuffledCases) {
