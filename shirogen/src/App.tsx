@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
+// components
+import InfoTooltip from './components/InfoTooltip'
+
 // import femaleNounsData from './res/german_female_nouns.json';
 // import maleNounsData from './res/german_male_nouns.json';
 // import neutralNounsData from './res/german_neutral_nouns.json';
@@ -85,6 +88,23 @@ const GenderQuiz = () => {
       setAdjectiveButtonLabel('Adjectives');
     }
   };
+
+  const updateAdjectivePopupText = () => {
+    const text = `
+    Please enter the correct adjective declension for [${currentAdjective.baseForm}] with the following attributes:
+
+    - Gender: ${currentAdjective.gender}
+    - Case: ${currentAdjective.case}
+    - Form: ${adjectiveFormLabels[currentAdjective.form]}
+    - Specification: ${adjectiveSpecLabels[currentAdjective.specification]}
+    
+    Example:
+    For the adjective "gut" with a masculine singular noun in the nominative case and a definite article, you would enter: "der gute".
+  `;
+
+
+    return text
+  }
 
   function getRandomNoun() {
     const randomIndex = Math.floor(Math.random() * shuffledNouns.length);
@@ -357,7 +377,9 @@ const GenderQuiz = () => {
             >
               {currentAdjective.baseForm}
             </a>
-            </strong>:</h2>
+            </strong>: 
+            <InfoTooltip 
+            updatePopupText={updateAdjectivePopupText}/></h2>
         <div className="verb-input-row">
           <input
             type="text"

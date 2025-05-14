@@ -1,0 +1,89 @@
+
+
+.infoButton {
+    /* size it small */
+    width: 1.2em;               /* roughly one letter wide */
+    height: 1em;                /* one line-height tall */
+    padding: 0;                 /* no extra padding */
+    
+    /* text styling */
+    font-size: 0.75em;          /* smaller than body text */
+    line-height: 1em;           /* exactly matches button height */
+    font-weight: bold;
+    
+    /* center “i” inside the box */
+    display: inline-flex;
+    align-items: flex-start;    /* top-align the “i” within the 1em box */
+    justify-content: center;    /* center horizontally */
+    
+    /* look */
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    vertical-align: top;
+    margin-left: 2px;
+  }
+  
+  .infoButton:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  .infoButtonPopupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;         /* Full viewport width */
+    height: 100vh;        /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .infoButtonPopup {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    min-width: 250px;
+    text-align: center;
+    animation: fadeInScale 0.2s ease-out;
+  }
+  
+  .infoButtonPopup p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .infoButtonPopupCloseButton {
+    background-color: #646cff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .infoButtonPopupCloseButton:hover {
+    background-color: #535bf2;
+  }
+  
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }

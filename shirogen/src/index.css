@@ -262,7 +262,6 @@ button:focus-visible {
 }
 
 @media (max-width: 500px) {
-  /* TODO Mobile Layout for Gender and Verbs */
   .quiz-container {
     max-width: 350px;
   }
@@ -270,13 +269,13 @@ button:focus-visible {
     gap: 0
   }
   .quiz-container h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .quiz-container strong {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .feedback {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 0.5rem;
   }
   .mode-button {
@@ -286,6 +285,11 @@ button:focus-visible {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
+  width: 75%;
+  }
+  .pronoun-tag {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
 }
 
