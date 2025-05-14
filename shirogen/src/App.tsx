@@ -98,8 +98,12 @@ const GenderQuiz = () => {
     - Form: ${adjectiveFormLabels[currentAdjective.form]}
     - Specification: ${adjectiveSpecLabels[currentAdjective.specification]}
     
+    In case of indefinite plural: always use a form of "kein" as prefix.
+    
     Example:
-    For the adjective "gut" with a masculine singular noun in the nominative case and a definite article, you would enter: "der gute".
+    For the adjective "gut" with a masculine plural noun in the nominative case and an indefinite-type determiner, you would enter: "keine guten".
+
+    Note: German has no true indefinite article in the plural. Instead, words like "kein" function as determiners in these cases.
   `;
 
 
