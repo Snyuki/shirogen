@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 // components
-import InfoTooltip from './components/InfoTooltip'
+import AdjectiveInfoPopup from './components/AdjectiveInfoPopup'
+import Popup from './components/Popup';
 
 // import femaleNounsData from './res/german_female_nouns.json';
 // import maleNounsData from './res/german_male_nouns.json';
@@ -82,6 +83,10 @@ const GenderQuiz = () => {
   };
   const [adjectiveButtonLabel, setAdjectiveButtonLabel] = useState('Adjectives');
 
+  // Popup
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState('');
+
   const updateAdjectiveButtonLabel = () => {
     if (window.innerWidth < 500) {
       setAdjectiveButtonLabel('Adj.');
@@ -134,8 +139,15 @@ const GenderQuiz = () => {
   function getRandomAdjective(attempts = 0): AdjectiveFormSelection {
     // Infinite recursion protection
     if (attempts > 10) {
-      // TODO Should show Popup in the future
-      throw new Error("No valid adjective form found after multiple attempts");
+      alert("No Adjective found after " + attempts + " tries!")
+      return {
+        baseForm: '',
+        adjective: '',
+        case: '',
+        form: '',
+        specification: '',
+        gender: '',
+      };
     }
 
     const randomAdjective = b1adjectives[Math.floor(Math.random() * b1adjectives.length)];
@@ -411,7 +423,7 @@ const GenderQuiz = () => {
               {currentAdjective.baseForm}
             </a>
             </strong>: 
-            <InfoTooltip 
+            <AdjectiveInfoPopup 
             updatePopupText={updateAdjectivePopupText}/></h2>
         <div className="verb-input-row">
           <input
@@ -431,9 +443,17 @@ const GenderQuiz = () => {
         <button className="next-button" disabled={!adjectiveAnswered} title={!adjectiveAnswered ? "Please answer first" : ""} onClick={nextAdjectiveQuestion}>Next</button>
       </>
       )}
+      {showPopup && <Popup message={popupMessage} onClose={() => setShowPopup(false)} />}
     </div>
-    
   );
 };
+
+class NoAdjectiveFoundError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "NoAdjectiveFoundError";
+  }
+}
+
 
 export default GenderQuiz;

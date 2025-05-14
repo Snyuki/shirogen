@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import styles from "./InfoTooltip.module.css";
+import styles from "./AdjectiveInfoPopup.module.css";
 
-type InfoTooltipProps = {
+type AdjectiveInfoPopupProps = {
     updatePopupText: () => string;
 }
 
-const InfoTooltip: React.FC<InfoTooltipProps> = ({updatePopupText} : { updatePopupText: () => string }) => {
+const AdjectiveInfoPopup: React.FC<AdjectiveInfoPopupProps> = ({updatePopupText} : { updatePopupText: () => string }) => {
     const [showPopup, setShowPopup] = useState(false);
     const [message, setMessage] = useState('');
 
@@ -38,4 +38,4 @@ const InfoTooltip: React.FC<InfoTooltipProps> = ({updatePopupText} : { updatePop
     )
 };
 
-export default InfoTooltip;
+export default AdjectiveInfoPopup;
