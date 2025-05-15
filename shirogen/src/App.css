@@ -60,17 +60,3 @@ button:last-child {
   margin-top: 1.5rem;
 }
 
-.feedback {
-  margin-top: 1rem;
-  font-weight: bold;
-  font-size: 1.25rem;
-  transition: color 0.3s ease;
-}
-
-.feedback.correct {
-  color: var(--correct);
-}
-
-.feedback.wrong {
-  color: var(--wrong);
-}

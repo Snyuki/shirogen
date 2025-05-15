@@ -11,11 +11,13 @@
   justify-content: center;   /* Center the buttons horizontally */
   align-items: stretch;
   gap: 1.5rem;                /* Space between the buttons */
-  margin-bottom: 2rem;
   animation: slideFadeIn 0.4s ease-out; /* On site load fade in */
 }
 
 .multipleChoiceButton {
+  height: auto !important;    /* ignores parent */
+  word-wrap: break-word;
+  white-space: normal;
   flex: 1;
   min-width: 120px;
   text-align: center;
