@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 import MainGermanQuiz from "./components/MainGermanQuiz"
-import MainJapaneseQuiz from './components/MainJapaneseQuiz/MainJapaneseQuiz';
+import MainJapaneseQuiz from './components/MainJapaneseQuiz';
 
 const QuizHandler = () => {
     const variable = false

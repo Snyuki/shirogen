@@ -95,45 +95,46 @@ const MainJapaneseQuiz = () => {
   const kanjiDisplay = currentWord.japanese[0]?.word || currentWord.japanese[0]?.reading;
 
   return (
-    <div className="japaneseQuizContainer">
-      <div className="progress-bar-text">
-        <span className="progress-text correct">{Math.round(correctPercentage)}% ({correctAnswers})</span>
-        <span>{Math.round(totalAnswers)}</span>
-        <span className="progress-text incorrect">({incorrectAnswers}) {Math.round(incorrectPercentage)}%</span>
-      </div>
-      <div className="progress-bar-container">
-        <div className="progress-bar">
-          <div
-            className="progress-bar correct"
-            style={{ width: `${correctPercentage}%` }}
-          />
-          <div
-            className="progress-bar incorrect"
-            style={{ width: `${incorrectPercentage}%` }}
-          />
+    <div className="quiz-container">
+        <div className="progress-bar-text">
+          <span className="progress-text correct">{Math.round(correctPercentage)}% ({correctAnswers})</span>
+          <span>{Math.round(totalAnswers)}</span>
+          <span className="progress-text incorrect">({incorrectAnswers}) {Math.round(incorrectPercentage)}%</span>
         </div>
-      </div>
+        <div className="progress-bar-container">
+          <div className="progress-bar">
+            <div
+              className="progress-bar correct"
+              style={{ width: `${correctPercentage}%` }}
+            />
+            <div
+              className="progress-bar incorrect"
+              style={{ width: `${incorrectPercentage}%` }}
+            />
+          </div>
+        </div>
+      <div className={styles.japaneseQuizContainer}>
+        <h2>What does <strong>{kanjiDisplay}</strong> mean?</h2>
+        <div className={styles.multipleChoiceContainer}>
+          {choices.map((choice, idx) => (
+            <button
+            className={styles.multipleChoiceButton}
+            key={idx}
+            onClick={() => handleChoice(choice)}
+            >
+              {choice.senses[0]?.english_definitions[0]}
+            </button>
+          ))}
+        </div>
 
-      <h2>What does <strong>{kanjiDisplay}</strong> mean?</h2>
-      <div className={styles.multipleChoiceContainer}>
-        {choices.map((choice, idx) => (
-          <button
-          className={styles.multipleChoiceButton}
-          key={idx}
-          onClick={() => handleChoice(choice)}
-          >
-            {choice.senses[0]?.english_definitions[0]}
-          </button>
-        ))}
-      </div>
+        <div className={`feedback ${feedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
+          {feedback}
+        </div>
 
-      <div className={`feedback ${feedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
-        {feedback}
+        <button className="next-button" onClick={generateNewQuestion} disabled={!wordAnswered} title={!wordAnswered ? "Please answer first" : ""}>
+          Next
+        </button>
       </div>
-
-      <button onClick={generateNewQuestion} disabled={!wordAnswered}>
-        Next
-      </button>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 
 
-.pronoun-tag {
+.pronounTag {
   font-size: 1.25rem;
   font-weight: 600;
   padding: 0.4rem 0.75rem;
@@ -12,14 +12,14 @@
   line-height: 0.8;
 }
 
-.verb-input-row {
+.verbInputRow {
   display: flex;
   flex-wrap: wrap;
   align-items: center; /* Vertical alignment */
   justify-content: center;
 }
 
-.text-input {
+.textInput {
   font-size: 1.2rem;
   padding: 0.6rem 1rem;
   border: 2px solid #ccc;
@@ -30,33 +30,33 @@
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.text-input:focus {
+.textInput:focus {
   outline: none;
   border-color: var(--focus);
   box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
 }
 
-.submit-button {
+.submitButton {
   min-width: 100px;
   text-align: center;
   height: 44px;
 }
 
 @media (min-width: 1000px) {
-  .verb-input-row {
+  .verbInputRow {
     flex-wrap: nowrap; /* force same line on desktop */
   }
 }
 
 
 @media (max-width: 500px) {
-  .text-input {
+  .textInput {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   margin-bottom: 0.5rem;
   width: 68%;
   }
-  .pronoun-tag {
+  .pronounTag {
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }

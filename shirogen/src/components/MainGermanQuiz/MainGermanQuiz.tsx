@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
+import styles from './MainGermanQuiz.module.css'
+
 // components
 import AdjectiveInfoPopup from '../AdjectiveInfoPopup'
 import Popup from '../Popup';
@@ -392,8 +394,8 @@ const GenderQuiz = () => {
                 {currentVerb.baseForm}
               </a>
               </strong>:</h2>
-          <div className="verb-input-row">
-            <span className="pronoun-tag">{currentVerb.pronoun}</span>
+          <div className={styles.verbInputRow}>
+            <span className={styles.pronounTag}>{currentVerb.pronoun}</span>
             <input
               type="text"
               ref={verbInputRef}
@@ -401,9 +403,9 @@ const GenderQuiz = () => {
               value={verbInput}
               onChange={(e) => setVerbInput(e.target.value)}
               placeholder="Type your answer..."
-              className="text-input short"
+              className={styles.textInput}
             />
-            <button className="submit-button" onClick={handleVerbSubmit}>Submit</button>
+            <button className={styles.submitButton} onClick={handleVerbSubmit}>Submit</button>
           </div>
           <div className={`feedback ${verbFeedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
             {verbFeedback}
@@ -431,9 +433,9 @@ const GenderQuiz = () => {
             value={adjectiveInput}
             onChange={(e) => setAdjectiveInput(e.target.value)}
             placeholder="Type your answer..."
-            className="text-input short"
+            className={styles.textInput}
           />
-          <button className="submit-button" onClick={handleAdjectiveSubmit}>Submit</button>
+          <button className={styles.submitButton} onClick={handleAdjectiveSubmit}>Submit</button>
         </div>
         <div className={`feedback ${adjectiveFeedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
           {adjectiveFeedback}
