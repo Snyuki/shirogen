@@ -101,7 +101,7 @@ button:focus-visible {
   color: var(--text-color-blue);
 }
 
-.quiz-container button {
+.quiz-container button:not(.next-button) {
   margin: 0.5rem;
   width: 80px;
   height: 44px;
@@ -111,8 +111,14 @@ button:focus-visible {
   margin-top: 2rem;
   background-color: #646cff;
   color: white;
-  width: auto;
   padding: 0.75em 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -229,6 +235,11 @@ button:focus-visible {
   font-weight: 600;
   padding: 0.4rem 0.75rem;
   color: var(--text-color-blue);
+  max-width: 50px;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  line-height: 0.8;
 }
 
 .verb-input-row {

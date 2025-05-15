@@ -20,7 +20,7 @@ type VerbFormSelection = {
   tense: string;
   pronoun: string;
 };
-// TODO Next button text not centered properly
+// TODO Next button text not centered
 type AdjectiveFormSelection = {
   baseForm: string;   // Base Form
   adjective: string;  // Correct Answer
