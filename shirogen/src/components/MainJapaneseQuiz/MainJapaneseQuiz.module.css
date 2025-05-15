@@ -31,6 +31,22 @@
   transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
 }
 
+.japaneseQuizContainer h2 strong {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-text-stroke: 0.2px;
+  letter-spacing: 0.05em;
+  font-family: 'Noto Sans JP';
+}
+
+.feedbackJp {
+  font-size: 1.7rem;
+  font-weight: 250;
+  -webkit-text-stroke: 0.2px;
+  letter-spacing: 0.05em;
+  font-family: 'Noto Sans JP';
+}
+
 
 @media (max-width: 500px) {
   .multipleChoiceContainer {
@@ -39,5 +55,11 @@
   }
   .multipleChoiceButton {
     min-width: 200px;
+  }
+  .japaneseQuizContainer h2 {
+    font-size: 1.5rem;
+  }
+  .japaneseQuizContainer strong {
+    font-size: 2rem;
   }
 }

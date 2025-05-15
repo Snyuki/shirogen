@@ -39,6 +39,7 @@ const MainJapaneseQuiz = () => {
   const [currentWord, setCurrentWord] = useState<JapaneseWord | null>(null);
   const [choices, setChoices] = useState<JapaneseWord[]>([]);
   const [feedback, setFeedback] = useState('');
+  const [feedbackJp, setFeedbackJp] = useState('');
   const [wordAnswered, setWordAnswered] = useState(false);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
@@ -64,6 +65,7 @@ const MainJapaneseQuiz = () => {
     setCurrentWord(selectedWord);
     setChoices(allChoices);
     setFeedback('');
+    setFeedbackJp('');
     setWordAnswered(false);
   };
 
@@ -73,7 +75,16 @@ const MainJapaneseQuiz = () => {
     const correctDefinition = currentWord.senses[0]?.english_definitions[0];
     const isCorrect = selected.senses[0]?.english_definitions[0] === correctDefinition;
 
-    setFeedback(isCorrect ? `Correct! Reading: ${selected.japanese[0].reading}` : `Wrong! This would be: ${selected.japanese[0].word ?? ""} / ${selected.japanese[0].reading}`);
+    setFeedback(
+      isCorrect
+        ? `Correct! Reading: `
+        : `Wrong! This would be: `
+    );
+    setFeedbackJp(
+      isCorrect
+        ? `${selected.japanese[0].reading}`
+        : `${selected.japanese[0].word ? `${selected.japanese[0].word} / ` : ""}${selected.japanese[0].reading}`
+    );
     setWordAnswered(true);
 
     if (!wordAnswered) {
@@ -114,7 +125,7 @@ const MainJapaneseQuiz = () => {
           </div>
         </div>
       <div className={styles.japaneseQuizContainer}>
-        <h2>What does <strong>{kanjiDisplay}</strong> mean?</h2>
+        <h2>What does <strong className="emphasizeText">{kanjiDisplay}</strong> mean?</h2>
         <div className={styles.multipleChoiceContainer}>
           {choices.map((choice, idx) => (
             <button
@@ -128,7 +139,7 @@ const MainJapaneseQuiz = () => {
         </div>
 
         <div className={`feedback ${feedback.startsWith('Correct') ? 'correct' : 'wrong'}`}>
-          {feedback}
+          {feedback} <strong className={styles.feedbackJp}>{feedbackJp}</strong>
         </div>
 
         <button className="next-button" onClick={generateNewQuestion} disabled={!wordAnswered} title={!wordAnswered ? "Please answer first" : ""}>

@@ -36,7 +36,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--text-color-blue);
   text-decoration: inherit;
 }
 a:hover {
@@ -68,7 +68,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--text-color-blue);
 }
 button:focus,
 button:focus-visible {
@@ -97,7 +97,7 @@ button:focus-visible {
   margin-bottom: 1.5rem;
 }
 
-.quiz-container strong {
+.emphasizeText {
   font-size: 2rem;
   color: var(--text-color-blue);
 }
@@ -110,7 +110,7 @@ button:focus-visible {
 
 .next-button {
   margin-top: 2rem;
-  background-color: #646cff;
+  background-color: var(--text-color-blue);
   color: white;
   padding: 0.75em 1.5em;
   display: flex;
@@ -207,12 +207,12 @@ button:focus-visible {
 }
 
 .mode-button:hover {
-  border-color: #646cff;
+  border-color: var(--text-color-blue);
 }
 
 .mode-button.active {
   background-color: #333;
-  border-color: #646cff;
+  border-color: var(--text-color-blue);
 }
 
 .next-button:disabled {
@@ -245,12 +245,12 @@ button:focus-visible {
 }
 
 .quiz-toggle-button:hover {
-  border-color: #646cff;
+  border-color: var(--text-color-blue);
 }
 
 .quiz-toggle-button.active {
   background-color: #333;
-  border-color: #646cff;
+  border-color: var(--text-color-blue);
 }
 
 /* ---------------- */

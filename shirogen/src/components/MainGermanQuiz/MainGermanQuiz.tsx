@@ -367,7 +367,7 @@ const GenderQuiz = () => {
       </div>
       {mode === 'gender' ? (
         <>
-          <h2>What's the article for: <strong>
+          <h2>What's the article for: <strong className="emphasizeText">
             <a 
               href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentNoun.word)}&op=translate`}
               target="_blank"
@@ -385,7 +385,7 @@ const GenderQuiz = () => {
         </>
       ) : mode === 'verb' ? (
         <>
-          <h2>Enter the <strong>{currentVerb.tense}</strong> form of <strong>
+          <h2>Enter the <strong className="emphasizeText">{currentVerb.tense}</strong> form of <strong className="emphasizeText">
           <a 
               href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentVerb.baseForm)}&op=translate`}
               target="_blank"
@@ -414,7 +414,7 @@ const GenderQuiz = () => {
         </>
       ) : (
         <>
-        <h2>Enter the <strong>{adjectiveFormLabels[currentAdjective.form]}</strong> | <strong>{currentAdjective.gender}</strong> | <strong>{currentAdjective.case}</strong> | <strong>{adjectiveSpecLabels[currentAdjective.specification]}</strong> of <strong>
+        <h2>Enter the <strong className="emphasizeText">{adjectiveFormLabels[currentAdjective.form]}</strong> | <strong className="emphasizeText">{currentAdjective.gender}</strong> | <strong className="emphasizeText">{currentAdjective.case}</strong> | <strong className="emphasizeText">{adjectiveSpecLabels[currentAdjective.specification]}</strong> of <strong className="emphasizeText">
         <a 
             href={`https://translate.google.com/?sl=de&tl=ja&text=${encodeURIComponent(currentAdjective.baseForm)}&op=translate`}
             target="_blank"
