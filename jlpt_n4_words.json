@@ -1229,6 +1229,83 @@
     }
   },
   {
+    "slug": "飛行場",
+    "is_common": true,
+    "tags": [],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "飛行場",
+        "reading": "ひこうじょう"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "airfield",
+          "airport"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Hikoujou"
+        ],
+        "parts_of_speech": [
+          "Place"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Aerodrome"
+        ],
+        "parts_of_speech": [
+          "Wikipedia definition"
+        ],
+        "links": [
+          {
+            "text": "Read “Aerodrome” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Aerodrome?oldid=495505358"
+          },
+          {
+            "text": "Read “飛行場” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/飛行場?oldid=42755137"
+          }
+        ],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [],
+        "sentences": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": true,
+      "dbpedia": "http://dbpedia.org/resource/Aerodrome"
+    }
+  },
+  {
     "slug": "水道",
     "is_common": true,
     "tags": [
@@ -1339,83 +1416,6 @@
       "jmdict": true,
       "jmnedict": true,
       "dbpedia": "http://dbpedia.org/resource/Water_supply"
-    }
-  },
-  {
-    "slug": "飛行場",
-    "is_common": true,
-    "tags": [],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "飛行場",
-        "reading": "ひこうじょう"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "airfield",
-          "airport"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Hikoujou"
-        ],
-        "parts_of_speech": [
-          "Place"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Aerodrome"
-        ],
-        "parts_of_speech": [
-          "Wikipedia definition"
-        ],
-        "links": [
-          {
-            "text": "Read “Aerodrome” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Aerodrome?oldid=495505358"
-          },
-          {
-            "text": "Read “飛行場” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/飛行場?oldid=42755137"
-          }
-        ],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [],
-        "sentences": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": true,
-      "dbpedia": "http://dbpedia.org/resource/Aerodrome"
     }
   },
   {
@@ -4944,68 +4944,6 @@
     }
   },
   {
-    "slug": "教会",
-    "is_common": true,
-    "tags": [],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "教会",
-        "reading": "きょうかい"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "church",
-          "congregation"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Christian Church"
-        ],
-        "parts_of_speech": [
-          "Wikipedia definition"
-        ],
-        "links": [
-          {
-            "text": "Read “Christian Church” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Christian_Church?oldid=494175771"
-          },
-          {
-            "text": "Read “教会” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/教会?oldid=42663487"
-          }
-        ],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [],
-        "sentences": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Christian_Church"
-    }
-  },
-  {
     "slug": "歴史",
     "is_common": true,
     "tags": [
@@ -5066,6 +5004,68 @@
       "jmdict": true,
       "jmnedict": false,
       "dbpedia": "http://dbpedia.org/resource/History"
+    }
+  },
+  {
+    "slug": "教会",
+    "is_common": true,
+    "tags": [],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "教会",
+        "reading": "きょうかい"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "church",
+          "congregation"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Christian Church"
+        ],
+        "parts_of_speech": [
+          "Wikipedia definition"
+        ],
+        "links": [
+          {
+            "text": "Read “Christian Church” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Christian_Church?oldid=494175771"
+          },
+          {
+            "text": "Read “教会” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/教会?oldid=42663487"
+          }
+        ],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [],
+        "sentences": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": "http://dbpedia.org/resource/Christian_Church"
     }
   },
   {
@@ -7351,6 +7351,73 @@
     }
   },
   {
+    "slug": "指輪",
+    "is_common": true,
+    "tags": [
+      "wanikani15"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "指輪",
+        "reading": "ゆびわ"
+      },
+      {
+        "word": "指環",
+        "reading": "ゆびわ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "(finger) ring"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Ring (jewellery)"
+        ],
+        "parts_of_speech": [
+          "Wikipedia definition"
+        ],
+        "links": [
+          {
+            "text": "Read “Ring (jewellery)” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Ring_(jewellery)?oldid=495114344"
+          },
+          {
+            "text": "Read “指輪” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/指輪?oldid=42345172"
+          }
+        ],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [],
+        "sentences": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": "http://dbpedia.org/resource/Ring_(jewellery)"
+    }
+  },
+  {
     "slug": "発音",
     "is_common": true,
     "tags": [
@@ -7430,73 +7497,6 @@
       "jmdict": true,
       "jmnedict": false,
       "dbpedia": "http://dbpedia.org/resource/Pronunciation"
-    }
-  },
-  {
-    "slug": "指輪",
-    "is_common": true,
-    "tags": [
-      "wanikani15"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "指輪",
-        "reading": "ゆびわ"
-      },
-      {
-        "word": "指環",
-        "reading": "ゆびわ"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "(finger) ring"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Ring (jewellery)"
-        ],
-        "parts_of_speech": [
-          "Wikipedia definition"
-        ],
-        "links": [
-          {
-            "text": "Read “Ring (jewellery)” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Ring_(jewellery)?oldid=495114344"
-          },
-          {
-            "text": "Read “指輪” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/指輪?oldid=42345172"
-          }
-        ],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [],
-        "sentences": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Ring_(jewellery)"
     }
   },
   {
@@ -8587,22 +8587,26 @@
     }
   },
   {
-    "slug": "展覧会",
+    "slug": "小学校",
     "is_common": true,
-    "tags": [],
+    "tags": [
+      "wanikani9"
+    ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "展覧会",
-        "reading": "てんらんかい"
+        "word": "小学校",
+        "reading": "しょうがっこう"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "exhibition"
+          "primary school",
+          "elementary school",
+          "grade school"
         ],
         "parts_of_speech": [
           "Noun"
@@ -8617,19 +8621,19 @@
       },
       {
         "english_definitions": [
-          "Art exhibition"
+          "Primary school"
         ],
         "parts_of_speech": [
           "Wikipedia definition"
         ],
         "links": [
           {
-            "text": "Read “Art exhibition” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Art_exhibition?oldid=480848874"
+            "text": "Read “Primary school” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Primary_school?oldid=484744208"
           },
           {
-            "text": "Read “展覧会” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/展覧会?oldid=40263760"
+            "text": "Read “小学校” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/小学校?oldid=42641949"
           }
         ],
         "tags": [],
@@ -8644,7 +8648,7 @@
     "attribution": {
       "jmdict": true,
       "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Art_exhibition"
+      "dbpedia": "http://dbpedia.org/resource/Primary_school"
     }
   },
   {
@@ -8714,26 +8718,27 @@
     }
   },
   {
-    "slug": "小学校",
+    "slug": "駐車場",
     "is_common": true,
     "tags": [
-      "wanikani9"
+      "wanikani40"
     ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "小学校",
-        "reading": "しょうがっこう"
+        "word": "駐車場",
+        "reading": "ちゅうしゃじょう"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "primary school",
-          "elementary school",
-          "grade school"
+          "parking lot",
+          "car park",
+          "carpark",
+          "parking garage"
         ],
         "parts_of_speech": [
           "Noun"
@@ -8748,19 +8753,19 @@
       },
       {
         "english_definitions": [
-          "Primary school"
+          "Parking lot"
         ],
         "parts_of_speech": [
           "Wikipedia definition"
         ],
         "links": [
           {
-            "text": "Read “Primary school” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Primary_school?oldid=484744208"
+            "text": "Read “Parking lot” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Parking_lot?oldid=495519091"
           },
           {
-            "text": "Read “小学校” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/小学校?oldid=42641949"
+            "text": "Read “駐車場” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/駐車場?oldid=42609013"
           }
         ],
         "tags": [],
@@ -8775,7 +8780,74 @@
     "attribution": {
       "jmdict": true,
       "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Primary_school"
+      "dbpedia": "http://dbpedia.org/resource/Parking_lot"
+    }
+  },
+  {
+    "slug": "西洋",
+    "is_common": true,
+    "tags": [
+      "wanikani11"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "西洋",
+        "reading": "せいよう"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "the West",
+          "the Occident",
+          "Western countries"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [
+          "東洋"
+        ],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Western world"
+        ],
+        "parts_of_speech": [
+          "Wikipedia definition"
+        ],
+        "links": [
+          {
+            "text": "Read “Western world” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Western_world?oldid=495397675"
+          },
+          {
+            "text": "Read “西洋” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/西洋?oldid=42433073"
+          }
+        ],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [],
+        "sentences": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": "http://dbpedia.org/resource/Western_world"
     }
   },
   {
@@ -8846,73 +8918,6 @@
       "jmdict": true,
       "jmnedict": false,
       "dbpedia": "http://dbpedia.org/resource/Senpai_and_kōhai"
-    }
-  },
-  {
-    "slug": "西洋",
-    "is_common": true,
-    "tags": [
-      "wanikani11"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "西洋",
-        "reading": "せいよう"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "the West",
-          "the Occident",
-          "Western countries"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [
-          "東洋"
-        ],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Western world"
-        ],
-        "parts_of_speech": [
-          "Wikipedia definition"
-        ],
-        "links": [
-          {
-            "text": "Read “Western world” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Western_world?oldid=495397675"
-          },
-          {
-            "text": "Read “西洋” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/西洋?oldid=42433073"
-          }
-        ],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [],
-        "sentences": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Western_world"
     }
   },
   {
@@ -9456,6 +9461,99 @@
     }
   },
   {
+    "slug": "研究室",
+    "is_common": true,
+    "tags": [
+      "wanikani10"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "研究室",
+        "reading": "けんきゅうしつ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "laboratory"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "seminar room"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "professor's office"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "Laboratory"
+        ],
+        "parts_of_speech": [
+          "Wikipedia definition"
+        ],
+        "links": [
+          {
+            "text": "Read “Laboratory” on English Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Laboratory?oldid=495069885"
+          },
+          {
+            "text": "Read “研究室” on Japanese Wikipedia",
+            "url": "http://ja.wikipedia.org/wiki/研究室?oldid=40117861"
+          }
+        ],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [],
+        "sentences": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": "http://dbpedia.org/resource/Laboratory"
+    }
+  },
+  {
     "slug": "柔道",
     "is_common": true,
     "tags": [
@@ -9580,99 +9678,6 @@
       "jmdict": true,
       "jmnedict": false,
       "dbpedia": "http://dbpedia.org/resource/Conference_hall"
-    }
-  },
-  {
-    "slug": "研究室",
-    "is_common": true,
-    "tags": [
-      "wanikani10"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "研究室",
-        "reading": "けんきゅうしつ"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "laboratory"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "seminar room"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "professor's office"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "Laboratory"
-        ],
-        "parts_of_speech": [
-          "Wikipedia definition"
-        ],
-        "links": [
-          {
-            "text": "Read “Laboratory” on English Wikipedia",
-            "url": "http://en.wikipedia.org/wiki/Laboratory?oldid=495069885"
-          },
-          {
-            "text": "Read “研究室” on Japanese Wikipedia",
-            "url": "http://ja.wikipedia.org/wiki/研究室?oldid=40117861"
-          }
-        ],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [],
-        "sentences": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": "http://dbpedia.org/resource/Laboratory"
     }
   },
   {
@@ -20729,56 +20734,6 @@
     }
   },
   {
-    "slug": "増える",
-    "is_common": true,
-    "tags": [
-      "wanikani21",
-      "wanikani40"
-    ],
-    "jlpt": [
-      "jlpt-n4",
-      "jlpt-n2"
-    ],
-    "japanese": [
-      {
-        "word": "増える",
-        "reading": "ふえる"
-      },
-      {
-        "word": "殖える",
-        "reading": "ふえる"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to increase",
-          "to multiply"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [
-          "減る"
-        ],
-        "source": [],
-        "info": [
-          "殖える usu. refers to population growth or capital appreciation"
-        ]
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "厳しい",
     "is_common": true,
     "tags": [
@@ -20850,6 +20805,56 @@
         "antonyms": [],
         "source": [],
         "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "増える",
+    "is_common": true,
+    "tags": [
+      "wanikani21",
+      "wanikani40"
+    ],
+    "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+    ],
+    "japanese": [
+      {
+        "word": "増える",
+        "reading": "ふえる"
+      },
+      {
+        "word": "殖える",
+        "reading": "ふえる"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to increase",
+          "to multiply"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [
+          "減る"
+        ],
+        "source": [],
+        "info": [
+          "殖える usu. refers to population growth or capital appreciation"
+        ]
       }
     ],
     "attribution": {
@@ -21131,44 +21136,6 @@
     }
   },
   {
-    "slug": "事務所",
-    "is_common": true,
-    "tags": [
-      "wanikani21"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "事務所",
-        "reading": "じむしょ"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "office"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "星",
     "is_common": true,
     "tags": [
@@ -21344,6 +21311,44 @@
       {
         "english_definitions": [
           "(pyrotechnic) star"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "事務所",
+    "is_common": true,
+    "tags": [
+      "wanikani21"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "事務所",
+        "reading": "じむしょ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "office"
         ],
         "parts_of_speech": [
           "Noun"
@@ -21931,91 +21936,6 @@
     }
   },
   {
-    "slug": "壊れる",
-    "is_common": true,
-    "tags": [
-      "wanikani31"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "壊れる",
-        "reading": "こわれる"
-      },
-      {
-        "word": "毀れる",
-        "reading": "こわれる"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to be broken",
-          "to break",
-          "to fall apart",
-          "to collapse",
-          "to be destroyed",
-          "to be damaged"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to break (down)",
-          "to stop working"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to fall through (of a plan, deal, etc.)",
-          "to collapse",
-          "to break down (of a relationship, negotiations, etc.)",
-          "to be broken off",
-          "to be ruined (of an atmosphere, one's image, etc.)"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "具合",
     "is_common": true,
     "tags": [
@@ -22116,6 +22036,91 @@
         ],
         "parts_of_speech": [
           "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "壊れる",
+    "is_common": true,
+    "tags": [
+      "wanikani31"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "壊れる",
+        "reading": "こわれる"
+      },
+      {
+        "word": "毀れる",
+        "reading": "こわれる"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to be broken",
+          "to break",
+          "to fall apart",
+          "to collapse",
+          "to be destroyed",
+          "to be damaged"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to break (down)",
+          "to stop working"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to fall through (of a plan, deal, etc.)",
+          "to collapse",
+          "to break down (of a relationship, negotiations, etc.)",
+          "to be broken off",
+          "to be ruined (of an atmosphere, one's image, etc.)"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Intransitive verb"
         ],
         "links": [],
         "tags": [],
@@ -22799,86 +22804,6 @@
     }
   },
   {
-    "slug": "壊す",
-    "is_common": true,
-    "tags": [
-      "wanikani29"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "壊す",
-        "reading": "こわす"
-      },
-      {
-        "word": "毀す",
-        "reading": "こわす"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to break",
-          "to destroy",
-          "to demolish"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'su' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to wreck",
-          "to ruin",
-          "to spoil",
-          "to damage"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'su' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to break (a bill, etc.)"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'su' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "下がる",
     "is_common": true,
     "tags": [
@@ -23009,6 +22934,86 @@
         "info": [
           "as ～下ル or ～下; in the Kyoto address system"
         ]
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "壊す",
+    "is_common": true,
+    "tags": [
+      "wanikani29"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "壊す",
+        "reading": "こわす"
+      },
+      {
+        "word": "毀す",
+        "reading": "こわす"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to break",
+          "to destroy",
+          "to demolish"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'su' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to wreck",
+          "to ruin",
+          "to spoil",
+          "to damage"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'su' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to break (a bill, etc.)"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'su' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
       }
     ],
     "attribution": {
@@ -23161,6 +23166,61 @@
         "antonyms": [],
         "source": [],
         "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "汽車",
+    "is_common": true,
+    "tags": [
+      "wanikani18"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "汽車",
+        "reading": "きしゃ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "train (esp. long distance train)"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "steam train"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [
+          "orig. meaning"
+        ]
       }
     ],
     "attribution": {
@@ -23326,27 +23386,38 @@
     }
   },
   {
-    "slug": "汽車",
+    "slug": "隅",
     "is_common": true,
     "tags": [
-      "wanikani18"
+      "wanikani51"
     ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "汽車",
-        "reading": "きしゃ"
+        "word": "隅",
+        "reading": "すみ"
+      },
+      {
+        "word": "角",
+        "reading": "すみ"
+      },
+      {
+        "word": "隅",
+        "reading": "すま"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "train (esp. long distance train)"
+          "corner",
+          "nook",
+          "recess"
         ],
         "parts_of_speech": [
-          "Noun"
+          "Noun",
+          "Noun, used as a suffix"
         ],
         "links": [],
         "tags": [],
@@ -23358,20 +23429,24 @@
       },
       {
         "english_definitions": [
-          "steam train"
+          "downstage right (on a noh stage)"
         ],
         "parts_of_speech": [
           "Noun"
         ],
         "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
+        "tags": [
+          "Rare term"
+        ],
+        "restrictions": [
+          "角"
+        ],
+        "see_also": [
+          "目付柱"
+        ],
         "antonyms": [],
         "source": [],
-        "info": [
-          "orig. meaning"
-        ]
+        "info": []
       }
     ],
     "attribution": {
@@ -23474,76 +23549,6 @@
         ],
         "restrictions": [],
         "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "隅",
-    "is_common": true,
-    "tags": [
-      "wanikani51"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "隅",
-        "reading": "すみ"
-      },
-      {
-        "word": "角",
-        "reading": "すみ"
-      },
-      {
-        "word": "隅",
-        "reading": "すま"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "corner",
-          "nook",
-          "recess"
-        ],
-        "parts_of_speech": [
-          "Noun",
-          "Noun, used as a suffix"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "downstage right (on a noh stage)"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [
-          "Rare term"
-        ],
-        "restrictions": [
-          "角"
-        ],
-        "see_also": [
-          "目付柱"
-        ],
         "antonyms": [],
         "source": [],
         "info": []
@@ -24367,90 +24372,6 @@
     }
   },
   {
-    "slug": "複雑",
-    "is_common": true,
-    "tags": [
-      "wanikani32"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "複雑",
-        "reading": "ふくざつ"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "complex",
-          "complicated",
-          "intricate",
-          "mixed (feelings)"
-        ],
-        "parts_of_speech": [
-          "Na-adjective (keiyodoshi)",
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [
-          "単純"
-        ],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "引っ越す",
-    "is_common": true,
-    "tags": [
-      "wanikani34"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "引っ越す",
-        "reading": "ひっこす"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to move (house)",
-          "to change residence"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'su' ending",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "申し上げる",
     "is_common": true,
     "tags": [],
@@ -24514,6 +24435,90 @@
         "info": [
           "after a word beginning with お- or ご-"
         ]
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "引っ越す",
+    "is_common": true,
+    "tags": [
+      "wanikani34"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "引っ越す",
+        "reading": "ひっこす"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to move (house)",
+          "to change residence"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'su' ending",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "複雑",
+    "is_common": true,
+    "tags": [
+      "wanikani32"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "複雑",
+        "reading": "ふくざつ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "complex",
+          "complicated",
+          "intricate",
+          "mixed (feelings)"
+        ],
+        "parts_of_speech": [
+          "Na-adjective (keiyodoshi)",
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [
+          "単純"
+        ],
+        "source": [],
+        "info": []
       }
     ],
     "attribution": {
@@ -26608,38 +26613,34 @@
     }
   },
   {
-    "slug": "踏む",
+    "slug": "丁寧",
     "is_common": true,
     "tags": [
-      "wanikani36"
+      "wanikani46"
     ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "踏む",
-        "reading": "ふむ"
+        "word": "丁寧",
+        "reading": "ていねい"
       },
       {
-        "word": "履む",
-        "reading": "ふむ"
-      },
-      {
-        "word": "践む",
-        "reading": "ふむ"
+        "word": "叮嚀",
+        "reading": "ていねい"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "to step on",
-          "to tread on",
-          "to trample on"
+          "polite",
+          "courteous",
+          "civil"
         ],
         "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
+          "Na-adjective (keiyodoshi)",
+          "Noun"
         ],
         "links": [],
         "tags": [],
@@ -26651,142 +26652,13 @@
       },
       {
         "english_definitions": [
-          "to set foot on (e.g. foreign soil)",
-          "to stand on",
-          "to visit"
+          "careful",
+          "close",
+          "thorough",
+          "conscientious"
         ],
         "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to experience",
-          "to undergo"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to follow (rules, principles, etc.)",
-          "to go through (e.g. formalities)",
-          "to complete"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to estimate",
-          "to guess",
-          "to judge",
-          "to value",
-          "to appraise"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to rhyme"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [
-          "韻を踏む"
-        ],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to succeed to (e.g. the throne)"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'mu' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "真ん中",
-    "is_common": true,
-    "tags": [],
-    "jlpt": [
-      "jlpt-n4",
-      "jlpt-n1"
-    ],
-    "japanese": [
-      {
-        "word": "真ん中",
-        "reading": "まんなか"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "middle",
-          "centre",
-          "center",
-          "midpoint",
-          "heart"
-        ],
-        "parts_of_speech": [
+          "Na-adjective (keiyodoshi)",
           "Noun"
         ],
         "links": [],
@@ -26989,6 +26861,47 @@
     }
   },
   {
+    "slug": "真ん中",
+    "is_common": true,
+    "tags": [],
+    "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+    ],
+    "japanese": [
+      {
+        "word": "真ん中",
+        "reading": "まんなか"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "middle",
+          "centre",
+          "center",
+          "midpoint",
+          "heart"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "冷える",
     "is_common": true,
     "tags": [
@@ -27013,117 +26926,6 @@
         "parts_of_speech": [
           "Ichidan verb",
           "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "飾る",
-    "is_common": true,
-    "tags": [
-      "wanikani30"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "飾る",
-        "reading": "かざる"
-      },
-      {
-        "word": "餝る",
-        "reading": "かざる"
-      },
-      {
-        "word": "錺る",
-        "reading": "かざる"
-      },
-      {
-        "word": "荘る",
-        "reading": "かざる"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to decorate",
-          "to ornament",
-          "to adorn"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to display",
-          "to exhibit",
-          "to put on show",
-          "to arrange"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to mark (e.g. the day with a victory)",
-          "to adorn (e.g. the front page)",
-          "to grace (e.g. the cover)"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to affect (a manner)",
-          "to keep up (appearances)",
-          "to embellish",
-          "to dress up",
-          "to be showy",
-          "to be pretentious"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb"
         ],
         "links": [],
         "tags": [],
@@ -27415,6 +27217,117 @@
     }
   },
   {
+    "slug": "飾る",
+    "is_common": true,
+    "tags": [
+      "wanikani30"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "飾る",
+        "reading": "かざる"
+      },
+      {
+        "word": "餝る",
+        "reading": "かざる"
+      },
+      {
+        "word": "錺る",
+        "reading": "かざる"
+      },
+      {
+        "word": "荘る",
+        "reading": "かざる"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to decorate",
+          "to ornament",
+          "to adorn"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ru' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to display",
+          "to exhibit",
+          "to put on show",
+          "to arrange"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ru' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to mark (e.g. the day with a victory)",
+          "to adorn (e.g. the front page)",
+          "to grace (e.g. the cover)"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ru' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to affect (a manner)",
+          "to keep up (appearances)",
+          "to embellish",
+          "to dress up",
+          "to be showy",
+          "to be pretentious"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ru' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "都合",
     "is_common": true,
     "tags": [
@@ -27693,34 +27606,44 @@
     }
   },
   {
-    "slug": "久しぶり",
+    "slug": "引き出し",
     "is_common": true,
-    "tags": [
-      "wanikani34"
-    ],
+    "tags": [],
     "jlpt": [
-      "jlpt-n4",
-      "jlpt-n1"
+      "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "久しぶり",
-        "reading": "ひさしぶり"
+        "word": "引き出し",
+        "reading": "ひきだし"
       },
       {
-        "word": "久し振り",
-        "reading": "ひさしぶり"
+        "word": "引出し",
+        "reading": "ひきだし"
+      },
+      {
+        "word": "抽き出し",
+        "reading": "ひきだし"
+      },
+      {
+        "word": "抽出し",
+        "reading": "ひきだし"
+      },
+      {
+        "word": "抽斗",
+        "reading": "ひきだし"
+      },
+      {
+        "word": "抽匣",
+        "reading": "ひきだし"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "a long time (since the last time)",
-          "first in a long time"
+          "drawer"
         ],
         "parts_of_speech": [
-          "Noun which may take the genitive case particle 'no'",
-          "Na-adjective (keiyodoshi)",
           "Noun"
         ],
         "links": [],
@@ -27733,21 +27656,37 @@
       },
       {
         "english_definitions": [
-          "it's been a long time",
-          "long time no see"
+          "withdrawal (of money from an account)"
         ],
         "parts_of_speech": [
-          "Expressions (phrases, clauses, etc.)"
+          "Noun"
         ],
         "links": [],
         "tags": [],
         "restrictions": [],
-        "see_also": [
-          "お久しぶり"
-        ],
+        "see_also": [],
         "antonyms": [],
         "source": [],
-        "info": []
+        "info": [
+          "not 抽斗,抽匣"
+        ]
+      },
+      {
+        "english_definitions": [
+          "variety of knowledge and experience useful for handling things impromptu"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": [
+          "not 抽斗,抽匣"
+        ]
       }
     ],
     "attribution": {
@@ -27898,44 +27837,34 @@
     }
   },
   {
-    "slug": "引き出し",
+    "slug": "久しぶり",
     "is_common": true,
-    "tags": [],
+    "tags": [
+      "wanikani34"
+    ],
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n4",
+      "jlpt-n1"
     ],
     "japanese": [
       {
-        "word": "引き出し",
-        "reading": "ひきだし"
+        "word": "久しぶり",
+        "reading": "ひさしぶり"
       },
       {
-        "word": "引出し",
-        "reading": "ひきだし"
-      },
-      {
-        "word": "抽き出し",
-        "reading": "ひきだし"
-      },
-      {
-        "word": "抽出し",
-        "reading": "ひきだし"
-      },
-      {
-        "word": "抽斗",
-        "reading": "ひきだし"
-      },
-      {
-        "word": "抽匣",
-        "reading": "ひきだし"
+        "word": "久し振り",
+        "reading": "ひさしぶり"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "drawer"
+          "a long time (since the last time)",
+          "first in a long time"
         ],
         "parts_of_speech": [
+          "Noun which may take the genitive case particle 'no'",
+          "Na-adjective (keiyodoshi)",
           "Noun"
         ],
         "links": [],
@@ -27948,37 +27877,21 @@
       },
       {
         "english_definitions": [
-          "withdrawal (of money from an account)"
+          "it's been a long time",
+          "long time no see"
         ],
         "parts_of_speech": [
-          "Noun"
+          "Expressions (phrases, clauses, etc.)"
         ],
         "links": [],
         "tags": [],
         "restrictions": [],
-        "see_also": [],
+        "see_also": [
+          "お久しぶり"
+        ],
         "antonyms": [],
         "source": [],
-        "info": [
-          "not 抽斗,抽匣"
-        ]
-      },
-      {
-        "english_definitions": [
-          "variety of knowledge and experience useful for handling things impromptu"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": [
-          "not 抽斗,抽匣"
-        ]
+        "info": []
       }
     ],
     "attribution": {
@@ -28014,6 +27927,46 @@
         ],
         "links": [],
         "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "又は",
+    "is_common": true,
+    "tags": [],
+    "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+    ],
+    "japanese": [
+      {
+        "word": "又は",
+        "reading": "または"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "or",
+          "either ... or ..."
+        ],
+        "parts_of_speech": [
+          "Conjunction"
+        ],
+        "links": [],
+        "tags": [
+          "Usually written using kana alone"
+        ],
         "restrictions": [],
         "see_also": [],
         "antonyms": [],
@@ -28209,119 +28162,6 @@
     }
   },
   {
-    "slug": "又は",
-    "is_common": true,
-    "tags": [],
-    "jlpt": [
-      "jlpt-n4",
-      "jlpt-n2"
-    ],
-    "japanese": [
-      {
-        "word": "又は",
-        "reading": "または"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "or",
-          "either ... or ..."
-        ],
-        "parts_of_speech": [
-          "Conjunction"
-        ],
-        "links": [],
-        "tags": [
-          "Usually written using kana alone"
-        ],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "適当",
-    "is_common": true,
-    "tags": [
-      "wanikani30"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "適当",
-        "reading": "てきとう"
-      },
-      {
-        "reading": "テキトー"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "suitable",
-          "proper",
-          "appropriate",
-          "adequate",
-          "fit",
-          "fair"
-        ],
-        "parts_of_speech": [
-          "Na-adjective (keiyodoshi)",
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [
-          "てきとう"
-        ],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "perfunctory",
-          "half-minded",
-          "sloppy",
-          "lazy",
-          "careless",
-          "noncommittal",
-          "unreliable",
-          "irresponsible",
-          "haphazard"
-        ],
-        "parts_of_speech": [
-          "Na-adjective (keiyodoshi)",
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "細かい",
     "is_common": true,
     "tags": [
@@ -28412,6 +28252,79 @@
         ],
         "parts_of_speech": [
           "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "適当",
+    "is_common": true,
+    "tags": [
+      "wanikani30"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "適当",
+        "reading": "てきとう"
+      },
+      {
+        "reading": "テキトー"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "suitable",
+          "proper",
+          "appropriate",
+          "adequate",
+          "fit",
+          "fair"
+        ],
+        "parts_of_speech": [
+          "Na-adjective (keiyodoshi)",
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [
+          "てきとう"
+        ],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "perfunctory",
+          "half-minded",
+          "sloppy",
+          "lazy",
+          "careless",
+          "noncommittal",
+          "unreliable",
+          "irresponsible",
+          "haphazard"
+        ],
+        "parts_of_speech": [
+          "Na-adjective (keiyodoshi)",
+          "Noun"
         ],
         "links": [],
         "tags": [],
@@ -28570,6 +28483,52 @@
     }
   },
   {
+    "slug": "暖房",
+    "is_common": true,
+    "tags": [
+      "wanikani38"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "暖房",
+        "reading": "だんぼう"
+      },
+      {
+        "word": "煖房",
+        "reading": "だんぼう"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "(indoor) heating"
+        ],
+        "parts_of_speech": [
+          "Noun",
+          "Suru verb",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [
+          "冷房"
+        ],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "割合",
     "is_common": true,
     "tags": [
@@ -28634,52 +28593,6 @@
         "restrictions": [],
         "see_also": [],
         "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "暖房",
-    "is_common": true,
-    "tags": [
-      "wanikani38"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "暖房",
-        "reading": "だんぼう"
-      },
-      {
-        "word": "煖房",
-        "reading": "だんぼう"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "(indoor) heating"
-        ],
-        "parts_of_speech": [
-          "Noun",
-          "Suru verb",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [
-          "冷房"
-        ],
         "source": [],
         "info": []
       }
@@ -29058,6 +28971,101 @@
     }
   },
   {
+    "slug": "下宿",
+    "is_common": true,
+    "tags": [],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "下宿",
+        "reading": "げしゅく"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "boarding",
+          "lodging",
+          "board and lodging",
+          "room and board"
+        ],
+        "parts_of_speech": [
+          "Noun",
+          "Suru verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "boarding house",
+          "lodging house",
+          "lodgings"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "苦い",
+    "is_common": true,
+    "tags": [
+      "wanikani9"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "苦い",
+        "reading": "にがい"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "bitter"
+        ],
+        "parts_of_speech": [
+          "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "受付",
     "is_common": true,
     "tags": [
@@ -29117,44 +29125,6 @@
         "info": [
           "esp. 受け付け"
         ]
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "苦い",
-    "is_common": true,
-    "tags": [
-      "wanikani9"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "苦い",
-        "reading": "にがい"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "bitter"
-        ],
-        "parts_of_speech": [
-          "I-adjective (keiyoushi)"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
       }
     ],
     "attribution": {
@@ -29233,134 +29203,6 @@
         "antonyms": [
           "便利"
         ],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "下宿",
-    "is_common": true,
-    "tags": [],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "下宿",
-        "reading": "げしゅく"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "boarding",
-          "lodging",
-          "board and lodging",
-          "room and board"
-        ],
-        "parts_of_speech": [
-          "Noun",
-          "Suru verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "boarding house",
-          "lodging house",
-          "lodgings"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "湯",
-    "is_common": true,
-    "tags": [
-      "wanikani12"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "湯",
-        "reading": "ゆ"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "hot water"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [
-          "水 みず"
-        ],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "hot bath",
-          "hot spring"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "molten iron"
-        ],
-        "parts_of_speech": [
-          "Noun"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
         "source": [],
         "info": []
       }
@@ -29472,24 +29314,57 @@
     }
   },
   {
-    "slug": "工業",
+    "slug": "湯",
     "is_common": true,
     "tags": [
-      "wanikani10"
+      "wanikani12"
     ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "工業",
-        "reading": "こうぎょう"
+        "word": "湯",
+        "reading": "ゆ"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "(manufacturing) industry"
+          "hot water"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [
+          "水 みず"
+        ],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "hot bath",
+          "hot spring"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "molten iron"
         ],
         "parts_of_speech": [
           "Noun"
@@ -29548,27 +29423,24 @@
     }
   },
   {
-    "slug": "下着",
+    "slug": "屋上",
     "is_common": true,
     "tags": [
-      "wanikani14"
+      "wanikani11"
     ],
     "jlpt": [
       "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "下着",
-        "reading": "したぎ"
+        "word": "屋上",
+        "reading": "おくじょう"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "underwear",
-          "undergarment",
-          "underclothes",
-          "lingerie"
+          "rooftop"
         ],
         "parts_of_speech": [
           "Noun"
@@ -29576,7 +29448,9 @@
         "links": [],
         "tags": [],
         "restrictions": [],
-        "see_also": [],
+        "see_also": [
+          "屋上庭園 おくじょうていえん"
+        ],
         "antonyms": [],
         "source": [],
         "info": []
@@ -29621,6 +29495,47 @@
         "antonyms": [
           "暖房"
         ],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "下着",
+    "is_common": true,
+    "tags": [
+      "wanikani14"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "下着",
+        "reading": "したぎ"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "underwear",
+          "undergarment",
+          "underclothes",
+          "lingerie"
+        ],
+        "parts_of_speech": [
+          "Noun"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
         "source": [],
         "info": []
       }
@@ -29791,6 +29706,72 @@
     }
   },
   {
+    "slug": "漬ける",
+    "is_common": true,
+    "tags": [
+      "wanikani57"
+    ],
+    "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+    ],
+    "japanese": [
+      {
+        "word": "漬ける",
+        "reading": "つける"
+      },
+      {
+        "word": "浸ける",
+        "reading": "つける"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to soak (in)",
+          "to steep",
+          "to dip",
+          "to dunk"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to pickle",
+          "to preserve (in salt, vinegar, etc.)"
+        ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [
+          "漬ける"
+        ],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "特急",
     "is_common": true,
     "tags": [
@@ -29858,72 +29839,6 @@
         "links": [],
         "tags": [],
         "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "漬ける",
-    "is_common": true,
-    "tags": [
-      "wanikani57"
-    ],
-    "jlpt": [
-      "jlpt-n4",
-      "jlpt-n2"
-    ],
-    "japanese": [
-      {
-        "word": "漬ける",
-        "reading": "つける"
-      },
-      {
-        "word": "浸ける",
-        "reading": "つける"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to soak (in)",
-          "to steep",
-          "to dip",
-          "to dunk"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      },
-      {
-        "english_definitions": [
-          "to pickle",
-          "to preserve (in salt, vinegar, etc.)"
-        ],
-        "parts_of_speech": [
-          "Ichidan verb",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [
-          "漬ける"
-        ],
         "see_also": [],
         "antonyms": [],
         "source": [],
@@ -36138,48 +36053,6 @@
     }
   },
   {
-    "slug": "召し上がる",
-    "is_common": true,
-    "tags": [
-      "wanikani53"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "召し上がる",
-        "reading": "めしあがる"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to eat",
-          "to drink"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb"
-        ],
-        "links": [],
-        "tags": [
-          "Honorific or respectful (sonkeigo) language"
-        ],
-        "restrictions": [],
-        "see_also": [],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
     "slug": "参る",
     "is_common": true,
     "tags": [
@@ -36285,6 +36158,48 @@
         "see_also": [
           "墓参り"
         ],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
+    "slug": "召し上がる",
+    "is_common": true,
+    "tags": [
+      "wanikani53"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "召し上がる",
+        "reading": "めしあがる"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to eat",
+          "to drink"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ru' ending",
+          "Transitive verb"
+        ],
+        "links": [],
+        "tags": [
+          "Honorific or respectful (sonkeigo) language"
+        ],
+        "restrictions": [],
+        "see_also": [],
         "antonyms": [],
         "source": [],
         "info": []
@@ -38198,35 +38113,32 @@
     }
   },
   {
-    "slug": "滑る",
+    "slug": "割れる",
     "is_common": true,
     "tags": [
-      "wanikani42"
+      "wanikani25"
     ],
     "jlpt": [
-      "jlpt-n4",
-      "jlpt-n2"
+      "jlpt-n4"
     ],
     "japanese": [
       {
-        "word": "滑る",
-        "reading": "すべる"
+        "word": "割れる",
+        "reading": "われる"
       },
       {
-        "word": "辷る",
-        "reading": "すべる"
+        "word": "破れる",
+        "reading": "われる"
       }
     ],
     "senses": [
       {
         "english_definitions": [
-          "to slide",
-          "to glide",
-          "to skate",
-          "to ski"
+          "to break",
+          "to be smashed"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
@@ -38239,11 +38151,13 @@
       },
       {
         "english_definitions": [
-          "to slip",
-          "to skid"
+          "to split",
+          "to crack",
+          "to fissure",
+          "to be torn"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
@@ -38256,10 +38170,11 @@
       },
       {
         "english_definitions": [
-          "to be slippery"
+          "to be divided (opinion, vote, etc.)",
+          "to split (e.g. of a party)"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
@@ -38272,11 +38187,13 @@
       },
       {
         "english_definitions": [
-          "to fail (an examination)"
+          "to come to light",
+          "to become clear",
+          "to be identified",
+          "to be revealed"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
@@ -38289,12 +38206,11 @@
       },
       {
         "english_definitions": [
-          "to lose (a position)",
-          "to be demoted"
+          "to become distorted (of sound)",
+          "to clip"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
-          "Transitive verb",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
@@ -38307,17 +38223,30 @@
       },
       {
         "english_definitions": [
-          "to bomb (when telling a joke)",
-          "to fall flat"
+          "to be divisible (without a remainder)"
         ],
         "parts_of_speech": [
-          "Godan verb with 'ru' ending",
+          "Ichidan verb",
           "Intransitive verb"
         ],
         "links": [],
-        "tags": [
-          "Colloquial"
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "to drop below a minimum"
         ],
+        "parts_of_speech": [
+          "Ichidan verb",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
         "restrictions": [],
         "see_also": [],
         "antonyms": [],
@@ -39184,6 +39113,45 @@
     }
   },
   {
+    "slug": "乾く",
+    "is_common": true,
+    "tags": [
+      "wanikani29"
+    ],
+    "jlpt": [
+      "jlpt-n4"
+    ],
+    "japanese": [
+      {
+        "word": "乾く",
+        "reading": "かわく"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "to get dry"
+        ],
+        "parts_of_speech": [
+          "Godan verb with 'ku' ending",
+          "Intransitive verb"
+        ],
+        "links": [],
+        "tags": [],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  },
+  {
     "slug": "釣る",
     "is_common": true,
     "tags": [
@@ -39235,45 +39203,6 @@
         "see_also": [
           "釣られる"
         ],
-        "antonyms": [],
-        "source": [],
-        "info": []
-      }
-    ],
-    "attribution": {
-      "jmdict": true,
-      "jmnedict": false,
-      "dbpedia": false
-    }
-  },
-  {
-    "slug": "乾く",
-    "is_common": true,
-    "tags": [
-      "wanikani29"
-    ],
-    "jlpt": [
-      "jlpt-n4"
-    ],
-    "japanese": [
-      {
-        "word": "乾く",
-        "reading": "かわく"
-      }
-    ],
-    "senses": [
-      {
-        "english_definitions": [
-          "to get dry"
-        ],
-        "parts_of_speech": [
-          "Godan verb with 'ku' ending",
-          "Intransitive verb"
-        ],
-        "links": [],
-        "tags": [],
-        "restrictions": [],
-        "see_also": [],
         "antonyms": [],
         "source": [],
         "info": []

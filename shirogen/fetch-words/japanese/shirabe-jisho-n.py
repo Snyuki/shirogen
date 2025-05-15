@@ -4,9 +4,11 @@ import time
 BASE_URL = "https://jisho.org/api/v1/search/words"
 N5_QUERY = "#jlpt-n5"
 N4_QUERY = "#jlpt-n4"
+N3_QUERY = "#jlpt-n3"
 
 all_results = []
 page = 1
+done = 0
 
 while True:
     params = {
@@ -25,7 +27,8 @@ while True:
         break
 
     all_results.extend(results)
-    print(f"Fetched page {page} with {len(results)} results.")
+    done += len(results)
+    print(f"Fetched page {page} with {len(results)} results. ({done})")
     page += 1
 
     # Be kind to the API
@@ -33,7 +36,6 @@ while True:
 
 print(f"Total entries fetched: {len(all_results)}")
 
-# Optionally save to a JSON file
 import json
 with open("jlpt_n4_words.json", "w", encoding="utf-8") as f:
     json.dump(all_results, f, ensure_ascii=False, indent=2)

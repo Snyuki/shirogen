@@ -1,0 +1,35 @@
+
+.japaneseQuizContainer {
+
+}
+
+.multipleChoiceContainer {
+  display: flex;
+  justify-content: center;   /* Center the buttons horizontally */
+  align-items: stretch;
+  gap: 1.5rem;                /* Space between the buttons */
+  margin-bottom: 2rem;
+  animation: slideFadeIn 0.4s ease-out; /* On site load fade in */
+}
+
+.multipleChoiceButton {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+
+@media (max-width: 500px) {
+  .multipleChoiceContainer {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

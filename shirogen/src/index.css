@@ -21,6 +21,7 @@
 
 #root {
   max-width: 600px;
+  min-width: 340px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -230,48 +231,6 @@ button:focus-visible {
   }
 }
 
-.pronoun-tag {
-  font-size: 1.25rem;
-  font-weight: 600;
-  padding: 0.4rem 0.75rem;
-  color: var(--text-color-blue);
-  max-width: 50px;
-  word-wrap: break-word;
-  white-space: normal;
-  overflow-wrap: break-word;
-  line-height: 0.8;
-}
-
-.verb-input-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; /* Vertical alignment */
-  justify-content: center;
-}
-
-.text-input {
-  font-size: 1.2rem;
-  padding: 0.6rem 1rem;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.text-input:focus {
-  outline: none;
-  border-color: var(--focus);
-  box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
-}
-
-.submit-button {
-  min-width: 100px;
-  text-align: center;
-  height: 44px;
-}
-
 @media (max-width: 500px) {
   .quiz-container {
     max-width: 350px;
@@ -291,21 +250,5 @@ button:focus-visible {
   }
   .mode-button {
     min-width: 100px;
-  }
-  .text-input {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
-  width: 68%;
-  }
-  .pronoun-tag {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
-}
-
-@media (min-width: 1000px) {
-  .verb-input-row {
-    flex-wrap: nowrap; /* force same line on desktop */
   }
 }
