@@ -2,6 +2,7 @@
     "tenses": {
       "präsens": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
       "präteritum": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
-      "perfekt": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"]
+      "perfekt": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+      "plusquamperfekt": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"]
     }
   }
