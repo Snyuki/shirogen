@@ -6,7 +6,7 @@
     },
     "Kasi": {
         "Nominativ": 1,
-        "Genitiv": 1,
+        "Genitiv": 0,
         "Dativ": 1,
         "Akkusativ": 1
     },
@@ -17,7 +17,7 @@
         "Plural": 1
     },
     "Specifications": {
-        "no_article": 0,
+        "no_article": 1,
         "bestimmt": 1,
         "unbestimmt": 1
     }
