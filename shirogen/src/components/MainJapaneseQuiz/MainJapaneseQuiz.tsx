@@ -140,7 +140,14 @@ const MainJapaneseQuiz = () => {
           </div>
         </div>
       <div className={styles.japaneseQuizContainer}>
-        <h2>What does <strong className="emphasizeText">{kanjiDisplay}</strong> mean?</h2>
+        <h2>What does <strong className="emphasizeText">
+          <a 
+              href={`https://jisho.org/search/${encodeURIComponent(kanjiDisplay)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                {kanjiDisplay}
+          </a></strong> mean?</h2>
         <div className={styles.multipleChoiceContainer}>
           {choices.map((choice, idx) => (
             <button
