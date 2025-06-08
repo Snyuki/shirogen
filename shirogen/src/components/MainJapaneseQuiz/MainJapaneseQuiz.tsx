@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styles from "./MainJapaneseQuiz.module.css";
 
 import jlpt5Data from '../../res/japanese/jlpt_n5_words.json'
+// import jlpt4Data from '../../res/japanese/jlpt_n4_words.json';
+import jlpt3Data from '../../res/japanese/jlpt_n3_words.json';
 
 interface Sense {
   english_definitions: string[];
@@ -25,7 +27,11 @@ interface JapaneseWord {
   };
 }
 
-const jlpt5Words: JapaneseWord[] = Object.values(jlpt5Data);
+const wordLists: Record<string, JapaneseWord[]> = {
+  N5: Object.values(jlpt5Data),
+  // N4: Object.values(jlpt4Data),
+  N3: Object.values(jlpt3Data),
+};
 
 const shuffle = (array: any[]) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -36,6 +42,7 @@ const shuffle = (array: any[]) => {
 };
 
 const MainJapaneseQuiz = () => {
+  const [selectedList, setSelectedList] = useState<string>('N5');
   const [currentWord, setCurrentWord] = useState<JapaneseWord | null>(null);
   const [choices, setChoices] = useState<JapaneseWord[]>([]);
   const [feedback, setFeedback] = useState('');
@@ -46,16 +53,17 @@ const MainJapaneseQuiz = () => {
 
   useEffect(() => {
     generateNewQuestion();
-  }, []);
+  }, [selectedList]);
 
   const generateNewQuestion = () => {
-    const randomIndex = Math.floor(Math.random() * jlpt5Words.length);
-    const selectedWord = jlpt5Words[randomIndex];
+    const words = wordLists[selectedList];
+    const randomIndex = Math.floor(Math.random() * words.length);
+    const selectedWord = words[randomIndex];
     const correctDefinition = selectedWord.senses[0]?.english_definitions[0];
 
     const distractors = new Set<JapaneseWord>();
     while (distractors.size < 2) {
-      const random = jlpt5Words[Math.floor(Math.random() * jlpt5Words.length)];
+      const random = words[Math.floor(Math.random() * words.length)];
       if (random.senses[0]?.english_definitions[0] && random.senses[0]?.english_definitions[0] !== correctDefinition) {
         distractors.add(random);
       }
@@ -107,6 +115,13 @@ const MainJapaneseQuiz = () => {
 
   return (
     <div className="quiz-container">
+      <div className="wordListSelector">
+        <select id="listSelect" value={selectedList} onChange={(e) => setSelectedList(e.target.value)}>
+          {Object.keys(wordLists).map((level) => (
+            <option key={level} value={level}>{level}</option>
+          ))}
+        </select>
+      </div>
         <div className="progress-bar-text">
           <span className="progress-text correct">{Math.round(correctPercentage)}% ({correctAnswers})</span>
           <span>{Math.round(totalAnswers)}</span>
