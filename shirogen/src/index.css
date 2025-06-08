@@ -123,6 +123,40 @@ button:focus-visible {
 }
 
 
+.wordListSelector {
+  align-self: stretch;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  animation: slideFadeIn 0.4s ease-out;
+}
+
+.wordListSelector select {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.4em 0.8em;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.wordListSelector select:hover,
+.wordListSelector select:focus {
+  border-color: var(--text-color-blue);
+  outline: none;
+}
+
+.listSelect {
+  width: 100%;
+}
+
 .feedback {
   margin-top: 1rem;
   font-weight: bold;

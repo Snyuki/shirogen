@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from "./MainJapaneseQuiz.module.css";
 
 import jlpt5Data from '../../res/japanese/jlpt_n5_words.json'
-// import jlpt4Data from '../../res/japanese/jlpt_n4_words.json';
+import jlpt4Data from '../../res/japanese/jlpt_n4_words.json';
 import jlpt3Data from '../../res/japanese/jlpt_n3_words.json';
 
 interface Sense {
@@ -29,7 +29,7 @@ interface JapaneseWord {
 
 const wordLists: Record<string, JapaneseWord[]> = {
   N5: Object.values(jlpt5Data),
-  // N4: Object.values(jlpt4Data),
+  N4: Object.values(jlpt4Data),
   N3: Object.values(jlpt3Data),
 };
 
@@ -116,7 +116,7 @@ const MainJapaneseQuiz = () => {
   return (
     <div className="quiz-container">
       <div className="wordListSelector">
-        <select id="listSelect" value={selectedList} onChange={(e) => setSelectedList(e.target.value)}>
+        <select className="listSelect" value={selectedList} onChange={(e) => setSelectedList(e.target.value)}>
           {Object.keys(wordLists).map((level) => (
             <option key={level} value={level}>{level}</option>
           ))}

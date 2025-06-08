@@ -6,15 +6,13 @@ import styles from './MainGermanQuiz.module.css'
 import AdjectiveInfoPopup from '../AdjectiveInfoPopup'
 import Popup from '../Popup';
 
-// import femaleNounsData from './res/german_female_nouns.json';
-// import maleNounsData from './res/german_male_nouns.json';
-// import neutralNounsData from './res/german_neutral_nouns.json';
 import b1nounsData from '../../res/german/b1-nouns.json'
-// import verbsData from './res/german_verbs.json';
 import b1VerbsData from '../../res/german/b1-verbs.json'
-import b1VerbsTensesConfig from '../../res/german/b1-verb-tenses-config.json'
+import verbsTensesConfig from '../../res/german/verb-tenses-config.json'
 import b1AdjectiveData from '../../res/german/b1-adjectives.json'
-import b1AdjectiveConfig from '../../res/german/b1-adjective-config.json'
+import adjectiveConfig from '../../res/german/adjective-config.json'
+
+import customNounsData from '../../res/german/custom-nouns.json'
 
 type VerbFormSelection = {
   baseForm: string;
@@ -32,14 +30,18 @@ type AdjectiveFormSelection = {
   gender: string; // Maskulin/Feminin/Neutral/Plural
 };
 
-// const femaleNouns = Object.values(femaleNounsData)
-// const maleNouns = Object.values(maleNounsData)
-// const neutralNouns = Object.values(neutralNounsData)
-const b1nouns = Object.values(b1nounsData)
-const b1verbs = Object.values(b1VerbsData)
-const b1adjectives = Object.values(b1AdjectiveData)
-
-// const allNouns = [...femaleNouns, ...maleNouns, ...neutralNouns];
+const wordLists = {
+  B1: {
+    nouns: shuffle(Object.values(b1nounsData)),
+    verbs: Object.values(b1VerbsData),
+    adjectives: Object.values(b1AdjectiveData),
+  },
+  Custom: {
+    nouns: shuffle(Object.values(customNounsData)),
+    verbs: Object.values(b1VerbsData),
+    adjectives: Object.values(b1AdjectiveData),
+  },
+};
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -49,12 +51,11 @@ function shuffle(array) {
   return array;
 }
 
-const shuffledNouns = shuffle(b1nouns);
-const verbs = Object.values(b1verbs)
-const selectedTenses = b1VerbsTensesConfig.tenses;
+const selectedTenses = verbsTensesConfig.tenses;
 const tenses = Object.keys(selectedTenses);
 
 const GenderQuiz = () => {
+  const [selectedList, setSelectedList] = useState<string>('B1');
   const [mode, setMode] = useState<'gender' | 'verb' | 'adjective'>('gender')
   const [currentNoun, setCurrentNoun] = useState(() => getRandomNoun());
   const [feedback, setFeedback] = useState('');
@@ -117,17 +118,18 @@ const GenderQuiz = () => {
   }
 
   function getRandomNoun() {
-    const randomIndex = Math.floor(Math.random() * shuffledNouns.length);
-    return shuffledNouns[randomIndex];
+    const currentNouns = wordLists[selectedList]?.nouns || [];
+    const randomIndex = Math.floor(Math.random() * currentNouns.length);
+    return currentNouns[randomIndex];
   }
 
   function getRandomVerb(): VerbFormSelection {
-    const randomVerb = verbs[Math.floor(Math.random() * verbs.length)]; // Sometimes produces same verb as last time
+    const currentVerbs = wordLists[selectedList]?.verbs || [];
+    const randomVerb = currentVerbs[Math.floor(Math.random() * currentVerbs.length)]; // Sometimes produces same verb as last time
     const randomTense = tenses[Math.floor(Math.random() * tenses.length)];
     const pronouns = selectedTenses[randomTense];
     const randomPronoun = pronouns[Math.floor(Math.random() * pronouns.length)];
 
-    
     return {
       baseForm: randomVerb.word,
       verb: randomVerb.tenses[randomTense][randomPronoun],
@@ -137,6 +139,8 @@ const GenderQuiz = () => {
   }
 
   function getRandomAdjective(attempts = 0): AdjectiveFormSelection {
+  const currentAdjectives = wordLists[selectedList]?.adjectives || [];
+
     // Infinite recursion protection
     if (attempts > 10) {
       alert("No Adjective found after " + attempts + " tries!")
@@ -150,11 +154,11 @@ const GenderQuiz = () => {
       };
     }
 
-    const randomAdjective = b1adjectives[Math.floor(Math.random() * b1adjectives.length)];
-    const allowedForms = Object.keys(b1AdjectiveConfig.Formen).filter(f => b1AdjectiveConfig.Formen[f] === 1);
-    const allowedCases = Object.keys(b1AdjectiveConfig.Kasi).filter(k => b1AdjectiveConfig.Kasi[k] === 1);
-    const allowedGenders = Object.keys(b1AdjectiveConfig.Gender).filter(g => b1AdjectiveConfig.Gender[g] === 1);
-    const allowedSpecs = Object.keys(b1AdjectiveConfig.Specifications).filter(s => b1AdjectiveConfig.Specifications[s] === 1);
+    const randomAdjective = currentAdjectives[Math.floor(Math.random() * currentAdjectives.length)];
+    const allowedForms = Object.keys(adjectiveConfig.Formen).filter(f => adjectiveConfig.Formen[f] === 1);
+    const allowedCases = Object.keys(adjectiveConfig.Kasi).filter(k => adjectiveConfig.Kasi[k] === 1);
+    const allowedGenders = Object.keys(adjectiveConfig.Gender).filter(g => adjectiveConfig.Gender[g] === 1);
+    const allowedSpecs = Object.keys(adjectiveConfig.Specifications).filter(s => adjectiveConfig.Specifications[s] === 1);
 
     // Try all combinations in a randomized order for fairness
     const shuffledForms = shuffle([...allowedForms]);
@@ -209,8 +213,9 @@ const GenderQuiz = () => {
   };
 
   const handleVerbSubmit = () => {
+    const currentVerbs = wordLists[selectedList]?.verbs || [];
     const userAnswer = verbInput.trim().toLowerCase();
-    const foundVerb = verbs.find(v => v.word === currentVerb.baseForm);
+    const foundVerb = currentVerbs.find(v => v.word === currentVerb.baseForm);
     const correctAnswerRaw = foundVerb ? foundVerb.tenses[currentVerb.tense][currentVerb.pronoun] : "Err (Not Found)";
 
     let correctAnswers: string[] = [];
@@ -318,12 +323,25 @@ const GenderQuiz = () => {
     };
   }, []);
 
+  useEffect(() => {
+    setCurrentNoun(getRandomNoun());
+    setCurrentVerb(getRandomVerb());
+    setCurrentAdjective(getRandomAdjective());
+  }, [selectedList]);
+
   const totalAnswers = correctAnswers + incorrectAnswers;
   const correctPercentage = totalAnswers > 0 ? (correctAnswers / totalAnswers) * 100 : 0;
   const incorrectPercentage = totalAnswers === 0 ? 0 : 100 - correctPercentage;
 
   return (
     <div className="quiz-container">
+      <div className="wordListSelector">
+        <select className="listSelect" value={selectedList} onChange={(e) => setSelectedList(e.target.value)}>
+          {Object.keys(wordLists).map((level) => (
+            <option key={level} value={level}>{level}</option>
+          ))}
+        </select>
+      </div>
       <div className="mode-switch-container">
         <button
           className={`mode-button ${mode === 'gender' ? 'active' : ''}`}

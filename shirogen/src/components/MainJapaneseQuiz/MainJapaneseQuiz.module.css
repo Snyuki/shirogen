@@ -47,7 +47,6 @@
   font-family: 'Noto Sans JP';
 }
 
-
 @media (max-width: 500px) {
   .multipleChoiceContainer {
     flex-direction: column;
