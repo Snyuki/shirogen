@@ -4,6 +4,7 @@ import styles from "./MainJapaneseQuiz.module.css";
 import jlpt5Data from '../../res/japanese/jlpt_n5_words.json'
 import jlpt4Data from '../../res/japanese/jlpt_n4_words.json';
 import jlpt3Data from '../../res/japanese/jlpt_n3_words.json';
+import customData from '../../res/japanese/custom.json';
 
 interface Sense {
   english_definitions: string[];
@@ -31,6 +32,7 @@ const wordLists: Record<string, JapaneseWord[]> = {
   N5: Object.values(jlpt5Data),
   N4: Object.values(jlpt4Data),
   N3: Object.values(jlpt3Data),
+  Custom: Object.values(customData),
 };
 
 const shuffle = (array: any[]) => {
@@ -40,6 +42,8 @@ const shuffle = (array: any[]) => {
   }
   return array;
 };
+
+const kanaTag = "Usually written using kana alone"
 
 const MainJapaneseQuiz = () => {
   const [selectedList, setSelectedList] = useState<string>('N5');
@@ -66,6 +70,9 @@ const MainJapaneseQuiz = () => {
       const random = words[Math.floor(Math.random() * words.length)];
       if (random.senses[0]?.english_definitions[0] && random.senses[0]?.english_definitions[0] !== correctDefinition) {
         distractors.add(random);
+      }
+      if (words.length < 2) {
+        break
       }
     }
 
@@ -111,7 +118,10 @@ const MainJapaneseQuiz = () => {
 
   if (!currentWord) return <div>Loading...</div>;
 
-  const kanjiDisplay = currentWord.japanese[0]?.word || currentWord.japanese[0]?.reading;
+  const kanjiDisplay =
+    currentWord.senses[0].tags.includes(kanaTag)
+      ? currentWord.japanese[0]?.reading
+      : currentWord.japanese[0]?.word || currentWord.japanese[0]?.reading;
 
   return (
     <div className="quiz-container">

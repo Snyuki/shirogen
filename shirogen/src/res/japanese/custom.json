@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "不味い",
+    "is_common": true,
+    "tags": [
+      "wanikani17"
+    ],
+    "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+    ],
+    "japanese": [
+      {
+        "word": "不味い",
+        "reading": "まずい"
+      }
+    ],
+    "senses": [
+      {
+        "english_definitions": [
+          "bad(-tasting)",
+          "unpalatable",
+          "unsavoury",
+          "unsavory",
+          "awful",
+          "terrible",
+          "unpleasant"
+        ],
+        "parts_of_speech": [
+          "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [
+          "Usually written using kana alone"
+        ],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "poor",
+          "unskillful",
+          "unskilful",
+          "bungling",
+          "clumsy"
+        ],
+        "parts_of_speech": [
+          "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [
+          "Usually written using kana alone"
+        ],
+        "restrictions": [],
+        "see_also": [
+          "拙い"
+        ],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "ugly",
+          "unattractive",
+          "homely",
+          "plain"
+        ],
+        "parts_of_speech": [
+          "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [
+          "Usually written using kana alone"
+        ],
+        "restrictions": [],
+        "see_also": [],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      },
+      {
+        "english_definitions": [
+          "awkward",
+          "problematic",
+          "troublesome",
+          "unfavorable",
+          "unfavourable",
+          "unwise"
+        ],
+        "parts_of_speech": [
+          "I-adjective (keiyoushi)"
+        ],
+        "links": [],
+        "tags": [
+          "Usually written using kana alone"
+        ],
+        "restrictions": [],
+        "see_also": [
+          "気不味い"
+        ],
+        "antonyms": [],
+        "source": [],
+        "info": []
+      }
+    ],
+    "attribution": {
+      "jmdict": true,
+      "jmnedict": false,
+      "dbpedia": false
+    }
+  }
+]
